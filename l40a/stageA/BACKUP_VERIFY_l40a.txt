@@ -1,5 +1,5 @@
-checked 2026-11-09 22:41 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ dc6b657
-finished runs: 13, unfinished runs: 1, problems: 0
+checked 2026-11-09 22:56 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ 1bfd9be
+finished runs: 14, unfinished runs: 0, problems: 0
   ok a0 (1 files)
   ok bp_d10_lr3e-3_e25_full_s0 (1 files)
   ok bp_d6_lr1e-3_e25_full_s0 (5 files)
@@ -12,7 +12,8 @@ finished runs: 13, unfinished runs: 1, problems: 0
   ok epc_alm_k4_d6_lr3e-3_e25_full_s0_T20g12 (5 files)
   ok epc_alm_k4_d6_lr3e-3_e5_val_s0_T20g12 (5 files)
   ok epc_alm_k4_d6_lr3e-4_e5_val_s0_T20g12 (5 files)
-  UNFINISHED epc_k4_d6_lr1e-3_e25_full_s0_T20g12: latest checkpoint (step ?) is on GitHub
+  ok epc_k16_d6_lr3e-4_e5_val_s0_T20g12 (1 files)
+  ok epc_k4_d6_lr1e-3_e25_full_s0_T20g12 (5 files)
   ok epc_k4_d6_lr1e-3_e5_val_s0_T20g12 (5 files)
   ok epc_k4_d6_lr3e-3_e5_val_s0_T20g12 (5 files)
   ok epc_k4_d6_lr3e-4_e5_val_s0_T20g12 (5 files)
