@@ -2,3 +2,8 @@
 11-09_07:52 [stageA/depth10] gpu gate rc=0
 11-09_09:16 [stageA/depth10] epc_k16_d10_lr3e-4_e5_val_s0_T20g12 rc=0
 11-09_10:39 [stageA/depth10] epc_k16_d10_lr1e-3_e5_val_s0_T20g12 rc=0
+11-09_12:02 [stageA/depth10] epc_k16_d10_lr3e-3_e5_val_s0_T20g12 rc=0
+   lr table epc_k16 d10: 3e-4: 0.3187, 1e-3: 0.2537, 3e-3: 0.2468
+   selected 3e-3  EDGE
+3e-3
+11-09_12:02 [stageA/depth10] epc_k16 d10 selected lr: 3e-3
