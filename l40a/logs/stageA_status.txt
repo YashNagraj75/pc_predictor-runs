@@ -14,3 +14,8 @@
 11-09_09:40 [stageA/depth6] bp_d6_lr3e-3_e25_full_s0 rc=0
 11-09_10:28 [stageA/depth6] epc_alm_k4_d6_lr3e-4_e5_val_s0_T20g12 rc=0
 11-09_11:21 [stageA/depth6] epc_alm_k4_d6_lr1e-3_e5_val_s0_T20g12 rc=0
+11-09_12:08 [stageA/depth6] epc_alm_k4_d6_lr3e-3_e5_val_s0_T20g12 rc=0
+   lr table epc_alm_k4 d6: 3e-4: 0.2367, 1e-3: 0.2117, 3e-3: 0.2037
+   selected 3e-3  EDGE
+3e-3
+11-09_12:08 [stageA/depth6] epc_alm_k4 d6 selected lr: 3e-3
