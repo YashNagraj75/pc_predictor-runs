@@ -27,3 +27,4 @@
    selected 1e-3
 1e-3
 11-09_18:41 [stageA/depth6] epc_k4 d6 selected lr: 1e-3
+11-09_22:54 [stageA/depth6] epc_k4_d6_lr1e-3_e25_full_s0_T20g12 rc=0
