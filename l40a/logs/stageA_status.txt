@@ -13,3 +13,4 @@
 11-09_09:18 [stageA/depth6] bp_d6_lr1e-3_e25_full_s0 rc=0
 11-09_09:40 [stageA/depth6] bp_d6_lr3e-3_e25_full_s0 rc=0
 11-09_10:28 [stageA/depth6] epc_alm_k4_d6_lr3e-4_e5_val_s0_T20g12 rc=0
+11-09_11:21 [stageA/depth6] epc_alm_k4_d6_lr1e-3_e5_val_s0_T20g12 rc=0
