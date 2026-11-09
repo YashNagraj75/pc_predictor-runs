@@ -1,1 +1,4 @@
-11-09 07:08 data and inputs ready
+11-09 07:08 sequence start at 8ee37d9, stages: gpugate:10 depth:6
+11-09 07:08 gpu gate d10
+11-09 07:24 gpu gate d10 rc=0
+11-09 07:24 depth 6: pass 1 start
