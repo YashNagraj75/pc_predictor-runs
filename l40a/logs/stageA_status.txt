@@ -4,3 +4,8 @@
 11-09_08:13 [stageA/depth6] gpu gate rc=0
 11-09_08:19 [stageA/depth6] bp_d6_lr3e-4_e5_val_s0 rc=0
 11-09_08:25 [stageA/depth6] bp_d6_lr1e-3_e5_val_s0 rc=0
+11-09_08:33 [stageA/depth6] bp_d6_lr3e-3_e5_val_s0 rc=0
+   lr table bp d6: 3e-4: 0.2349, 1e-3: 0.2103, 3e-3: 0.2009
+   selected 3e-3  EDGE
+3e-3
+11-09_08:33 [stageA/depth6] bp d6 selected lr: 3e-3
