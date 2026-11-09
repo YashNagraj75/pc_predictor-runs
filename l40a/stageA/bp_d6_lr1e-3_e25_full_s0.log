@@ -1,0 +1,4 @@
+E1109 08:55:40.341315   28613 numa_hwloc.cc:121] Call to hwloc_set_cpubind() failed: Invalid argument [22]
+{"step": 1, "loss": 0.5353140234947205, "rho": 1.0, "sec": 49, "peak_gib": 1.22}
+{"step": 200, "loss": 0.14785076677799225, "rho": 1.0, "sec": 102, "peak_gib": 1.24}
+{"step": 400, "loss": 0.11926773190498352, "rho": 1.0, "sec": 151, "peak_gib": 1.24}

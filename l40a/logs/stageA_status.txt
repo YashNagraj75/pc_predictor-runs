@@ -9,3 +9,4 @@
    selected 3e-3  EDGE
 3e-3
 11-09_08:33 [stageA/depth6] bp d6 selected lr: 3e-3
+11-09_08:55 [stageA/depth6] bp_d6_lr3e-4_e25_full_s0 rc=0
