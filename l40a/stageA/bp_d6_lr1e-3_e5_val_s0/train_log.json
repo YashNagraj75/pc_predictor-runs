@@ -1,0 +1,64 @@
+{
+ "log": [
+  {
+   "step": 1,
+   "loss": 0.5359790325164795,
+   "rho": 1.0,
+   "sec": 49,
+   "peak_gib": 1.22
+  },
+  {
+   "step": 200,
+   "loss": 0.14060527086257935,
+   "rho": 1.0,
+   "sec": 103,
+   "peak_gib": 1.24
+  },
+  {
+   "step": 400,
+   "loss": 0.11515621095895767,
+   "rho": 1.0,
+   "sec": 157,
+   "peak_gib": 1.24
+  },
+  {
+   "step": 600,
+   "loss": 0.11004313826560974,
+   "rho": 1.0,
+   "sec": 208,
+   "peak_gib": 1.24
+  },
+  {
+   "step": 800,
+   "loss": 0.07855277508497238,
+   "rho": 1.0,
+   "sec": 259,
+   "peak_gib": 1.24
+  },
+  {
+   "step": 875,
+   "loss": 0.11373366415500641,
+   "rho": 1.0,
+   "sec": 278,
+   "peak_gib": 1.24
+  }
+ ],
+ "cfg": {
+  "arm": "bp",
+  "depth": 6,
+  "lr": 0.001,
+  "epochs": 5,
+  "split": "val",
+  "seed": 0,
+  "T": 20,
+  "gn_iters": 12,
+  "chunk": 32,
+  "batch": 256,
+  "wd": 0.04,
+  "clip": 1.0,
+  "warmup_epochs": 1,
+  "max_steps": 0,
+  "deadline_min": 1305.0
+ },
+ "commit": "8ee37d967273321e0ff938b06123f53f918dc6aa"
+}
