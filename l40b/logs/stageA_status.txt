@@ -1,0 +1,2 @@
+11-09_07:38 [stageA/depth10] start at 8ee37d9, 1380 min budget
+11-09_07:52 [stageA/depth10] gpu gate rc=0

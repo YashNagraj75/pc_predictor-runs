@@ -1,0 +1,1 @@
+{"train": true, "arm": "epc_alm_blk4", "source": "user decision 2026-11-06 after findings/42: keep the pre-registered median rule and add per-block rho (k=4) as a separate arm; the automatic screen rule did not pass (ill-posed ALM energy criterion; min draw gain 0.037)"}
