@@ -9,3 +9,4 @@
 11-09_12:02 [stageA/depth10] epc_k16 d10 selected lr: 3e-3
 11-09_18:59 [stageA/depth10] epc_k16_d10_lr3e-3_e25_full_s0_T20g12 rc=0
 11-09_20:18 [stageA/depth10] epc_alm_blk4_d10_lr3e-4_e5_val_s0_T20g12 rc=0
+11-09_21:43 [stageA/depth10] epc_alm_blk4_d10_lr1e-3_e5_val_s0_T20g12 rc=0
