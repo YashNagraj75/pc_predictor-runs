@@ -36,3 +36,5 @@
 11-10_07:08 [stageA/depth10] bp d10 selected lr: 3e-3
 11-10_07:47 [stageA/depth10] bp_d10_lr3e-4_e25_full_s0 rc=0
 11-10_08:25 [stageA/depth10] bp_d10_lr1e-3_e25_full_s0 rc=0
+11-10_09:01 [stageA/depth10] bp_d10_lr3e-3_e25_full_s0 rc=0
+11-10_09:01 [stageA/depth10] done
