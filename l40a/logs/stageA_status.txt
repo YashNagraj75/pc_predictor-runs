@@ -62,3 +62,5 @@
    selected 3e-3  EDGE
 3e-3
 11-10_08:28 [stageA/depth6] epc_alm_blk4 d6 selected lr: 3e-3
+11-10_12:45 [stageA/depth6] epc_alm_blk4_d6_lr3e-3_e25_full_s0_T20g12 rc=0
+11-10_12:45 [stageA/depth6] done

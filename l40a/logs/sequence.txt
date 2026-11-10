@@ -4,3 +4,5 @@
 11-09 07:24 depth 6: pass 1 start
 11-10 06:03 depth 6: pass 1 rc=75
 11-10 06:03 depth 6: pass 2 start
+11-10 12:45 depth 6: pass 2 rc=0
+11-10 12:45 ALL STAGES DONE

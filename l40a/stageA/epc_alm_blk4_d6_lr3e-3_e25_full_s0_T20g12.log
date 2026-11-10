@@ -22,3 +22,102 @@
 {"step": 4200, "loss": 0.10932112485170364, "rho": 11755.4296875, "sec": 13159, "peak_gib": 2.38, "gain_min": 27444.033203125, "gain_med": 47021.71875, "gain_max": 282060.3125, "rho_mode": "per-block", "rho_used_min": 4854.8798828125, "rho_used_med": 14546.2509765625, "rho_used_max": 81457.9609375, "frac_rho_floor": 0.0, "frac_energy_rise": 1.0, "cos_bp": 0.8475892543792725, "ratio_bp": 0.9231559038162231, "min_leaf_cos": -0.011877138167619705, "leaf_cos": [0.8115, 0.8843, 1.0, 0.822, 0.9845, 0.8678, 0.8421, 0.8679, 0.8095, 0.8187, 0.8922, 0.8828, 0.8389, 0.8764, 0.8016, 0.8206, 0.9058, 0.9156, 0.8919, 0.9047, 0.7996, 0.8207, 0.3451, 0.2669, 0.6589, 0.6933, 0.8282, 0.8447, 0.8692, 0.8172, 0.8585, 0.8612, 0.8303, 0.8458, 0.6503, 0.7533, 0.8103, 0.83, 0.8431, 0.8577, 0.8199, 0.8653, 0.891, 0.9009, 0.8583, 0.8597, 0.6822, 0.8216, 0.5773, 0.5963, 0.8656, 0.8719, 0.8574, 0.9293, 0.9279, 0.935, 0.8701, 0.8787, 0.0228, -0.0119, 0.6463, 0.6245, 0.8969, 0.9127, 0.7233, 0.7236, 0.8218, 0.8556, 0.9222, 0.9333, 0.9497, 0.9066, 0.9001, 0.9052, 0.9231, 0.9395, 0.6056, 0.9003, 0.8269, 0.8862]}
 {"step": 4400, "loss": 0.10789524018764496, "rho": 20377.078125, "sec": 13787, "peak_gib": 2.38, "gain_min": 25532.783203125, "gain_med": 81508.3125, "gain_max": 549043.6875, "rho_mode": "per-block", "rho_used_min": 5522.06591796875, "rho_used_med": 22876.830078125, "rho_used_max": 226404.390625, "frac_rho_floor": 0.0, "frac_energy_rise": 1.0, "cos_bp": 0.794281005859375, "ratio_bp": 0.7651975750923157, "min_leaf_cos": -0.19475232064723969, "leaf_cos": [0.7882, 0.8165, 1.0, 0.7744, 0.9435, 0.8083, 0.8167, 0.8544, 0.7887, 0.7739, 0.5474, 0.7486, 0.797, 0.8127, 0.7773, 0.774, 0.8837, 0.8491, 0.8524, 0.8488, 0.7832, 0.7736, 0.8712, 0.9226, 0.8495, 0.8412, 0.7539, 0.7629, 0.8608, 0.7622, 0.8325, 0.8121, 0.7712, 0.7625, 0.802, 0.7618, 0.7085, 0.6916, 0.7511, 0.7704, 0.6717, 0.7898, 0.8622, 0.8626, 0.7713, 0.7691, 0.2428, 0.5469, 0.6284, 0.6269, 0.7824, 0.7922, 0.6532, 0.876, 0.894, 0.8939, 0.7831, 0.8008, 0.4007, -0.1948, 0.629, 0.6271, 0.8369, 0.8463, 0.7102, 0.5958, 0.7093, 0.7156, 0.8773, 0.8977, 0.9101, 0.8127, 0.8093, 0.8162, 0.9036, 0.9203, 0.5542, 0.8562, 0.8274, 0.8741]}
 {"step": 4600, "loss": 0.10886058956384659, "rho": 25578.423828125, "sec": 14409, "peak_gib": 2.38, "gain_min": 35008.19140625, "gain_med": 102313.6953125, "gain_max": 748353.3125, "rho_mode": "per-block", "rho_used_min": 5341.59521484375, "rho_used_med": 22288.73828125, "rho_used_max": 258673.03125, "frac_rho_floor": 0.0, "frac_energy_rise": 1.0, "cos_bp": 0.8309013247489929, "ratio_bp": 0.6843022704124451, "min_leaf_cos": 0.5665795207023621, "leaf_cos": [0.743, 0.728, 1.0, 0.919, 0.8627, 0.902, 0.9102, 0.9282, 0.9146, 0.9187, 0.9127, 0.9612, 0.9282, 0.9306, 0.9221, 0.9167, 0.924, 0.8401, 0.881, 0.8796, 0.9129, 0.9165, 0.9879, 0.9964, 0.9732, 0.9798, 0.8593, 0.8628, 0.9352, 0.7868, 0.8256, 0.8094, 0.8632, 0.8624, 0.984, 0.9881, 0.9496, 0.9549, 0.8347, 0.8425, 0.7094, 0.7779, 0.8258, 0.8256, 0.8464, 0.8447, 0.6871, 0.7754, 0.8741, 0.8772, 0.8358, 0.8395, 0.802, 0.8987, 0.8706, 0.8664, 0.8304, 0.8362, 0.583, 0.7985, 0.7239, 0.7272, 0.8249, 0.8357, 0.7147, 0.7548, 0.6818, 0.7131, 0.8168, 0.8253, 0.5666, 0.6843, 0.7381, 0.7443, 0.8424, 0.8545, 0.6231, 0.828, 0.8055, 0.7943]}
+{"step": 4800, "loss": 0.10262050479650497, "rho": 16677.876953125, "sec": 15059, "peak_gib": 2.38, "gain_min": 29830.939453125, "gain_med": 66711.5078125, "gain_max": 776073.3125, "rho_mode": "per-block", "rho_used_min": 6052.26171875, "rho_used_med": 47345.6875, "rho_used_max": 425951.59375, "frac_rho_floor": 0.0, "frac_energy_rise": 0.9990234375, "cos_bp": 0.7959997653961182, "ratio_bp": 0.5813038349151611, "min_leaf_cos": -0.23690567910671234, "leaf_cos": [0.7471, 0.6835, 1.0, 0.9211, 0.9138, 0.8933, 0.9179, 0.9305, 0.9115, 0.9207, 0.956, 0.9841, 0.9576, 0.972, 0.9334, 0.9181, 0.9554, 0.915, 0.9096, 0.9155, 0.9164, 0.9178, 0.9862, 0.9945, 0.9723, 0.9806, 0.8342, 0.8352, 0.9311, 0.8217, 0.8532, 0.8266, 0.8476, 0.8346, 0.9884, 0.9864, 0.9562, 0.9617, 0.7869, 0.779, 0.7764, 0.7432, 0.8123, 0.8042, 0.7875, 0.779, 0.628, 0.6065, 0.8455, 0.8483, 0.7633, 0.7595, 0.8129, 0.7954, 0.8389, 0.8111, 0.7696, 0.7602, -0.2369, -0.204, 0.6865, 0.6982, 0.7457, 0.7685, 0.4245, 0.4727, 0.5402, 0.5323, 0.7891, 0.7946, 0.5926, 0.5948, 0.7017, 0.7034, 0.8131, 0.8217, 0.7277, 0.8053, 0.8444, 0.7805]}
+{"step": 4875, "loss": 0.11141041666269302, "rho": 21410.95703125, "sec": 15301, "peak_gib": 2.38, "gain_min": 31150.177734375, "gain_med": 85643.828125, "gain_max": 714242.0, "rho_mode": "per-block", "rho_used_min": 5032.27392578125, "rho_used_med": 33404.80078125, "rho_used_max": 464396.9375, "frac_rho_floor": 0.0, "frac_energy_rise": 0.99609375, "cos_bp": 0.800638735294342, "ratio_bp": 0.5608518719673157, "min_leaf_cos": 0.36126232147216797, "leaf_cos": [0.7402, 0.6722, 1.0, 0.9278, 0.9768, 0.9052, 0.9176, 0.9368, 0.9205, 0.9288, 0.9369, 0.9569, 0.9591, 0.971, 0.9361, 0.927, 0.9542, 0.904, 0.908, 0.9084, 0.9271, 0.927, 0.9864, 0.9968, 0.9778, 0.987, 0.8622, 0.8557, 0.9337, 0.8144, 0.8435, 0.8059, 0.8684, 0.8552, 0.9903, 0.9922, 0.9662, 0.9702, 0.8242, 0.8136, 0.8067, 0.7847, 0.8233, 0.8188, 0.8198, 0.8153, 0.5315, 0.5771, 0.8571, 0.8632, 0.797, 0.7972, 0.3613, 0.6365, 0.7929, 0.8072, 0.8005, 0.8014, 0.6245, 0.8147, 0.6211, 0.637, 0.7611, 0.8047, 0.4785, 0.6949, 0.6624, 0.6863, 0.7965, 0.8055, 0.5326, 0.5884, 0.6998, 0.7035, 0.803, 0.8155, 0.5746, 0.7356, 0.7912, 0.754]}
+RESULT {"clean": {"nmse": 0.212810724914319, "nmse_cal": 0.21265893769091637, "alpha_star": 0.9863054554649456, "nmse_cal_cleanalpha": 0.21265893769091637, "ratio_to_clean": 1.0}, "ctx_drop25": {"nmse": 0.2510649152726629, "nmse_cal": 0.25067411749704827, "alpha_star": 0.9776728027781765, "nmse_cal_cleanalpha": 0.2507325389297002, "ratio_to_clean": 1.179756872562441}, "ctx_drop50": {"nmse": 0.31983024620869965, "nmse_cal": 0.3192408471385986, "alpha_star": 0.9714166247894267, "nmse_cal_cleanalpha": 0.31940076744292306, "ratio_to_clean": 1.5028859393128258}, "square": {"nmse": 0.5222348797560636, "nmse_cal": 0.4911806204514889, "alpha_star": 0.8018946948719421, "nmse_cal_cleanalpha": 0.5180898635161786, "ratio_to_clean": 2.4539875984461017}, "noise": {"nmse": 0.9671546472616248, "nmse_cal": 0.8276165731071127, "alpha_star": 0.5263983959820966, "nmse_cal_cleanalpha": 0.9592016223829071, "ratio_to_clean": 4.544670611178158}, "knn_pred": {"knn": 0.543, "knn_centred": 0.5505}, "knn_target_ceiling": {"knn": 0.594, "knn_centred": 0.5895}}
+E1110 12:45:08.979182  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:08.984048  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:08.987807  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:08.988968  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:08.998961  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.001700  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.002771  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.003219  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.003584  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.004025  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.004466  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.004901  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.005350  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.005850  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.006368  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.006901  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.007330  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.007765  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.008174  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.008583  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.009047  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.009507  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.009930  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 12:45:09.010357  238765 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: === 
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
