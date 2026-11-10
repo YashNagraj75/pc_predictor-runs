@@ -1,5 +1,6 @@
-checked 2026-11-10 12:48 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ 5811ad2
-finished runs: 22, unfinished runs: 0, problems: 1
+SAFE TO DELETE: YES (every result and checkpoint on this machine is on GitHub)
+checked 2026-11-10 12:50 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ ac6dcdc
+finished runs: 22, unfinished runs: 0, problems: 0
   ok a0 (1 files)
   ok bp_d10_lr3e-3_e25_full_s0 (1 files)
   ok bp_d6_lr1e-3_e25_full_s0 (5 files)
@@ -9,7 +10,7 @@ finished runs: 22, unfinished runs: 0, problems: 1
   ok bp_d6_lr3e-4_e25_full_s0 (5 files)
   ok bp_d6_lr3e-4_e5_val_s0 (5 files)
   ok epc_alm_blk4_d6_lr1e-3_e5_val_s0_T20g12 (5 files)
-  NOT YET ON GITHUB epc_alm_blk4_d6_lr3e-3_e25_full_s0_T20g12: 3 missing, 2 different of 5 files
+  ok epc_alm_blk4_d6_lr3e-3_e25_full_s0_T20g12 (5 files)
   ok epc_alm_blk4_d6_lr3e-3_e5_val_s0_T20g12 (5 files)
   ok epc_alm_blk4_d6_lr3e-4_e5_val_s0_T20g12 (5 files)
   ok epc_alm_k4_d6_lr1e-3_e5_val_s0_T20g12 (5 files)
