@@ -14,3 +14,111 @@ E1110 07:47:42.226271  207078 numa_hwloc.cc:121] Call to hwloc_set_cpubind() fai
 {"step": 2400, "loss": 0.09871590882539749, "rho": 1.0, "sec": 1122, "peak_gib": 1.99}
 {"step": 2600, "loss": 0.10008758306503296, "rho": 1.0, "sec": 1197, "peak_gib": 1.99}
 {"step": 2800, "loss": 0.13186082243919373, "rho": 1.0, "sec": 1270, "peak_gib": 1.99}
+{"step": 3000, "loss": 0.09321726113557816, "rho": 1.0, "sec": 1343, "peak_gib": 1.99}
+{"step": 3200, "loss": 0.09496700763702393, "rho": 1.0, "sec": 1422, "peak_gib": 1.99}
+{"step": 3400, "loss": 0.09479235112667084, "rho": 1.0, "sec": 1496, "peak_gib": 1.99}
+{"step": 3600, "loss": 0.0969240665435791, "rho": 1.0, "sec": 1579, "peak_gib": 1.99}
+{"step": 3800, "loss": 0.09974942356348038, "rho": 1.0, "sec": 1660, "peak_gib": 1.99}
+{"step": 4000, "loss": 0.06698798388242722, "rho": 1.0, "sec": 1757, "peak_gib": 1.99}
+{"step": 4200, "loss": 0.0992395281791687, "rho": 1.0, "sec": 1837, "peak_gib": 1.99}
+{"step": 4400, "loss": 0.09850914031267166, "rho": 1.0, "sec": 1933, "peak_gib": 1.99}
+{"step": 4600, "loss": 0.09993115067481995, "rho": 1.0, "sec": 2014, "peak_gib": 1.99}
+{"step": 4800, "loss": 0.09281722456216812, "rho": 1.0, "sec": 2109, "peak_gib": 1.99}
+{"step": 4875, "loss": 0.10175848007202148, "rho": 1.0, "sec": 2141, "peak_gib": 1.99}
+RESULT {"clean": {"nmse": 0.19294124532917564, "nmse_cal": 0.1929399253284073, "alpha_star": 0.998722740623308, "nmse_cal_cleanalpha": 0.1929399253284073, "ratio_to_clean": 1.0}, "ctx_drop25": {"nmse": 0.22660049321759262, "nmse_cal": 0.22659106353834993, "alpha_star": 0.9965203941025211, "nmse_cal_cleanalpha": 0.22659484106997527, "ratio_to_clean": 1.174453356673381}, "ctx_drop50": {"nmse": 0.28495761136900327, "nmse_cal": 0.2849552617170679, "alpha_star": 0.9981905415740902, "nmse_cal_cleanalpha": 0.28495546497827634, "ratio_to_clean": 1.4769139220742522}, "square": {"nmse": 0.5005554285713318, "nmse_cal": 0.47499360507157345, "alpha_star": 0.8192323498407877, "nmse_cal_cleanalpha": 0.5001954777330474, "ratio_to_clean": 2.5943412343863432}, "noise": {"nmse": 1.082885787464045, "nmse_cal": 0.8372623045124418, "alpha_star": 0.4487233879669692, "nmse_cal_cleanalpha": 1.081748930019294, "ratio_to_clean": 5.612515797835457}, "knn_pred": {"knn": 0.5435, "knn_centred": 0.551}, "knn_target_ceiling": {"knn": 0.594, "knn_centred": 0.5895}}
+E1110 08:25:04.780088  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.783509  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.788160  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.788564  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.788934  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.789191  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.789488  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.789777  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.790086  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.790359  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.790672  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.790960  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.791230  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.791513  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.792016  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.792457  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.792871  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.793300  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.793904  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.794682  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.795078  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.795434  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.795806  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+E1110 08:25:04.796137  206982 cuda_stream.cc:319] stream not idle on destroy: INTERNAL: CUDA error: : CUDA_ERROR_NOT_READY: device not ready
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
