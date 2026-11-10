@@ -38,3 +38,20 @@
 11-10_05:43 [stageA/depth6] epc_k16_d6_lr3e-3_e25_full_s0_T20g12 rc=0
 11-10_06:03 [stageA/depth6] epc_alm_blk4_d6_lr3e-4_e5_val_s0_T20g12 rc=75
 11-10_06:03 [stageA/depth6] start at 8ee37d9, 1380 min budget
+11-10_06:18 [stageA/depth6] gpu gate rc=0
+   lr table bp d6: 3e-4: 0.2349, 1e-3: 0.2103, 3e-3: 0.2009
+   selected 3e-3  EDGE
+3e-3
+11-10_06:18 [stageA/depth6] bp d6 selected lr: 3e-3
+   lr table epc_alm_k4 d6: 3e-4: 0.2367, 1e-3: 0.2117, 3e-3: 0.2037
+   selected 3e-3  EDGE
+3e-3
+11-10_06:18 [stageA/depth6] epc_alm_k4 d6 selected lr: 3e-3
+   lr table epc_k4 d6: 3e-4: 0.3172, 1e-3: 0.2290, 3e-3: 0.2347
+   selected 1e-3
+1e-3
+11-10_06:18 [stageA/depth6] epc_k4 d6 selected lr: 1e-3
+   lr table epc_k16 d6: 3e-4: 0.3367, 1e-3: 0.2558, 3e-3: 0.2434
+   selected 3e-3  EDGE
+3e-3
+11-10_06:18 [stageA/depth6] epc_k16 d6 selected lr: 3e-3
