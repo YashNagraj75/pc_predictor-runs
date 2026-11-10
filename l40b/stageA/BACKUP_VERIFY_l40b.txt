@@ -1,9 +1,10 @@
-checked 2026-11-10 09:02 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ abaf471
-finished runs: 14, unfinished runs: 0, problems: 1
+SAFE TO DELETE: YES (every result and checkpoint on this machine is on GitHub)
+checked 2026-11-10 09:04 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ 4db5485
+finished runs: 14, unfinished runs: 0, problems: 0
   ok a0 (1 files)
   ok bp_d10_lr1e-3_e25_full_s0 (5 files)
   ok bp_d10_lr1e-3_e5_val_s0 (5 files)
-  NOT YET ON GITHUB bp_d10_lr3e-3_e25_full_s0: 2 missing, 3 different of 5 files
+  ok bp_d10_lr3e-3_e25_full_s0 (5 files)
   ok bp_d10_lr3e-3_e5_val_s0 (5 files)
   ok bp_d10_lr3e-4_e25_full_s0 (5 files)
   ok bp_d10_lr3e-4_e5_val_s0 (5 files)
