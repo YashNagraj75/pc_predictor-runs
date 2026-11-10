@@ -1,1 +1,12 @@
 E1110 07:08:50.770359  201009 numa_hwloc.cc:121] Call to hwloc_set_cpubind() failed: Invalid argument [22]
+{"step": 1, "loss": 0.5350807309150696, "rho": 1.0, "sec": 52, "peak_gib": 1.97}
+{"step": 200, "loss": 0.21822963654994965, "rho": 1.0, "sec": 154, "peak_gib": 1.99}
+{"step": 400, "loss": 0.13285785913467407, "rho": 1.0, "sec": 243, "peak_gib": 1.99}
+{"step": 600, "loss": 0.11630485206842422, "rho": 1.0, "sec": 322, "peak_gib": 1.99}
+{"step": 800, "loss": 0.08510919660329819, "rho": 1.0, "sec": 405, "peak_gib": 1.99}
+{"step": 1000, "loss": 0.10627025365829468, "rho": 1.0, "sec": 494, "peak_gib": 1.99}
+{"step": 1200, "loss": 0.10787711292505264, "rho": 1.0, "sec": 579, "peak_gib": 1.99}
+{"step": 1400, "loss": 0.07760395854711533, "rho": 1.0, "sec": 662, "peak_gib": 1.99}
+{"step": 1600, "loss": 0.13436093926429749, "rho": 1.0, "sec": 747, "peak_gib": 1.99}
+{"step": 1800, "loss": 0.10802209377288818, "rho": 1.0, "sec": 824, "peak_gib": 1.99}
+{"step": 2000, "loss": 0.07527461647987366, "rho": 1.0, "sec": 905, "peak_gib": 1.99}
