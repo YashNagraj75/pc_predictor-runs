@@ -26,3 +26,5 @@
    selected 3e-3  EDGE
 3e-3
 11-10_06:20 [stageA/depth10] epc_alm_blk4 d10 selected lr: 3e-3
+11-10_06:42 [stageA/depth10] epc_alm_blk4_d10_lr3e-3_e25_full_s0_T20g12 rc=0
+11-10_06:51 [stageA/depth10] bp_d10_lr3e-4_e5_val_s0 rc=0
