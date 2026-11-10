@@ -1,2 +1,4 @@
 11-09 07:38 sequence start at 8ee37d9, stages: depth:10
 11-09 07:38 depth 10: pass 1 start
+11-10 06:05 depth 10: pass 1 rc=75
+11-10 06:06 depth 10: pass 2 start
