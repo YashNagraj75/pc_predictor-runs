@@ -1,9 +1,9 @@
-checked 2026-11-10 08:31 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ 97e72e2
+checked 2026-11-10 08:46 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ b6508db
 finished runs: 13, unfinished runs: 1, problems: 1
   ok a0 (1 files)
   ok bp_d10_lr1e-3_e25_full_s0 (5 files)
   ok bp_d10_lr1e-3_e5_val_s0 (5 files)
-  UNFINISHED bp_d10_lr3e-3_e25_full_s0: NO checkpoint on GitHub yet
+  UNFINISHED bp_d10_lr3e-3_e25_full_s0: GitHub checkpoint is older (GitHub step ?, local ?); next push within 15 min
   ok bp_d10_lr3e-3_e5_val_s0 (5 files)
   ok bp_d10_lr3e-4_e25_full_s0 (5 files)
   ok bp_d10_lr3e-4_e5_val_s0 (5 files)
