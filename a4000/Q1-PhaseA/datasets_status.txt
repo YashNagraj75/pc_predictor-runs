@@ -1,0 +1,42 @@
+10-30_11:38 [mnist/all/smoke] start at d857b6b
+10-30_12:45 [mnist/all/smoke] gates rc=1 0 pass 0 fail
+10-30_13:08 [mnist/all/smoke] start at 4bb5880; /media/md_lab/hd_21/preprocessed/pc_predictor/.venv 0.11.0
+10-30_13:12 [mnist/all/smoke] gates rc=1 36 pass 3 fail
+10-30_13:25 [mnist/all/smoke] start at 5700699; /media/md_lab/hd_21/preprocessed/pc_predictor/.venv 0.11.0
+10-30_13:29 [mnist/all/smoke] gates rc=0 39 pass 0 fail
+10-30_13:29 [mnist/all/smoke] Galaxy backbone gate (calibration): {"dataset": "galaxy10", "trained": {"knn": 0.403, "finite": true, "mean_std": 0.13692012429237366, "min_over_median_std": 0.5064655542373657, "eff_rank": 17.579547882080078}, "init": {"knn": 0.3795, "finite": true, "mean_std": 0.05008301883935928, "min_over_me
+10-30_13:30 [mnist/all/smoke] backbone gate rc=0 {"dataset": "mnist", "trained": {"knn": 0.917, "finite": true, "mean_std": 0.19119811058044434, "min_over_median_std": 0.6877454519271851, "eff_rank": 30.70940399169922}, "init": {"knn": 0.898, "finite": true, "mean_std": 0.16380180418491364, "min_over_median_std": 0.6648951172828674, "eff_rank": 26
+10-30_13:30 [mnist/all/smoke] latent check rc=0 {"reproduction_rel_err": 0.0, "n_train": 2048, "n_test": 2000, "backbone_sha256": "c425911d34148ded"}
+10-30_13:30 [mnist/all/smoke] prep done: 45M latents
+10-30_13:34 [mnist/all/smoke] training done: 4 of 4 ok; failed: 
+10-30_13:37 [mnist/all/smoke] eval rc=0
+10-30_13:37 [mnist/all/smoke] DONE
+10-30_13:37 [cifar10/prep/smoke] start at 5700699; /media/md_lab/hd_21/preprocessed/pc_predictor/.venv 0.11.0
+10-30_13:38 [cifar10/prep/smoke] backbone gate rc=0 {"dataset": "cifar10", "trained": {"knn": 0.315, "finite": true, "mean_std": 0.17924916744232178, "min_over_median_std": 0.6766136884689331, "eff_rank": 28.318666458129883}, "init": {"knn": 0.2745, "finite": true, "mean_std": 0.17296960949897766, "min_over_median_std": 0.6885437965393066, "eff_rank"
+10-30_13:39 [cifar10/prep/smoke] latent check rc=0 {"reproduction_rel_err": 1.1130641723866574e-06, "n_train": 2048, "n_test": 2000, "backbone_sha256": "bf3163ee84b631d3"}
+10-30_13:39 [cifar10/prep/smoke] prep done: 45M latents
+10-30_13:39 [cifar10/prep/smoke] DONE
+10-30_13:39 [cifar10/train/smoke] start at 5700699; /media/md_lab/hd_21/preprocessed/pc_predictor/.venv 0.11.0
+10-30_13:43 [cifar10/train/smoke] training done: 4 of 4 ok; failed: 
+10-30_13:43 [cifar10/train/smoke] DONE
+10-30_13:43 [cifar10/eval/smoke] start at 5700699; /media/md_lab/hd_21/preprocessed/pc_predictor/.venv 0.11.0
+10-30_13:46 [cifar10/eval/smoke] eval rc=0
+10-30_13:46 [cifar10/eval/smoke] DONE
+10-30_13:56 [mnist/all] start at 3a61799; /media/md_lab/hd_21/preprocessed/pc_predictor/.venv 0.11.0
+10-30_14:00 [mnist/all] gates rc=0 39 pass 0 fail
+10-30_14:01 [mnist/all] Galaxy backbone gate (calibration): {"dataset": "galaxy10", "trained": {"knn": 0.403, "finite": true, "mean_std": 0.13692012429237366, "min_over_median_std": 0.5064655542373657, "eff_rank": 17.579547882080078}, "init": {"knn": 0.3795, "finite": true, "mean_std": 0.05008301883935928, "min_over_me
+10-30_14:10 [mnist/all] backbone gate rc=0 {"dataset": "mnist", "trained": {"knn": 0.9175, "finite": true, "mean_std": 0.5459412336349487, "min_over_median_std": 0.7184931039810181, "eff_rank": 32.065513610839844}, "init": {"knn": 0.898, "finite": true, "mean_std": 0.16380180418491364, "min_over_median_std": 0.6648951172828674, "eff_rank": 2
+10-30_14:10 [mnist/all] latent check rc=0 {"reproduction_rel_err": 0.0, "n_train": 15675, "n_test": 2000, "backbone_sha256": "cccc510ecf4b7689"}
+10-30_14:10 [mnist/all] prep done: 194M latents
+10-31_00:21 [mnist/all] training done: 12 of 12 ok; failed: 
+10-31_06:21 [mnist/all] eval rc=0
+10-31_06:21 [mnist/all] DONE
+10-31_13:22 [cifar10/all] start at 3a61799; /media/md_lab/hd_21/preprocessed/pc_predictor/.venv 0.11.0
+10-31_13:26 [cifar10/all] gates rc=0 39 pass 0 fail
+10-31_13:26 [cifar10/all] Galaxy backbone gate (calibration): {"dataset": "galaxy10", "trained": {"knn": 0.403, "finite": true, "mean_std": 0.13692012429237366, "min_over_median_std": 0.5064655542373657, "eff_rank": 17.579547882080078}, "init": {"knn": 0.3795, "finite": true, "mean_std": 0.05008301883935928, "min_over_me
+10-31_13:33 [cifar10/all] backbone gate rc=0 {"dataset": "cifar10", "trained": {"knn": 0.385, "finite": true, "mean_std": 0.4951077401638031, "min_over_median_std": 0.6845342516899109, "eff_rank": 34.79362487792969}, "init": {"knn": 0.2745, "finite": true, "mean_std": 0.17296960949897766, "min_over_median_std": 0.6885437965393066, "eff_rank": 
+10-31_13:34 [cifar10/all] latent check rc=0 {"reproduction_rel_err": 7.156984338507755e-07, "n_train": 15675, "n_test": 2000, "backbone_sha256": "5bcc55ecb6e60bd9"}
+10-31_13:34 [cifar10/all] prep done: 194M latents
+10-31_23:34 [cifar10/all] training done: 12 of 12 ok; failed: 
+11-01_05:49 [cifar10/all] eval rc=0
+11-01_05:49 [cifar10/all] DONE
