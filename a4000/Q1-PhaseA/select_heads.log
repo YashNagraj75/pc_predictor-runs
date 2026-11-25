@@ -1,0 +1,147 @@
+head 3: gamma=0.95602  active=0.2014
+head 4: gamma=0.95602  active=0.2010
+head 5: gamma=0.95602  active=0.2014
+head 6: gamma=0.98217  active=0.1966
+head 7: gamma=0.95602  active=0.2003
+head 3: unweighted per-view head energy e=52.069
+head 4: unweighted per-view head energy e=53.713
+head 5: unweighted per-view head energy e=52.607
+head 6: unweighted per-view head energy e=51.968
+head 7: unweighted per-view head energy e=53.057
+K=1 heads=(5,): scale 2.05 -> energy 1.48 x task
+K=2 heads=(4, 5): scale 3.1 -> energy 2.24 x task
+K=3 heads=(4, 5, 6): scale 3.52 -> energy 2.54 x task
+K=4 heads=(3, 4, 5, 6): scale 4.12 -> energy 2.98 x task
+K=5 heads=(3, 4, 5, 6, 7): scale 4.69 -> energy 3.39 x task
+{
+ "1": {
+  "heads": [
+   5
+  ],
+  "gammas": [
+   0.95602
+  ],
+  "head_ws": [
+   0.00972
+  ],
+  "active_at_init": [
+   0.20144
+  ],
+  "grad_ratio_at_init": 0.25,
+  "grad_ratio_unit_weights": 0.12223578383228194,
+  "head_energy_total_at_init": 2.045227609805502,
+  "energy_ratio_to_task": 1.4763941719309
+ },
+ "2": {
+  "heads": [
+   4,
+   5
+  ],
+  "gammas": [
+   0.95602,
+   0.95602
+  ],
+  "head_ws": [
+   0.00722,
+   0.00737
+  ],
+  "active_at_init": [
+   0.20097,
+   0.20144
+  ],
+  "grad_ratio_at_init": 0.25,
+  "grad_ratio_unit_weights": 0.08057604186819665,
+  "head_energy_total_at_init": 3.1026592297613833,
+  "energy_ratio_to_task": 2.2397252913786665
+ },
+ "3": {
+  "heads": [
+   4,
+   5,
+   6
+  ],
+  "gammas": [
+   0.95602,
+   0.95602,
+   0.98217
+  ],
+  "head_ws": [
+   0.00546,
+   0.00558,
+   0.00565
+  ],
+  "active_at_init": [
+   0.20097,
+   0.20144,
+   0.19664
+  ],
+  "grad_ratio_at_init": 0.25,
+  "grad_ratio_unit_weights": 0.07100228859859584,
+  "head_energy_total_at_init": 3.521013264985716,
+  "energy_ratio_to_task": 2.541723688255246
+ },
+ "4": {
+  "heads": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "gammas": [
+   0.95602,
+   0.95602,
+   0.95602,
+   0.98217
+  ],
+  "head_ws": [
+   0.00495,
+   0.0048,
+   0.0049,
+   0.00496
+  ],
+  "active_at_init": [
+   0.20135,
+   0.20097,
+   0.20144,
+   0.19664
+  ],
+  "grad_ratio_at_init": 0.25,
+  "grad_ratio_unit_weights": 0.06065384183140611,
+  "head_energy_total_at_init": 4.121750452261572,
+  "energy_ratio_to_task": 2.9753795209381324
+ },
+ "5": {
+  "heads": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "gammas": [
+   0.95602,
+   0.95602,
+   0.95602,
+   0.98217,
+   0.95602
+  ],
+  "head_ws": [
+   0.0045,
+   0.00437,
+   0.00446,
+   0.00451,
+   0.00442
+  ],
+  "active_at_init": [
+   0.20135,
+   0.20097,
+   0.20144,
+   0.19664,
+   0.20034
+  ],
+  "grad_ratio_at_init": 0.25,
+  "grad_ratio_unit_weights": 0.053303236971533455,
+  "head_energy_total_at_init": 4.690146681589193,
+  "energy_ratio_to_task": 3.385689295900834
+ }
+}
