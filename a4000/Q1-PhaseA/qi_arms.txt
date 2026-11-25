@@ -1,0 +1,18 @@
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --spike lit1
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --spike stable --c 0.1 --c-spike 2.0
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --c 0.1 --tag _c01
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --wrule qi
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --wrule fixed
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --c 0.1 --wrule fixed --tag _c01
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --spike stable --c 0.1 --c-spike 2.0 --wrule fixed
+--rule pc --depth 10 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --spike stable --c 0.1 --c-spike 2.0 --wrule fixed --T 10 --T2 10 --tag _qireg
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --spike lit1
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --spike stable --c 0.1 --c-spike 2.0
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --c 0.1 --tag _c01
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --wrule qi
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --wrule fixed
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --c 0.1 --wrule fixed --tag _c01
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --spike stable --c 0.1 --c-spike 2.0 --wrule fixed
+--rule pc --depth 3 --start zero --backbone bp --seed 0 --ckpt --outdir pred_runs/tests_qi --spike stable --c 0.1 --c-spike 2.0 --wrule fixed --T 3 --T2 3 --tag _qireg
