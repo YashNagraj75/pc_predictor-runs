@@ -1,0 +1,172 @@
+
+=== bp_sigreg_seedgrid_s0  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+Could not load symbol cuStreamGetGreenCtx. Error: /lib/x86_64-linux-gnu/libcuda.so.1: undefined symbol: cuStreamGetGreenCtx
+E0916 13:28:34.057113 3833940 cuda_timer.cc:88] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+  decoder step     0  mse=0.11702
+  decoder step   500  mse=0.00256
+  decoder step  1000  mse=0.00233
+  decoder step  1500  mse=0.00221
+  decoder step  2000  mse=0.00186
+  decoder step  2500  mse=0.00203
+[probes] figures ...
+  class probe   linear 0.4525  mlp 0.4610
+  flux           linear r=0.929 nmse=0.142  mlp r=0.945
+  size_rms       linear r=0.988 nmse=0.024  mlp r=0.990
+  ellipticity    linear r=0.644 nmse=0.592  mlp r=0.710
+  concentration  linear r=0.973 nmse=0.057  mlp r=0.983
+  decode  ssim=0.8091 (floor 0.7033, gain +0.1058)  psnr=26.61
+  knn probe     0.3890
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.739 nmse=0.452
+  aug_contrast       linear r=+0.552 nmse=0.707
+  aug_crop_cx        linear r=+0.015 nmse=0.989
+  aug_crop_cy        linear r=-0.021 nmse=1.002
+  aug_crop_scale     linear r=+0.722 nmse=0.486
+  aug_flip           linear r=-0.013 nmse=1.010
+  aug_rot_cos        linear r=+0.043 nmse=0.989
+  aug_rot_sin        linear r=+0.019 nmse=1.019
+
+=== bp_sigreg_seedgrid_s1  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11704
+  decoder step   500  mse=0.00259
+  decoder step  1000  mse=0.00224
+  decoder step  1500  mse=0.00232
+  decoder step  2000  mse=0.00206
+  decoder step  2500  mse=0.00225
+[probes] figures ...
+  class probe   linear 0.4485  mlp 0.4525
+  flux           linear r=0.937 nmse=0.126  mlp r=0.947
+  size_rms       linear r=0.987 nmse=0.027  mlp r=0.989
+  ellipticity    linear r=0.647 nmse=0.586  mlp r=0.675
+  concentration  linear r=0.970 nmse=0.062  mlp r=0.981
+  decode  ssim=0.8048 (floor 0.7033, gain +0.1014)  psnr=26.34
+  knn probe     0.3870
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.689 nmse=0.523
+  aug_contrast       linear r=+0.521 nmse=0.742
+  aug_crop_cx        linear r=+0.051 nmse=0.973
+  aug_crop_cy        linear r=+0.033 nmse=0.994
+  aug_crop_scale     linear r=+0.721 nmse=0.487
+  aug_flip           linear r=-0.017 nmse=1.010
+  aug_rot_cos        linear r=+0.055 nmse=0.986
+  aug_rot_sin        linear r=+0.046 nmse=1.013
+
+=== bp_sigreg_seedgrid_s2  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11707
+  decoder step   500  mse=0.00260
+  decoder step  1000  mse=0.00239
+  decoder step  1500  mse=0.00234
+  decoder step  2000  mse=0.00195
+  decoder step  2500  mse=0.00216
+[probes] figures ...
+  class probe   linear 0.4480  mlp 0.4515
+  flux           linear r=0.932 nmse=0.135  mlp r=0.945
+  size_rms       linear r=0.986 nmse=0.029  mlp r=0.989
+  ellipticity    linear r=0.634 nmse=0.604  mlp r=0.669
+  concentration  linear r=0.969 nmse=0.065  mlp r=0.982
+  decode  ssim=0.8095 (floor 0.7033, gain +0.1061)  psnr=26.52
+  knn probe     0.3870
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.687 nmse=0.526
+  aug_contrast       linear r=+0.517 nmse=0.745
+  aug_crop_cx        linear r=+0.039 nmse=0.975
+  aug_crop_cy        linear r=+0.021 nmse=0.996
+  aug_crop_scale     linear r=+0.709 nmse=0.504
+  aug_flip           linear r=-0.001 nmse=1.007
+  aug_rot_cos        linear r=+0.047 nmse=0.988
+  aug_rot_sin        linear r=+0.051 nmse=1.012
+
+=== pc_sigreg_T16_coupled_seedgrid_s0  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11706
+  decoder step   500  mse=0.00224
+  decoder step  1000  mse=0.00176
+  decoder step  1500  mse=0.00162
+  decoder step  2000  mse=0.00152
+  decoder step  2500  mse=0.00148
+[probes] figures ...
+  class probe   linear 0.3335  mlp 0.4185
+  flux           linear r=0.987 nmse=0.026  mlp r=0.972
+  size_rms       linear r=0.973 nmse=0.055  mlp r=0.979
+  ellipticity    linear r=0.757 nmse=0.431  mlp r=0.796
+  concentration  linear r=0.958 nmse=0.087  mlp r=0.971
+  decode  ssim=0.8305 (floor 0.7033, gain +0.1272)  psnr=28.02
+  knn probe     0.3460
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.929 nmse=0.136
+  aug_contrast       linear r=+0.481 nmse=0.781
+  aug_crop_cx        linear r=+0.026 nmse=0.980
+  aug_crop_cy        linear r=+0.017 nmse=1.000
+  aug_crop_scale     linear r=+0.761 nmse=0.426
+  aug_flip           linear r=+0.008 nmse=1.009
+  aug_rot_cos        linear r=+0.029 nmse=0.994
+  aug_rot_sin        linear r=-0.020 nmse=1.028
+
+=== pc_sigreg_T16_coupled_seedgrid_s1  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11706
+  decoder step   500  mse=0.00229
+  decoder step  1000  mse=0.00171
+  decoder step  1500  mse=0.00157
+  decoder step  2000  mse=0.00149
+  decoder step  2500  mse=0.00146
+[probes] figures ...
+  class probe   linear 0.3545  mlp 0.4465
+  flux           linear r=0.982 nmse=0.036  mlp r=0.984
+  size_rms       linear r=0.975 nmse=0.051  mlp r=0.984
+  ellipticity    linear r=0.730 nmse=0.474  mlp r=0.784
+  concentration  linear r=0.952 nmse=0.099  mlp r=0.972
+  decode  ssim=0.8357 (floor 0.7033, gain +0.1324)  psnr=28.34
+  knn probe     0.3715
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.928 nmse=0.138
+  aug_contrast       linear r=+0.489 nmse=0.774
+  aug_crop_cx        linear r=+0.022 nmse=0.982
+  aug_crop_cy        linear r=+0.024 nmse=0.997
+  aug_crop_scale     linear r=+0.772 nmse=0.410
+  aug_flip           linear r=+0.005 nmse=1.011
+  aug_rot_cos        linear r=+0.032 nmse=0.994
+  aug_rot_sin        linear r=+0.052 nmse=1.012
+
+=== pc_sigreg_T16_coupled_seedgrid_s2  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11704
+  decoder step   500  mse=0.00227
+  decoder step  1000  mse=0.00183
+  decoder step  1500  mse=0.00162
+  decoder step  2000  mse=0.00151
+  decoder step  2500  mse=0.00149
+[probes] figures ...
+  class probe   linear 0.3570  mlp 0.4265
+  flux           linear r=0.989 nmse=0.023  mlp r=0.973
+  size_rms       linear r=0.974 nmse=0.053  mlp r=0.981
+  ellipticity    linear r=0.777 nmse=0.400  mlp r=0.802
+  concentration  linear r=0.961 nmse=0.082  mlp r=0.973
+  decode  ssim=0.8326 (floor 0.7033, gain +0.1293)  psnr=28.20
+  knn probe     0.3590
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.926 nmse=0.141
+  aug_contrast       linear r=+0.478 nmse=0.785
+  aug_crop_cx        linear r=-0.006 nmse=0.987
+  aug_crop_cy        linear r=+0.024 nmse=1.000
+  aug_crop_scale     linear r=+0.768 nmse=0.417
+  aug_flip           linear r=-0.030 nmse=1.017
+  aug_rot_cos        linear r=+0.026 nmse=0.994
+  aug_rot_sin        linear r=+0.007 nmse=1.021
+
+wrote probes_summary.csv (6 runs)
