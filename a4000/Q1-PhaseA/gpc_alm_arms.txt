@@ -1,0 +1,26 @@
+--rule alm --depth 3 --start zero --backbone bp --seed 0 --rho 4.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json --ckpt
+--rule alm --depth 3 --start zero --backbone bp --seed 0 --rho 1.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json --ckpt
+--rule alm --depth 3 --start zero --backbone bp --seed 0 --rho 4.0 --alpha 0 --T2 100 --gsel pred_runs/gpc_alm_selected.json
+--rule alm --depth 10 --start zero --backbone bp --seed 0 --rho 4.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json --ckpt
+--rule alm --depth 10 --start zero --backbone bp --seed 0 --rho 1.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json --ckpt
+--rule alm --depth 10 --start zero --backbone bp --seed 0 --rho 4.0 --alpha 0 --T2 100 --gsel pred_runs/gpc_alm_selected.json
+--rule alm --depth 3 --start zero --backbone bp --seed 1 --rho 4.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json 
+--rule alm --depth 3 --start zero --backbone bp --seed 1 --rho 1.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json 
+--rule alm --depth 3 --start zero --backbone bp --seed 1 --rho 4.0 --alpha 0 --T2 100 --gsel pred_runs/gpc_alm_selected.json
+--rule bp --depth 3 --start zero --backbone bp --seed 1
+--rule pc --depth 3 --start zero --backbone bp --seed 1
+--rule alm --depth 10 --start zero --backbone bp --seed 1 --rho 4.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json 
+--rule alm --depth 10 --start zero --backbone bp --seed 1 --rho 1.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json 
+--rule alm --depth 10 --start zero --backbone bp --seed 1 --rho 4.0 --alpha 0 --T2 100 --gsel pred_runs/gpc_alm_selected.json
+--rule bp --depth 10 --start zero --backbone bp --seed 1
+--rule pc --depth 10 --start zero --backbone bp --seed 1
+--rule alm --depth 3 --start zero --backbone bp --seed 2 --rho 4.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json 
+--rule alm --depth 3 --start zero --backbone bp --seed 2 --rho 1.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json 
+--rule alm --depth 3 --start zero --backbone bp --seed 2 --rho 4.0 --alpha 0 --T2 100 --gsel pred_runs/gpc_alm_selected.json
+--rule bp --depth 3 --start zero --backbone bp --seed 2
+--rule pc --depth 3 --start zero --backbone bp --seed 2
+--rule alm --depth 10 --start zero --backbone bp --seed 2 --rho 4.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json 
+--rule alm --depth 10 --start zero --backbone bp --seed 2 --rho 1.0 --alpha 1 --T2 100 --gsel pred_runs/gpc_alm_selected.json 
+--rule alm --depth 10 --start zero --backbone bp --seed 2 --rho 4.0 --alpha 0 --T2 100 --gsel pred_runs/gpc_alm_selected.json
+--rule bp --depth 10 --start zero --backbone bp --seed 2
+--rule pc --depth 10 --start zero --backbone bp --seed 2
