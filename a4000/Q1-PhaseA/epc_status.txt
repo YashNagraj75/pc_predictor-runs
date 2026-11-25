@@ -1,0 +1,5 @@
+11-02_11:32 [epc] start at 35424ec
+11-02_11:34 [epc] gates rc=1 7 pass 5 fail
+11-02_11:43 [epc] start at 4d310b0
+11-02_11:45 [epc] gates rc=0 12 pass 0 fail
+11-02_12:49 [epc] diag rc=0
