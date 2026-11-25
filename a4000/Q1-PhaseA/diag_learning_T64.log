@@ -1,0 +1,14 @@
+
+=== pc_sigreg_T64_coupled_t64alm_s0 ===
+  overall displacement 1.01837   layers at the floor (0.42196): 7/10
+  per-layer: 1.1478 0.7152 0.4783 0.5412 0.5663 0.4722 0.4220 0.4549 0.6399 0.4657
+  knn first=0.3425 best=0.3425 (step 0) last=0.2890  BEST-FIRST=+0.0000
+  grad norm median=1.220e+00
+
+=== pc_sigreg_T64_coupled_t64pc_s0 ===
+  overall displacement 0.37547   layers at the floor (0.24425): 1/10
+  per-layer: 0.2442 0.5831 0.5204 0.4774 0.4153 0.4382 0.5292 0.7066 1.0075 0.4964
+  knn first=0.3435 best=0.3470 (step 12000) last=0.3375  BEST-FIRST=+0.0035
+  grad norm median=2.054e-02
+
+wrote diag_learning_T64.csv (2 runs)
