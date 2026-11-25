@@ -1,0 +1,15 @@
+--rule pc --depth 3 --start zero --backbone bp
+--rule bp --depth 3 --start zero --backbone bp
+--rule pc --depth 10 --start zero --backbone bp
+--rule bp --depth 10 --start zero --backbone bp
+--rule pc --depth 3 --start amort --backbone bp
+--rule bp --depth 3 --start amort --backbone bp
+--rule pc --depth 10 --start amort --backbone bp
+--rule bp --depth 10 --start amort --backbone bp
+--rule pc --depth 3 --start zero --backbone bp --width 256
+--rule bp --depth 3 --start zero --backbone bp --width 256
+--rule pc --depth 10 --start zero --backbone bp --hid-prec 9
+--rule pc --depth 3 --start zero --backbone rand
+--rule bp --depth 3 --start zero --backbone rand
+--rule pc --depth 10 --start zero --backbone rand
+--rule bp --depth 10 --start zero --backbone rand
