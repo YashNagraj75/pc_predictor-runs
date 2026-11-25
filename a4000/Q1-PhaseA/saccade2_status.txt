@@ -1,0 +1,16 @@
+10-28_11:57 start at a14f2bd gates_only
+10-28_11:59 old gates rc=0
+10-28_12:00 gates rc=0 28 pass 0 fail
+10-28_12:03 smoke rc=0
+10-28_12:08 start at 8cb7b72 
+10-28_12:10 old gates rc=0
+10-28_12:12 gates rc=1 50 pass 5 fail
+10-28_12:13 start at dfc160c 
+10-28_12:15 old gates rc=0
+10-28_12:17 gates rc=0 55 pass 0 fail
+10-28_12:22 smoke rc=0
+10-28_15:46 start at cc11bd8 
+10-28_15:48 old gates rc=0
+10-28_15:50 gates rc=0 55 pass 0 fail
+10-28_15:58 smoke rc=0
+10-29_11:28 full rc=0
