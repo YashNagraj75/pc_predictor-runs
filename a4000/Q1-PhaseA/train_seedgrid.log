@@ -1,0 +1,55 @@
+training 6 runs x 17200 steps
+
+########## bp_sigreg_seedgrid_s0  (17200 steps) ##########
+[bp_sigreg_seedgrid_s0] step     0  |g|=2.754e-01  {'step': 0, 'grad_norm_preclip': 0.2754, 'loss_ff': 1.3138, 'loss': 1.3148, 'pred': 0.6862, 'sigreg': 13.2583, 'total': 1.3148}
+[bp_sigreg_seedgrid_s0] step  4000  |g|=5.525e-02  {'step': 4000, 'grad_norm_preclip': 0.0553, 'loss_ff': 0.5042, 'loss': 0.5068, 'pred': 0.3174, 'sigreg': 4.1056, 'total': 0.5068}
+[bp_sigreg_seedgrid_s0] step  8000  |g|=7.913e-02  {'step': 8000, 'grad_norm_preclip': 0.0791, 'loss_ff': 0.431, 'loss': 0.4331, 'pred': 0.2139, 'sigreg': 4.5964, 'total': 0.4331}
+[bp_sigreg_seedgrid_s0] step 12000  |g|=7.250e-02  {'step': 12000, 'grad_norm_preclip': 0.0725, 'loss_ff': 0.4088, 'loss': 0.4094, 'pred': 0.1913, 'sigreg': 4.5549, 'total': 0.4094}
+[bp_sigreg_seedgrid_s0] step 16000  |g|=7.431e-02  {'step': 16000, 'grad_norm_preclip': 0.0743, 'loss_ff': 0.3987, 'loss': 0.3987, 'pred': 0.1926, 'sigreg': 4.3159, 'total': 0.3987}
+[bp_sigreg_seedgrid_s0] step 17199  |g|=6.961e-02  {'step': 17199, 'grad_norm_preclip': 0.0696, 'loss_ff': 0.3859, 'loss': 0.3859, 'pred': 0.1962, 'sigreg': 3.9913, 'total': 0.3859}
+########## bp_sigreg_seedgrid_s0 done in 540s ##########
+
+########## pc_sigreg_T16_coupled_seedgrid_s0  (17200 steps) ##########
+[pc_sigreg_T16_coupled_seedgrid_s0] step     0  |g|=4.834e-03  {'step': 0, 'grad_norm_preclip': 0.0048, 'loss_ff': 1.3147, 'F_final': 0.0019, 'L_final': 1.1894}
+[pc_sigreg_T16_coupled_seedgrid_s0] step  4000  |g|=1.115e-03  {'step': 4000, 'grad_norm_preclip': 0.0011, 'loss_ff': 0.717, 'F_final': 0.0013, 'L_final': 0.6287}
+[pc_sigreg_T16_coupled_seedgrid_s0] step  8000  |g|=1.081e-03  {'step': 8000, 'grad_norm_preclip': 0.0011, 'loss_ff': 0.7109, 'F_final': 0.0018, 'L_final': 0.5918}
+[pc_sigreg_T16_coupled_seedgrid_s0] step 12000  |g|=9.770e-04  {'step': 12000, 'grad_norm_preclip': 0.001, 'loss_ff': 0.7038, 'F_final': 0.0019, 'L_final': 0.5789}
+[pc_sigreg_T16_coupled_seedgrid_s0] step 16000  |g|=1.161e-03  {'step': 16000, 'grad_norm_preclip': 0.0012, 'loss_ff': 0.6832, 'F_final': 0.0018, 'L_final': 0.5635}
+[pc_sigreg_T16_coupled_seedgrid_s0] step 17199  |g|=1.097e-03  {'step': 17199, 'grad_norm_preclip': 0.0011, 'loss_ff': 0.6942, 'F_final': 0.0018, 'L_final': 0.5744}
+########## pc_sigreg_T16_coupled_seedgrid_s0 done in 1094s ##########
+
+########## bp_sigreg_seedgrid_s1  (17200 steps) ##########
+[bp_sigreg_seedgrid_s1] step     0  |g|=2.722e-01  {'step': 0, 'grad_norm_preclip': 0.2722, 'loss_ff': 1.3175, 'loss': 1.3186, 'pred': 0.6635, 'sigreg': 13.7648, 'total': 1.3186}
+[bp_sigreg_seedgrid_s1] step  4000  |g|=6.728e-02  {'step': 4000, 'grad_norm_preclip': 0.0673, 'loss_ff': 0.5189, 'loss': 0.5234, 'pred': 0.3424, 'sigreg': 3.9624, 'total': 0.5234}
+[bp_sigreg_seedgrid_s1] step  8000  |g|=6.336e-02  {'step': 8000, 'grad_norm_preclip': 0.0634, 'loss_ff': 0.4359, 'loss': 0.4369, 'pred': 0.2198, 'sigreg': 4.5613, 'total': 0.4369}
+[bp_sigreg_seedgrid_s1] step 12000  |g|=7.024e-02  {'step': 12000, 'grad_norm_preclip': 0.0702, 'loss_ff': 0.3981, 'loss': 0.3988, 'pred': 0.1991, 'sigreg': 4.1924, 'total': 0.3988}
+[bp_sigreg_seedgrid_s1] step 16000  |g|=6.768e-02  {'step': 16000, 'grad_norm_preclip': 0.0677, 'loss_ff': 0.3571, 'loss': 0.3571, 'pred': 0.1778, 'sigreg': 3.7635, 'total': 0.3571}
+[bp_sigreg_seedgrid_s1] step 17199  |g|=7.390e-02  {'step': 17199, 'grad_norm_preclip': 0.0739, 'loss_ff': 0.3694, 'loss': 0.3694, 'pred': 0.1795, 'sigreg': 3.9765, 'total': 0.3694}
+########## bp_sigreg_seedgrid_s1 done in 517s ##########
+
+########## pc_sigreg_T16_coupled_seedgrid_s1  (17200 steps) ##########
+[pc_sigreg_T16_coupled_seedgrid_s1] step     0  |g|=4.231e-03  {'step': 0, 'grad_norm_preclip': 0.0042, 'loss_ff': 1.3185, 'F_final': 0.0015, 'L_final': 1.2219}
+[pc_sigreg_T16_coupled_seedgrid_s1] step  4000  |g|=1.030e-03  {'step': 4000, 'grad_norm_preclip': 0.001, 'loss_ff': 0.7126, 'F_final': 0.0011, 'L_final': 0.6423}
+[pc_sigreg_T16_coupled_seedgrid_s1] step  8000  |g|=1.216e-03  {'step': 8000, 'grad_norm_preclip': 0.0012, 'loss_ff': 0.6956, 'F_final': 0.0012, 'L_final': 0.6137}
+[pc_sigreg_T16_coupled_seedgrid_s1] step 12000  |g|=1.113e-03  {'step': 12000, 'grad_norm_preclip': 0.0011, 'loss_ff': 0.6961, 'F_final': 0.0014, 'L_final': 0.6058}
+[pc_sigreg_T16_coupled_seedgrid_s1] step 16000  |g|=1.332e-03  {'step': 16000, 'grad_norm_preclip': 0.0013, 'loss_ff': 0.694, 'F_final': 0.0014, 'L_final': 0.598}
+[pc_sigreg_T16_coupled_seedgrid_s1] step 17199  |g|=1.130e-03  {'step': 17199, 'grad_norm_preclip': 0.0011, 'loss_ff': 0.6689, 'F_final': 0.0013, 'L_final': 0.5795}
+########## pc_sigreg_T16_coupled_seedgrid_s1 done in 1104s ##########
+
+########## bp_sigreg_seedgrid_s2  (17200 steps) ##########
+[bp_sigreg_seedgrid_s2] step     0  |g|=3.187e-01  {'step': 0, 'grad_norm_preclip': 0.3187, 'loss_ff': 1.4121, 'loss': 1.4132, 'pred': 0.6785, 'sigreg': 15.3735, 'total': 1.4132}
+[bp_sigreg_seedgrid_s2] step  4000  |g|=6.648e-02  {'step': 4000, 'grad_norm_preclip': 0.0665, 'loss_ff': 0.5205, 'loss': 0.5239, 'pred': 0.3204, 'sigreg': 4.3904, 'total': 0.5239}
+[bp_sigreg_seedgrid_s2] step  8000  |g|=6.349e-02  {'step': 8000, 'grad_norm_preclip': 0.0635, 'loss_ff': 0.4059, 'loss': 0.4075, 'pred': 0.2159, 'sigreg': 4.0486, 'total': 0.4075}
+[bp_sigreg_seedgrid_s2] step 12000  |g|=7.920e-02  {'step': 12000, 'grad_norm_preclip': 0.0792, 'loss_ff': 0.3934, 'loss': 0.3943, 'pred': 0.1795, 'sigreg': 4.4761, 'total': 0.3943}
+[bp_sigreg_seedgrid_s2] step 16000  |g|=7.526e-02  {'step': 16000, 'grad_norm_preclip': 0.0753, 'loss_ff': 0.3933, 'loss': 0.3933, 'pred': 0.1869, 'sigreg': 4.3156, 'total': 0.3933}
+[bp_sigreg_seedgrid_s2] step 17199  |g|=7.325e-02  {'step': 17199, 'grad_norm_preclip': 0.0733, 'loss_ff': 0.3803, 'loss': 0.3803, 'pred': 0.1882, 'sigreg': 4.0314, 'total': 0.3803}
+########## bp_sigreg_seedgrid_s2 done in 512s ##########
+
+########## pc_sigreg_T16_coupled_seedgrid_s2  (17200 steps) ##########
+[pc_sigreg_T16_coupled_seedgrid_s2] step     0  |g|=5.972e-03  {'step': 0, 'grad_norm_preclip': 0.006, 'loss_ff': 1.4131, 'F_final': 0.002, 'L_final': 1.2827}
+[pc_sigreg_T16_coupled_seedgrid_s2] step  4000  |g|=1.402e-03  {'step': 4000, 'grad_norm_preclip': 0.0014, 'loss_ff': 0.7295, 'F_final': 0.0014, 'L_final': 0.6396}
+[pc_sigreg_T16_coupled_seedgrid_s2] step  8000  |g|=1.300e-03  {'step': 8000, 'grad_norm_preclip': 0.0013, 'loss_ff': 0.6967, 'F_final': 0.0015, 'L_final': 0.6002}
+[pc_sigreg_T16_coupled_seedgrid_s2] step 12000  |g|=1.324e-03  {'step': 12000, 'grad_norm_preclip': 0.0013, 'loss_ff': 0.6856, 'F_final': 0.0017, 'L_final': 0.5715}
+[pc_sigreg_T16_coupled_seedgrid_s2] step 16000  |g|=1.267e-03  {'step': 16000, 'grad_norm_preclip': 0.0013, 'loss_ff': 0.6926, 'F_final': 0.0017, 'L_final': 0.5792}
+[pc_sigreg_T16_coupled_seedgrid_s2] step 17199  |g|=1.277e-03  {'step': 17199, 'grad_norm_preclip': 0.0013, 'loss_ff': 0.6998, 'F_final': 0.0017, 'L_final': 0.5834}
+########## pc_sigreg_T16_coupled_seedgrid_s2 done in 1097s ##########
