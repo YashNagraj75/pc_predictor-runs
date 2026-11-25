@@ -1,0 +1,9 @@
+training 1 runs x 2000 steps
+
+########## pc_sigreg_T16_coupled_almpilot_s0  (2000 steps) ##########
+[pc_sigreg_T16_coupled_almpilot_s0] step     0  |g|=1.471e-01  {'step': 0, 'grad_norm_preclip': 0.1471, 'loss_ff': 1.3143, 'F_final': 2.4079, 'L_final': 1.0136, 'dual_norm': 34.9735}
+[pc_sigreg_T16_coupled_almpilot_s0] step   500  |g|=2.353e-02  {'step': 500, 'grad_norm_preclip': 0.0235, 'loss_ff': 0.7248, 'F_final': 1.534, 'L_final': 0.5553, 'dual_norm': 27.5511}
+[pc_sigreg_T16_coupled_almpilot_s0] step  1000  |g|=1.869e-02  {'step': 1000, 'grad_norm_preclip': 0.0187, 'loss_ff': 0.6995, 'F_final': 1.7061, 'L_final': 0.5742, 'dual_norm': 29.0906}
+[pc_sigreg_T16_coupled_almpilot_s0] step  1500  |g|=2.214e-02  {'step': 1500, 'grad_norm_preclip': 0.0221, 'loss_ff': 0.7492, 'F_final': 2.0298, 'L_final': 0.6856, 'dual_norm': 31.8258}
+[pc_sigreg_T16_coupled_almpilot_s0] step  1999  |g|=1.957e-02  {'step': 1999, 'grad_norm_preclip': 0.0196, 'loss_ff': 0.71, 'F_final': 1.7818, 'L_final': 0.5734, 'dual_norm': 29.6427}
+########## pc_sigreg_T16_coupled_almpilot_s0 done in 193s ##########
