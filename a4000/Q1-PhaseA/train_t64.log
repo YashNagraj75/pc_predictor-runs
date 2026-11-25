@@ -1,0 +1,28 @@
+training 1 runs x 17200 steps
+
+########## pc_sigreg_T64_coupled_t64alm_s0  (17200 steps) ##########
+[pc_sigreg_T64_coupled_t64alm_s0] step     0  |g|=3.481e-01  {'step': 0, 'grad_norm_preclip': 0.3481, 'loss_ff': 1.3139, 'F_final': 27.6295, 'L_final': 1.0865, 'dual_norm': 118.3607}
+[pc_sigreg_T64_coupled_t64alm_s0] step  2000  |g|=1.444e-01  {'step': 2000, 'grad_norm_preclip': 0.1444, 'loss_ff': 0.6869, 'F_final': 12.0735, 'L_final': 0.3668, 'dual_norm': 78.7227}
+[pc_sigreg_T64_coupled_t64alm_s0] step  4000  |g|=8.692e-01  {'step': 4000, 'grad_norm_preclip': 0.8692, 'loss_ff': 0.768, 'F_final': 11.9056, 'L_final': 0.2907, 'dual_norm': 78.2458}
+[pc_sigreg_T64_coupled_t64alm_s0] step  6000  |g|=8.178e-01  {'step': 6000, 'grad_norm_preclip': 0.8178, 'loss_ff': 0.7323, 'F_final': 11.9794, 'L_final': 0.3271, 'dual_norm': 78.4344}
+[pc_sigreg_T64_coupled_t64alm_s0] step  8000  |g|=1.337e+00  {'step': 8000, 'grad_norm_preclip': 1.337, 'loss_ff': 0.7438, 'F_final': 10.624, 'L_final': 0.2683, 'dual_norm': 73.8812}
+[pc_sigreg_T64_coupled_t64alm_s0] step 10000  |g|=1.108e+00  {'step': 10000, 'grad_norm_preclip': 1.1083, 'loss_ff': 0.7989, 'F_final': 11.5076, 'L_final': 0.3114, 'dual_norm': 76.8472}
+[pc_sigreg_T64_coupled_t64alm_s0] step 12000  |g|=1.536e+00  {'step': 12000, 'grad_norm_preclip': 1.5359, 'loss_ff': 0.7626, 'F_final': 9.9938, 'L_final': 0.2633, 'dual_norm': 71.7349}
+[pc_sigreg_T64_coupled_t64alm_s0] step 14000  |g|=1.152e+00  {'step': 14000, 'grad_norm_preclip': 1.1524, 'loss_ff': 0.747, 'F_final': 10.3983, 'L_final': 0.2287, 'dual_norm': 73.0844}
+[pc_sigreg_T64_coupled_t64alm_s0] step 16000  |g|=1.626e+00  {'step': 16000, 'grad_norm_preclip': 1.6257, 'loss_ff': 0.7554, 'F_final': 9.9035, 'L_final': 0.222, 'dual_norm': 71.414}
+[pc_sigreg_T64_coupled_t64alm_s0] step 17199  |g|=9.773e-01  {'step': 17199, 'grad_norm_preclip': 0.9773, 'loss_ff': 0.777, 'F_final': 10.2701, 'L_final': 0.2788, 'dual_norm': 72.6921}
+########## pc_sigreg_T64_coupled_t64alm_s0 done in 1892s ##########
+training 1 runs x 17200 steps
+
+########## pc_sigreg_T64_coupled_t64pc_s0  (17200 steps) ##########
+[pc_sigreg_T64_coupled_t64pc_s0] step     0  |g|=3.207e-02  {'step': 0, 'grad_norm_preclip': 0.0321, 'loss_ff': 1.314, 'F_final': 0.1469, 'L_final': 0.2508, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step  2000  |g|=1.843e-02  {'step': 2000, 'grad_norm_preclip': 0.0184, 'loss_ff': 0.7503, 'F_final': 0.0742, 'L_final': 0.1126, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step  4000  |g|=1.989e-02  {'step': 4000, 'grad_norm_preclip': 0.0199, 'loss_ff': 0.5808, 'F_final': 0.0586, 'L_final': 0.0869, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step  6000  |g|=2.191e-02  {'step': 6000, 'grad_norm_preclip': 0.0219, 'loss_ff': 0.5261, 'F_final': 0.0575, 'L_final': 0.0888, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step  8000  |g|=2.231e-02  {'step': 8000, 'grad_norm_preclip': 0.0223, 'loss_ff': 0.5174, 'F_final': 0.0507, 'L_final': 0.0742, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step 10000  |g|=2.049e-02  {'step': 10000, 'grad_norm_preclip': 0.0205, 'loss_ff': 0.4744, 'F_final': 0.046, 'L_final': 0.0675, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step 12000  |g|=1.970e-02  {'step': 12000, 'grad_norm_preclip': 0.0197, 'loss_ff': 0.4763, 'F_final': 0.0447, 'L_final': 0.0663, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step 14000  |g|=2.154e-02  {'step': 14000, 'grad_norm_preclip': 0.0215, 'loss_ff': 0.4655, 'F_final': 0.0466, 'L_final': 0.0673, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step 16000  |g|=1.962e-02  {'step': 16000, 'grad_norm_preclip': 0.0196, 'loss_ff': 0.4867, 'F_final': 0.0462, 'L_final': 0.0689, 'dual_norm': 0.0}
+[pc_sigreg_T64_coupled_t64pc_s0] step 17199  |g|=2.123e-02  {'step': 17199, 'grad_norm_preclip': 0.0212, 'loss_ff': 0.5246, 'F_final': 0.05, 'L_final': 0.0716, 'dual_norm': 0.0}
+########## pc_sigreg_T64_coupled_t64pc_s0 done in 1796s ##########
