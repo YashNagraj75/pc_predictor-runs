@@ -1,0 +1,74 @@
+matmul precision: highest | backend: cpu
+depth 3: H=2 width 600 params 520328
+  [PASS] d3 power-iteration spectral norm is an upper estimate within 5% of exact  1.4333 vs 1.4219
+  [PASS] d3 PC inference stable at c=0.25 (no increase > 1e-3 of the energy, net decrease)  2942.3 -> 1791.4
+  [PASS] d3 PC inference stable at c=0.5 (no increase > 1e-3 of the energy, net decrease)  2837.2 -> 1704.0
+  [PASS] d3 PC inference stable at c=1.0 (no increase > 1e-3 of the energy, net decrease)  2678.2 -> 1640.8
+  [PASS] d3 PC inference stable at c=2.0 (no increase > 1e-3 of the energy, net decrease)  2527.1 -> 1614.6
+  [PASS] d3 BP auto-decoder inference stable at c=0.25 (no increase > 1e-3 of the loss, net decrease)  3024.0 -> 2624.6
+  [PASS] d3 BP auto-decoder inference stable at c=0.5 (no increase > 1e-3 of the loss, net decrease)  2987.8 -> 2624.4
+  [PASS] d3 BP auto-decoder inference stable at c=1.0 (no increase > 1e-3 of the loss, net decrease)  2934.7 -> 2621.9
+     report: BP c=2.0: max increase 1.5e-03 of the loss, final 2637.9
+  [PASS] d3 PC inference stable at hidden precision 9  
+     report: d3 planted generator (2x init weights): PC belief at T=400 is 0.600 (relative) from its T=4000 value
+  [PASS] d3 PC weight updates are local (bottom ignores s, x_H; top ignores z)  0.0e+00 0.0e+00
+  [PASS] d3 exact generative fixed point is stationary (prior 0)  
+  [PASS] d3 inference independent of the batch (PC and BP)  2.4e-07
+  [PASS] d3 inference invariant to reordering the batch (PC and BP)  0.0e+00
+  [PASS] d3 pc: prediction changes with a seen view; T=0 equals G(amortised s0)  
+  [PASS] d3 bp: prediction changes with a seen view; T=0 equals G(amortised s0)  
+  [PASS] d3 pc/zero: predictive training runs finite (k seen [1, 2])  
+  [PASS] d3 pc/amort: predictive training runs finite (k seen [1, 2])  
+  [PASS] d3 bp/zero: predictive training runs finite (k seen [1, 2])  
+  [PASS] d3 bp/amort: predictive training runs finite (k seen [1, 2])  
+depth 10: H=9 width 256 params 592768
+  [PASS] d10 power-iteration spectral norm is an upper estimate within 5% of exact  1.6793 vs 1.6696
+  [PASS] d10 PC inference stable at c=0.25 (no increase > 1e-3 of the energy, net decrease)  2996.2 -> 1917.5
+  [PASS] d10 PC inference stable at c=0.5 (no increase > 1e-3 of the energy, net decrease)  2914.5 -> 1766.9
+  [PASS] d10 PC inference stable at c=1.0 (no increase > 1e-3 of the energy, net decrease)  2793.5 -> 1652.8
+  [PASS] d10 PC inference stable at c=2.0 (no increase > 1e-3 of the energy, net decrease)  2677.3 -> 1547.9
+  [PASS] d10 BP auto-decoder inference stable at c=0.25 (no increase > 1e-3 of the loss, net decrease)  3061.3 -> 2711.7
+  [PASS] d10 BP auto-decoder inference stable at c=0.5 (no increase > 1e-3 of the loss, net decrease)  3033.8 -> 2707.1
+  [PASS] d10 BP auto-decoder inference stable at c=1.0 (no increase > 1e-3 of the loss, net decrease)  2992.3 -> 2706.2
+     report: BP c=2.0: max increase 1.7e-03 of the loss, final 2717.2
+  [PASS] d10 PC inference stable at hidden precision 9  
+     report: d10 planted generator (2x init weights): PC belief at T=400 is 0.712 (relative) from its T=4000 value
+  [PASS] d10 PC weight updates are local (bottom ignores s, x_H; top ignores z)  0.0e+00 0.0e+00
+  [PASS] d10 exact generative fixed point is stationary (prior 0)  
+  [PASS] d10 inference independent of the batch (PC and BP)  0.0e+00
+  [PASS] d10 inference invariant to reordering the batch (PC and BP)  0.0e+00
+  [PASS] d10 pc: prediction changes with a seen view; T=0 equals G(amortised s0)  
+  [PASS] d10 bp: prediction changes with a seen view; T=0 equals G(amortised s0)  
+  [PASS] d10 pc/zero: predictive training runs finite (k seen [1, 2])  
+  [PASS] d10 pc/amort: predictive training runs finite (k seen [1, 2])  
+  [PASS] d10 bp/zero: predictive training runs finite (k seen [1, 2])  
+  [PASS] d10 bp/amort: predictive training runs finite (k seen [1, 2])  
+  [PASS] d3 ALM energy with no multipliers = PC energy  3067.0757 3067.0757
+  [PASS] d3 ALM with alpha=0 = plain PC (inference and weight gradient, relative)  0.0e+00 0.0e+00
+  [PASS] d3 ALM rho=1 c=0.25: inference finite  final residual^2 7.19e+01
+  [PASS] d3 ALM rho=1 c=0.5: inference finite  final residual^2 1.33e+02
+  [PASS] d3 ALM rho=1 c=1: inference finite  final residual^2 1.68e+02
+  [PASS] d3 ALM rho=4 c=0.25: inference finite  final residual^2 2.78e+00
+  [PASS] d3 ALM rho=4 c=0.5: inference finite  final residual^2 4.54e+00
+  [PASS] d3 ALM rho=4 c=1: inference finite  final residual^2 5.18e+00
+  [PASS] d3 ALM rho=16 c=0.25: inference finite  final residual^2 4.64e-02
+  [PASS] d3 ALM rho=16 c=0.5: inference finite  final residual^2 6.20e-02
+  [PASS] d3 ALM rho=16 c=1: inference finite  final residual^2 2.47e-01
+  [PASS] d3 ALM inference independent of the batch and its order (relative)  1.7e-07
+  [PASS] d3 ALM predictive training finite; credit logger runs (blocks = 3)  cos_ad_k1 [0.971, 0.958, 0.938, 0.936]
+  [PASS] d10 ALM energy with no multipliers = PC energy  3094.1870 3094.1870
+  [PASS] d10 ALM with alpha=0 = plain PC (inference and weight gradient, relative)  0.0e+00 0.0e+00
+  [PASS] d10 ALM rho=1 c=0.25: inference finite  final residual^2 1.60e+01
+  [PASS] d10 ALM rho=1 c=0.5: inference finite  final residual^2 3.18e+01
+  [PASS] d10 ALM rho=1 c=1: inference finite  final residual^2 6.39e+01
+  [PASS] d10 ALM rho=4 c=0.25: inference finite  final residual^2 1.00e+00
+  [PASS] d10 ALM rho=4 c=0.5: inference finite  final residual^2 2.00e+00
+  [PASS] d10 ALM rho=4 c=1: inference finite  final residual^2 4.87e+00
+  [PASS] d10 ALM rho=16 c=0.25: inference finite  final residual^2 5.46e-02
+  [PASS] d10 ALM rho=16 c=0.5: inference finite  final residual^2 9.21e-02
+  [PASS] d10 ALM rho=16 c=1: inference finite  final residual^2 3.59e-01
+  [PASS] d10 ALM inference independent of the batch and its order (relative)  0.0e+00
+  [PASS] d10 ALM predictive training finite; credit logger runs (blocks = 10)  cos_ad_k1 [0.767, 0.757, 0.731, 0.72]
+  [PASS] divergence detected and the returned weights are finite  
+  [PASS] exploded(): decaying run not flagged; late blow-up in held-out error or in energy flagged  
+ALL PASS
