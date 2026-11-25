@@ -1,0 +1,200 @@
+from dataclasses import dataclass, field, asdict
+from typing import Literal, Optional, Tuple
+import json
+
+
+@dataclass(frozen=True)
+class DataCfg:
+    dataset: Literal["galaxy10", "mnist", "cifar10"] = "galaxy10"
+    root: str = "../data"
+    img_size: int = 32              # all views resized to this; FC encoder needs fixed dim
+    grayscale: bool = False
+    n_train: int = -1               # -1 = all
+    n_test: int = 2000
+    seed: int = 0
+
+    # ---- view generation (LeJEPA Sec 5) --------------------------------
+    # Algorithm 2: "For non-ViT architectures (e.g., ResNet),
+    #               set global_views = all_views."
+    # Our encoder is a fully-connected residual net -> non-ViT -> V_g == V.
+    n_views: int = 4
+    n_global_views: int = 4         # keep == n_views for the FC encoder
+    crop_area: Tuple[float, float] = (0.4, 1.0)
+    max_rotation: float = 3.14159265   # radians; galaxies have no canonical
+                                       # orientation, so full rotation is valid.
+                                       # Set to 0.0 for MNIST (digits do).
+    hflip: bool = True
+    brightness: float = 0.2
+    contrast: float = 0.2
+
+    @property
+    def input_dim(self) -> int:
+        c = 1 if self.grayscale else 3
+        return self.img_size * self.img_size * c
+
+
+# Per-dataset view settings for the frozen backbone and latents (plan_datasets_precision.md, 2026-10-30).
+# galaxy10 is the default DataCfg unchanged; MNIST digits have an orientation (no rotation, no flip).
+def data_preset(name):
+    if name == "galaxy10":
+        return DataCfg()
+    if name == "mnist":
+        return DataCfg(dataset="mnist", grayscale=True, max_rotation=0.0, hflip=False)
+    if name == "cifar10":
+        return DataCfg(dataset="cifar10", max_rotation=0.2617993878, hflip=True)
+    raise ValueError(name)
+
+
+# muPC-parameterised fully-connected residual net (see mu_pc.ipynb).
+@dataclass(frozen=True)
+class EncoderCfg:
+    depth: int = 8                  # number of residual blocks
+    width: int = 128
+    embed_dim: int = 128            # K -- dimension SIGReg acts on
+    act: Literal["relu", "tanh", "gelu"] = "relu"
+    parameterisation: Literal["mupc", "sp"] = "mupc"
+
+
+# LeJEPA Definition 2 + Algorithm 1.
+@dataclass(frozen=True)
+class SIGRegCfg:
+    num_slices: int = 256           # |A|; Table 1(a) sweeps 512/2048, 256 is cheap
+    t_max: float = 5.0              # integration range [-t_max, t_max]
+    n_points: int = 17              # quadrature points; Table 1(a): 5/17/41 all fine
+    scale_by_n: bool = True         # classical EP scales the integral by N
+    resample_directions: bool = True  # paper: resampling each STEP is a free win.
+                                      # NOTE: must stay FIXED within one PC
+                                      # relaxation, else the energy is not stationary.
+    lambd: float = 0.05             # weight on SIGReg vs the invariance term
+
+
+# Predictive-coding inference (relaxation) settings.
+@dataclass(frozen=True)
+class PCCfg:
+    T: int = 16                     # inference steps per weight update.
+                                    # THE independent variable of this study.
+    # PER-SAMPLE activity step (the paper's eta_h).  Replaces the old
+    # `activity_lr`, which was applied straight to jpc's BATCH-MEAN energy
+    # gradient and so realised eta_h/B per sample: at activity_lr=0.5,
+    # batch_size=256 the realised step was 0.002 against a stable optimum near
+    # 0.25, and the relaxation never left its initialisation.  pcalm.relax
+    # multiplies this by the batch size.  Set it from diag_inference.py.
+    eta_h: float = 0.25
+    # --- augmented Lagrangian (PC-ALM) ---------------------------------
+    # alpha = 0 is plain PC: the duals stay zero and the energy collapses to
+    # the PC energy, so the PC arm is the alpha=0 special case of the PC-ALM
+    # code path rather than a separate implementation.
+    alpha: float = 0.0              # dual rate
+    rho: float = 1.0                # penalty strength; rho=1 == jpc's energy
+    out_scale: Optional[float] = None   # output-layer precision (jpc's
+                                        # output_energy_scaling); None == 1
+    weight_credit_timing: Literal["pre_dual", "post_dual"] = "pre_dual"
+    init: Literal["feedforward", "zeros"] = "feedforward"
+    # How the output node is driven when the loss is not a per-sample target.
+    #   "coupled" : eps_out = dL/dz_out recomputed every relaxation step from the
+    #               current batch.  Exact, but couples samples -> the energy is
+    #               no longer a sum of per-sample energies.
+    #   "frozen"  : eps_out = dL/dz_out computed ONCE from the feedforward
+    #               embeddings and held fixed for all T steps.  Factorises over
+    #               the batch.  Direct analogue of the `fixed_prediction`
+    #               assumption.  <-- build and test BOTH.
+    output_drive: Literal["coupled", "frozen"] = "coupled"
+
+
+# Sparse prior on one layer. Spec: wiki 'Method - Sparse PC-ALM arms spec'.
+# "none": original encoder, must reproduce bit-for-bit (golden_pcalm_alpha*.npz).
+# "B": L1 prior on z_s, multiplier at s removed; z_s = S_{beta/rho}(f_s)
+# "C": multiplier removed + dict head: (beta_g/2)||z_s-D a||^2 + gamma||a||_1, via t ISTA steps
+# B and C make layer s NON-residual and rescale W_s by sqrt(L) at init.
+@dataclass(frozen=True)
+class SparseCfg:
+    case: Literal["none", "B", "C", "D"] = "none"
+    layer: int = 5                  # s: index into the activity list (interior)
+    beta: float = 0.0               # case B L1 weight; threshold beta/rho
+    gamma: float = 0.0              # case C L1 weight on the code a
+    beta_g: float = 1.0             # case C top-down coupling
+    dict_mult: int = 2              # m = dict_mult * width (overcomplete)
+    T_test: int = 16                # case C deployed ISTA steps
+    mu_momentum: float = 0.99       # case D: EMA of the head-layer mean used for centring
+    beta_r: float = 0.0             # case E (= case D + beta_r > 0): code -> pixel reconstruction anchor
+    code_k: int = 1                 # case D/E: ISTA code steps per relaxation step; deployed = T_test * code_k
+    step_frac: float = 0.9          # ISTA step = step_frac / Lipschitz
+    below_hard: bool = True         # keep the multipliers on layers below s (D3)
+    # per-sample normalisation of f_s before the threshold / LASSO, both arms:
+    #   f~_s = fs_norm * f_s / ||f_s||.  Added 2026-10-07: without it both arms
+    #   sparsified by silencing the ReLU input to layer s (smoke: active fraction
+    #   0.20 -> 0.007).  fs_norm fixed a priori ~ the measured init scale
+    #   (||f_s|| = 1.79, ||z_{s-1}|| = 2.30), not tuned.
+    normalise_fs: bool = True
+    fs_norm: float = 2.0
+    # case B: per-sample relaxation step at layer s, in units of 1/rho.  Layer s
+    # has no multiplier and relaxed too slowly at eta_h (fixed-point residual
+    # 1.98 at T=16).  0.5, not 1: z_s also enters r_{s+1} with J ~ I, so the
+    # local curvature is ~2 rho.
+    s_step: float = 0.5
+    # ---- case D (wiki 'Method - Sparse side-head arm plan'): side dictionary
+    # heads on the RESIDUAL stream, every multiplier kept, encoder unchanged.
+    # Head l adds w_l [ beta_g/2 ||z_l - D_l a_l||^2 + gamma_l ||a_l||_1 ].
+    heads: Tuple[int, ...] = ()            # activity indices, e.g. (5,) .. (3,4,5,6,7)
+    head_ws: Tuple[float, ...] = ()        # w_l per head (fixed total, split equally)
+    gammas: Tuple[float, ...] = ()         # gamma_l per head (20% active at init)
+
+
+@dataclass(frozen=True)
+class OptCfg:
+    param_lr: float = 1e-3
+    batch_size: int = 256           # Table 1(c): 256-512 best
+    n_steps: int = 2000
+    eval_every: int = 200
+    grad_clip: float = 1.0
+    seed: int = 0
+    # LeJEPA MINIMAL.md L154-161: AdamW(weight_decay=5e-2 ViT / 5e-4
+    # ResNet) with LinearLR warmup 1 epoch then CosineAnnealingLR.
+    # 11008 samples / bs 256 = 43 steps per epoch; 100 steps ~ 2.3 epochs.
+    lr_schedule: Literal["warmup_cosine", "constant"] = "warmup_cosine"
+    warmup_steps: int = 100
+    weight_decay: float = 5e-4      # ResNet value; ours is a residual net
+
+
+@dataclass(frozen=True)
+class RunCfg:
+    arm: Literal["bp", "pc"] = "pc"
+    use_sigreg: bool = True         # False -> invariance only (collapse control)
+    # "bn": parameterless BatchNorm over the pooled (V*B) axis before BOTH
+    # loss terms, standing in for LeJEPA's BatchNorm1d projector.
+    # "none" reproduces the original (collapsing) setup.
+    projector: Literal["bn", "none"] = "bn"
+    tag: str = ""
+    out_dir: str = "runs"
+    data: DataCfg = field(default_factory=DataCfg)
+    enc: EncoderCfg = field(default_factory=EncoderCfg)
+    sig: SIGRegCfg = field(default_factory=SIGRegCfg)
+    pc: PCCfg = field(default_factory=PCCfg)
+    opt: OptCfg = field(default_factory=OptCfg)
+    sparse: SparseCfg = field(default_factory=SparseCfg)
+
+    @property
+    def name(self) -> str:
+        bits = [self.arm, "sigreg" if self.use_sigreg else "nosigreg"]
+        if self.arm == "pc":
+            bits += [f"T{self.pc.T}", self.pc.output_drive]
+        if self.tag:
+            bits.append(self.tag)
+        return "_".join(bits)
+
+    def to_json(self, path=None):
+        s = json.dumps(asdict(self), indent=2, default=str)
+        if path:
+            open(path, "w").write(s)
+        return s
+
+
+# The 2x2 (x2) grid Q1 actually needs.
+# arm x use_sigreg -> the four Phase A runs.
+# See README section 'The runs'.
+def q1_grid(**overrides):
+    out = []
+    for arm in ("bp", "pc"):
+        for use_sigreg in (True, False):
+            out.append(RunCfg(arm=arm, use_sigreg=use_sigreg, **overrides))
+    return out
