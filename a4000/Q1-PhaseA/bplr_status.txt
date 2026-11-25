@@ -1,0 +1,4 @@
+11-02_11:12 [bplr] start at 5d2ef81
+11-02_11:13 [bplr] selected lr 0.01: {"lr":0.01,"val_nmse":0.28911951184272766,"edge_lr":true,"all":[{"lr":0.001,"val_nmse":0.3502914607524872,"finite":true},{"lr":0.003,"val_nmse":0.31372806429862976,"finite":true},{"lr":0.01,"val_nmse":0.28911951184272766,"finite":true}]}
+11-02_11:18 [bplr] runs ok: 9 of 9
+11-02_11:18 [bplr] DONE
