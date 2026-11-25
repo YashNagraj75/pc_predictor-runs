@@ -1,0 +1,6 @@
+10-27_16:53 start at bbc4176
+10-27_16:55 gates rc=1 58 pass 5 fail
+10-27_17:06 start at 70c853b
+10-27_17:08 gates rc=0 63 pass 0 fail
+10-27_17:10 smoke rc=0
+10-27_18:48 full rc=0
