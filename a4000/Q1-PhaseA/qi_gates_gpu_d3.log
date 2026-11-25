@@ -1,0 +1,28 @@
+  [PASS] d3 default pc_infer == pre-change pc_infer  0.0e+00
+  [PASS] d3 default pc_wgrads == pre-change  
+  [PASS] d3 fu_grads('pc') == pc_wgrads  0.0e+00
+  [PASS] d3 fu_grads('qi') == hand-written outer products at a relaxed state  
+  [PASS] d3 fu_grads('fixed') == hand-written outer products at a relaxed state  
+  [PASS] d3 wavefront: level j first moves at t=j, s at t=H (no spike)  
+  [PASS] d3 lit1: wavefront step on level j is exactly -grad  
+  [PASS] d3 stable: s step at t=H uses c_spike/c x base step  rel err 1.1e-06 (vs no-spike 0.95)
+  [PASS] d3 phase 2 ignores the spike  
+     d3 gpc_pc_d3_zero_spklit1_c2_T20: diverged=False pred_err=[130.41, 127.09, 194.58, 128.71]
+     report: lit1 finite after 6 steps: True
+     d3 gpc_pc_d3_zero_spkstable_c0.1_cs2_T20: diverged=False pred_err=[130.0, 126.59, 191.34, 126.35]
+  [PASS] d3 gpc_pc_d3_zero_spkstable_c0.1_cs2_T20: finite after 6 training steps  
+     d3 gpc_pc_d3_zero_c01_c0.1_T20: diverged=False pred_err=[130.02, 126.62, 191.24, 126.29]
+  [PASS] d3 gpc_pc_d3_zero_c01_c0.1_T20: finite after 6 training steps  
+     d3 gpc_pc_d3_zero_fuqi_c2_T20: diverged=False pred_err=[130.13, 126.79, 193.5, 128.24]
+  [PASS] d3 gpc_pc_d3_zero_fuqi_c2_T20: finite after 6 training steps  
+     d3 gpc_pc_d3_zero_fufixed_c2_T20: diverged=False pred_err=[130.13, 126.79, 192.92, 127.55]
+  [PASS] d3 gpc_pc_d3_zero_fufixed_c2_T20: finite after 6 training steps  
+     d3 gpc_pc_d3_zero_fufixed_c01_c0.1_T20: diverged=False pred_err=[130.02, 126.62, 191.06, 126.15]
+  [PASS] d3 gpc_pc_d3_zero_fufixed_c01_c0.1_T20: finite after 6 training steps  
+     d3 gpc_pc_d3_zero_spkstable_fufixed_c0.1_cs2_T20: diverged=False pred_err=[130.0, 126.59, 191.05, 126.14]
+  [PASS] d3 gpc_pc_d3_zero_spkstable_fufixed_c0.1_cs2_T20: finite after 6 training steps  
+     d3 gpc_pc_d3_zero_spkstable_fufixed_qireg_c0.1_cs2_T3: diverged=False pred_err=[130.01, 126.6, 190.82, 125.99]
+  [PASS] d3 gpc_pc_d3_zero_spkstable_fufixed_qireg_c0.1_cs2_T3: finite after 6 training steps  
+  [PASS] d3 new names differ from stage-1 'gpc_pc_d3_zero'  
+  [PASS] all 8 arm names distinct and carry the step scale  ['gpc_pc_d3_zero_c01_c0.1_T20', 'gpc_pc_d3_zero_fufixed_c01_c0.1_T20', 'gpc_pc_d3_zero_fufixed_c2_T20', 'gpc_pc_d3_zero_fuqi_c2_T20', 'gpc_pc_d3_zero_spklit1_c2_T20', 'gpc_pc_d3_zero_spkstable_c0.1_cs2_T20', 'gpc_pc_d3_zero_spkstable_fufixed_c0.1_cs2_T20', 'gpc_pc_d3_zero_spkstable_fufixed_qireg_c0.1_cs2_T3']
+ALL PASS
