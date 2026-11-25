@@ -1,0 +1,5 @@
+  [PASS] d3 (float64) s fixed, observation weight 1e-4: PC weight gradient = BP auto-decoder direction (cos > 0.9999)  cos 1.0000000
+  [PASS] d3 (float64) hidden precision 1e4: relaxed hidden levels = top-down pass, gradient = BP direction (cos > 0.999)  cos 1.000000
+  [PASS] d10 (float64) s fixed, observation weight 1e-4: PC weight gradient = BP auto-decoder direction (cos > 0.9999)  cos 0.9999997
+  [PASS] d10 (float64) hidden precision 1e4: relaxed hidden levels = top-down pass, gradient = BP direction (cos > 0.999)  cos 1.000000
+ALL PASS
