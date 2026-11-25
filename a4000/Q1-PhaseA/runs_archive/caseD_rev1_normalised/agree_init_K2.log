@@ -1,0 +1,4 @@
+runs/pc_sigreg_T16_coupled_hK2pilot_s0 init=True  head_resid=0.0054
+   task : enc cos 0.18 0.15 0.15 0.24 0.43 0.71 0.88 0.91 0.94 0.96 | ratio 0.02 0.04 0.08 0.11 0.13 0.15 0.30 0.48 0.61 0.88 | D cos 1.00 1.00
+   heads: enc cos(<=max head) 0.84 0.89 0.93 0.96 0.97 0.62 | ratio 0.07 0.16 0.31 0.44 0.50 0.69 | D cos 1.00 1.00 ratio 1.00 1.00
+   |g_head|/|g_task| enc 0.24 0.25 0.25 0.24 0.25 0.17 0.00 0.00 0.00 0.00

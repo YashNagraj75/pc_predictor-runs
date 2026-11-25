@@ -1,0 +1,74 @@
+PC-ALM gates
+  [PASS] al_energy(duals=None) == jpc energy  ours=7.49337721 jpc=7.49337816 rel=1.27e-07
+  [PASS] al_energy(duals=0) == al_energy(duals=None)
+  [PASS] residuals vanish at the feedforward init  max|r| = 3.58e-07
+  [PASS] alpha=0 matches plain PC weight gradient  rel diff=8.70e-06  cos=1.00000012
+  [PASS] duals stay 0 at alpha=0  max|lam| = 0.00e+00
+  [PASS] duals become nonzero at alpha=1  ||lam|| = 2.112983
+  [PASS] relaxation is batch-size invariant (per-sample objective)  moves = B=2:0.009976, B=8:0.009976, B=32:0.009976  spread=1.000x
+      alpha=0  per-layer activity move: 1.7e-04 6.7e-04 2.3e-03 6.5e-03 1.6e-02 3.5e-02 6.8e-02 1.1e-01 1.7e-01 6.7e-01
+      alpha=1  per-layer activity move: 3.4e-02 7.2e-02 1.1e-01 1.5e-01 1.9e-01 2.1e-01 2.2e-01 2.1e-01 2.1e-01 5.5e-01
+      layers moving >1e-3:  alpha=0 -> 8,  alpha=1 -> 10
+
+ALL PASS
+Sparse-arm gates
+  [PASS] case none == pre-edit code (alpha=0): 93 arrays bit-identical  mismatched=[] worst_rel=0.00e+00
+  [PASS] case none == pre-edit code (alpha=1): 93 arrays bit-identical  mismatched=[] worst_rel=0.00e+00
+  [PASS] init_params(case none) == E.init
+  [PASS] config.json without a 'sparse' block -> case none
+  [PASS] B/C: skip[s] removed, W_s *= sqrt(L), every other layer untouched  skip=True Ws=True rest=True
+  [PASS] variance match: ||z_s|| / ||z_{s-1}|| is O(1)  ratio=1.664
+  [PASS] al_energy == jpc.pc_energy_fn with skip[s] = None  ours=0.8681579 jpc=0.8681579
+  [PASS] B: deploy(beta=0) == jpc forward of the modified net  max rel err=7.05e-07
+  [PASS] C: deploy(beta_g=0 dial) == jpc forward of the modified net  max rel err=7.05e-07
+  [PASS] B: deployed z_s == S_{beta/rho}(f_s)  active frac=0.578
+  [PASS] B: prox-gradient on z_s converges to S_{beta/rho}(f_s)  rel err=1.77e-07
+  [PASS] B(beta=0, alpha=0) relax == original relax on the same net  max rel err=6.00e-07
+  [PASS] alpha_s = 0, others alpha; below_soft zeroes l < s; none unchanged  hard=[1.0, 1.0, 0.0, 1.0, 1.0, 1.0] soft=[0.0, 0.0, 0.0, 1.0, 1.0, 1.0] none=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  [PASS] B: lambda_s stays exactly 0 while lambda_{s+1} grows  |lam_s|max=0.0e+00 |lam_s+1|max=3.80e-01
+  [PASS] C: ISTA energy non-increasing in t  0.6139 0.4731 0.4052 0.3250 0.2898 0.2629 0.2592
+  [PASS] C: ISTA(5000) matches FISTA(3000); FISTA satisfies KKT  gap=-1.86e-09 kkt/gamma=2.38e-06
+  [PASS] C: a^(0) == one ISTA step from a = 0
+  [PASS] C: deployed z_s is the stationary point of the two quadratics  max|grad|=1.19e-07
+  [PASS] C: min_z of the quadratics == mu/2 ||f - D a||^2  0.765312 vs 0.765312
+  [PASS] C: F + L non-increasing over relaxation at alpha = 0  2.11663 1.98062 1.90603 1.84027 1.80593 1.75498 ...
+  [PASS] C: dF/dD == beta_g (D a - z_s) a^T / B  (summed over views)  rel err=6.80e-08  active_frac=0.897
+  [PASS] C: project() restores unit-norm columns
+  [PASS] C: params (model, skip, D) serialise round-trip
+  [PASS] B: settled sparse variable of sample 0 is batch-size invariant  max rel diff over B=(2, 8, 32): 2.32e-07
+  [PASS] C: settled sparse variable of sample 0 is batch-size invariant  max rel diff over B=(2, 8, 32): 3.35e-07
+  [PASS] C1-B: BP through the deployed net is finite and reaches W_s  |dW_s|=1.88e-01
+  [PASS] C2: BP through the deployed net is finite and reaches W_s  |dW_s|=8.31e-02 |dD|=1.01e+00 head=1.1369
+  [PASS] PC-B: weight gradients finite; F_first/active_frac logged  F0=5.4027 F_T=5.9114 active=0.572 act_growth=1.007
+  [PASS] PC-C: weight gradients finite; F_first/active_frac logged  F0=2.3998 F_T=2.1467 active=0.889 act_growth=1.014
+  [PASS] C1-B objective == task + sum over views of the deployed energy  total=6.17741 task=0.77473 sum_v head=5.40269
+  [PASS] C2 objective == task + sum over views of the deployed energy  total=1.89951 task=0.76264 sum_v head=1.13686
+  [PASS] PC-B vs C1-B, zero task drive, seed 0: |g_pc|/|g_bp| in [0.5, 2] on layers <= s  ratio 0.99 0.85 1.00  (cos 0.95 0.95 0.95)
+  [PASS] PC-C vs C2, zero task drive, seed 0: dictionary cos > 0.9, |g_pc|/|g_bp| in [0.4, 1.5]  cos=0.972 ratio=0.63
+  [PASS] PC-B vs C1-B, zero task drive, seed 1: |g_pc|/|g_bp| in [0.5, 2] on layers <= s  ratio 0.86 0.79 1.24  (cos 0.66 0.76 0.77)
+  [PASS] PC-C vs C2, zero task drive, seed 1: dictionary cos > 0.9, |g_pc|/|g_bp| in [0.4, 1.5]  cos=0.971 ratio=0.64
+  [PASS] B: ||f_s|| == fs_norm per sample; relaxation prediction == deployed f_s  norms 2.0000..2.0000 (c=2.0) rel diff=0.0e+00
+  [PASS] C: ||f_s|| == fs_norm per sample; relaxation prediction == deployed f_s  norms 2.0000..2.0000 (c=2.0) rel diff=0.0e+00
+  [PASS] B(beta=0): energy with normalisation is 0 at the deployed forward pass  F=0.00e+00
+  [PASS] normalised f_s is invariant to rescaling W_s
+  [PASS] B (full size): layer-s step brings the fixed-point residual at s below 0.1 at T=16  shared eta_h: 0.288  s_step=0.5: 0.044
+  [PASS] B/pc: gradients finite with an all-zero view in the batch
+  [PASS] B/bp: gradients finite with an all-zero view in the batch
+  [PASS] C/pc: gradients finite with an all-zero view in the batch
+  [PASS] C/bp: gradients finite with an all-zero view in the batch
+  [PASS] D: encoder == case none init; D_l shared across nested sets; unit columns; all alphas kept; no norm  enc=True shared=True unit=True alphas=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  [PASS] D: invalid head sets are refused (input/embedding layer, duplicates, length mismatch)  accepted: []
+  [PASS] D: w = 0 reproduces PC-ALM (activities, encoder grads) and gives zero dictionary grad  acts 0.00e+00 grads 0.00e+00 |dD| 0.0e+00
+  [PASS] D: deployed codes converge to the LASSO optimum (rel. suboptimality falls, < 1e-3 at t=512)  2.63e-02 3.13e-06 0.00e+00
+  [PASS] D: relaxed head layers stay near their predictions (multiplier kept), codes finite  rel resid 0.032 0.032
+  [PASS] D: BP-D objective == task + head energy summed over views  tot=1.035308 task=0.762739 head=0.272569
+  [PASS] D: zero task drive, T=200, seed 0: dictionary cos > 0.95; encoder cos > 0.75 and ratio in [0.7, 1.6] on layers <= max head  D cos 1.000 1.000 ratio 1.00 1.00 | W cos 0.936 0.946 0.963 0.970 ratio 1.18 1.14 1.14 1.05
+  [PASS] D: zero task drive, T=200, seed 1: dictionary cos > 0.95; encoder cos > 0.75 and ratio in [0.7, 1.6] on layers <= max head  D cos 1.000 1.000 ratio 1.00 1.00 | W cos 0.915 0.925 0.945 0.907 ratio 1.00 1.01 1.00 0.96
+  [PASS] D: sample 0's settled codes are batch-size invariant  0.00e+00
+  [PASS] D: an all-zero view gives finite PC and BP gradients  [True, True]
+  [PASS] D (pc): trains, keeps unit-norm D, round-trips, logs head health  unit=True roundtrip=True health=True
+  [PASS] D (bp): trains, keeps unit-norm D, round-trips, logs head health  unit=True roundtrip=True health=True
+  [PASS] D: pair gate evaluates case-D criteria without schema errors  ['PC: head 2: 189 distinct supports < 50% of 1024 rows (collapse)', 'PC: head 3: 225 distinct supports < 50% of 1024 rows (collapse)', 'BP: head 2: 220 distinct supports < 50% of 1024 rows (collapse)', 'BP: head 3: 256 distinct supports < 50% of 1024 rows (collapse)']
+  [PASS] D: head input normalised per row; head energy scale-invariant; BP-D code detached  rows=True invariant=True detached=True (0.0e+00)
+
+ALL PASS
