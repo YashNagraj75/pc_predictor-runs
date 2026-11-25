@@ -1,0 +1,15 @@
+[gpc_bp_d10_zero c0.25 s0] {"step": 1, "k": 3, "E": 147.7959, "E2": 0.0, "E_init": 191.38, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 49.7424, "lam_rel": NaN, "pred_err": 50.6036, "rel_last_step_s": 0.0061, "res_rel": NaN, "s_norm": 4.4964}  12s
+[gpc_bp_d10_zero c0.25 s0] {"step": 30, "k": 2, "E": 58.112, "E2": 0.0, "E_init": 132.1061, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 26.2596, "lam_rel": NaN, "pred_err": 85.7895, "rel_last_step_s": 0.001, "res_rel": NaN, "s_norm": 3.5533}  74s
+gpc_bp_d10_zero bp s0 k_seen          clean        k=1 T=400 nmse 0.7194 retr1 0.0635
+gpc_bp_d10_zero bp s0 k_seen_settled  clean        k=1 T=20 nmse 0.7399 retr1 0.0063
+gpc_bp_d10_zero bp s0 k_seen          clean        k=2 T=400 nmse 0.6492 retr1 0.0752
+gpc_bp_d10_zero bp s0 k_seen_settled  clean        k=2 T=20 nmse 0.7221 retr1 0.0067
+gpc_bp_d10_zero bp s0 k_seen          clean        k=3 T=400 nmse 0.6247 retr1 0.0765
+gpc_bp_d10_zero bp s0 k_seen_settled  clean        k=3 T=20 nmse 0.7155 retr1 0.0055
+gpc_bp_d10_zero bp s0 robust          noise=0.1    k=1 T=400 nmse 0.7638 retr1 0.0480
+gpc_bp_d10_zero bp s0 robust          noise=0.2    k=1 T=400 nmse 0.8803 retr1 0.0295
+gpc_bp_d10_zero bp s0 robust          occlude=0.25 k=1 T=400 nmse 1.1506 retr1 0.0102
+gpc_bp_d10_zero bp s0 robust          noise=0.1    k=2 T=400 nmse 0.6642 retr1 0.0712
+gpc_bp_d10_zero bp s0 robust          noise=0.2    k=2 T=400 nmse 0.7024 retr1 0.0545
+gpc_bp_d10_zero bp s0 robust          occlude=0.25 k=2 T=400 nmse 0.7782 retr1 0.0338
+DIAG {"Ttrain": {"nmse": 0.6491511464118958, "nmse_shuffled_s": 1.4695651531219482, "s_norm": 3.415149450302124, "rel_last_step_s": 0.0010111075825989246, "amort_rel_dist": null}, "settled": {"nmse": 0.7220972180366516, "nmse_shuffled_s": 1.145019769668579, "s_norm": 1.0766572952270508, "rel_last_step_s": 0.032569888047873974, "amort_rel_dist": null}, "nmse_tau_only": 1.0090718269348145, "nmse_copy_mean_seen": 0.7459418177604675, "worse_than_tau_only": false, "versions": {"jax": "0.11.0", "device": "cuda:0"}}

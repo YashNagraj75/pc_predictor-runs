@@ -1,0 +1,2 @@
+{"reproduction_rel_err": 0.0, "n_train": 15675, "n_test": 2000, "backbone_sha256": "cccc510ecf4b7689"}
+gsel {'gpc_pc_d10_zero': 2.0, 'gpc_bp_d10_zero': 0.25}

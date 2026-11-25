@@ -1,0 +1,6 @@
+training 1 runs x 200 steps
+
+########## bp_sigreg_enc_s0  (200 steps) ##########
+[bp_sigreg_enc_s0] step     0  |g|=4.316e-02  {'step': 0, 'grad_norm_preclip': 0.0432, 'loss_ff': 0.7442, 'loss': 0.7443, 'pred': 0.5815, 'sigreg': 3.8369, 'total': 0.7443}
+[bp_sigreg_enc_s0] step   199  |g|=2.751e-02  {'step': 199, 'grad_norm_preclip': 0.0275, 'loss_ff': 0.5981, 'loss': 0.5981, 'pred': 0.4912, 'sigreg': 2.6288, 'total': 0.5981}
+########## bp_sigreg_enc_s0 done in 32s ##########

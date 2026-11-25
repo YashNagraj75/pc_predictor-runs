@@ -1,0 +1,19 @@
+[ffres_bp_d10_lr0.001 s1] step 1 loss 108.6700  8s
+[ffres_bp_d10_lr0.001 s1] step 500 loss 25.2024  15s
+[ffres_bp_d10_lr0.001 s1] step 1000 loss 21.6711  22s
+[ffres_bp_d10_lr0.001 s1] step 1500 loss 20.1141  28s
+[ffres_bp_d10_lr0.001 s1] step 2000 loss 19.4873  35s
+[ffres_bp_d10_lr0.001 s1] step 2500 loss 20.5210  42s
+[ffres_bp_d10_lr0.001 s1] step 3000 loss 20.5259  48s
+[ffres_bp_d10_lr0.001 s1] step 3500 loss 20.2213  55s
+[ffres_bp_d10_lr0.001 s1] step 4000 loss 18.9993  62s
+[ffres_bp_d10_lr0.001 s1] step 4500 loss 20.2313  68s
+[ffres_bp_d10_lr0.001 s1] step 5000 loss 17.4590  75s
+[ffres_bp_d10_lr0.001 s1] step 5500 loss 19.2812  82s
+[ffres_bp_d10_lr0.001 s1] step 6000 loss 19.0241  88s
+TEST {"nmse": 0.3090066611766815, "retr1": 0.52}
+ffres_bp_d10 bp s1 pairs   clean        k=1 T=     nmse 0.3090 cos 0.8223 retr1 0.5200
+ffres_bp_d10 bp s1 k_seen  clean        k=1 T=     nmse 0.3103 cos 0.8214 retr1 0.5215
+ffres_bp_d10 bp s1 robust  noise=0.1    k=1 T=     nmse 0.3486 cos 0.7919 retr1 0.4403
+ffres_bp_d10 bp s1 robust  noise=0.2    k=1 T=     nmse 0.4393 cos 0.7224 retr1 0.2705
+ffres_bp_d10 bp s1 robust  occlude=0.25 k=1 T=     nmse 0.9733 cos 0.4347 retr1 0.0478

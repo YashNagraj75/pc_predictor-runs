@@ -1,0 +1,14 @@
+training 1 runs x 17200 steps
+
+########## bp_sigreg_enc_s0  (17200 steps) ##########
+[bp_sigreg_enc_s0] step     0  |g|=1.253e-01  {'step': 0, 'grad_norm_preclip': 0.1253, 'loss_ff': 0.8101, 'loss': 0.8105, 'pred': 0.4665, 'sigreg': 7.3479, 'total': 0.8105}
+[bp_sigreg_enc_s0] step  2000  |g|=4.436e-02  {'step': 2000, 'grad_norm_preclip': 0.0444, 'loss_ff': 0.3526, 'loss': 0.3546, 'pred': 0.1808, 'sigreg': 3.6562, 'total': 0.3546}
+[bp_sigreg_enc_s0] step  4000  |g|=3.956e-02  {'step': 4000, 'grad_norm_preclip': 0.0396, 'loss_ff': 0.2957, 'loss': 0.2971, 'pred': 0.1566, 'sigreg': 2.9656, 'total': 0.2971}
+[bp_sigreg_enc_s0] step  6000  |g|=4.342e-02  {'step': 6000, 'grad_norm_preclip': 0.0434, 'loss_ff': 0.2791, 'loss': 0.2803, 'pred': 0.1365, 'sigreg': 3.0139, 'total': 0.2803}
+[bp_sigreg_enc_s0] step  8000  |g|=3.706e-02  {'step': 8000, 'grad_norm_preclip': 0.0371, 'loss_ff': 0.2602, 'loss': 0.2615, 'pred': 0.1511, 'sigreg': 2.3588, 'total': 0.2615}
+[bp_sigreg_enc_s0] step 10000  |g|=3.793e-02  {'step': 10000, 'grad_norm_preclip': 0.0379, 'loss_ff': 0.2463, 'loss': 0.2469, 'pred': 0.1336, 'sigreg': 2.3994, 'total': 0.2469}
+[bp_sigreg_enc_s0] step 12000  |g|=4.123e-02  {'step': 12000, 'grad_norm_preclip': 0.0412, 'loss_ff': 0.2468, 'loss': 0.2472, 'pred': 0.1279, 'sigreg': 2.514, 'total': 0.2472}
+[bp_sigreg_enc_s0] step 14000  |g|=3.654e-02  {'step': 14000, 'grad_norm_preclip': 0.0365, 'loss_ff': 0.2474, 'loss': 0.2475, 'pred': 0.136, 'sigreg': 2.3653, 'total': 0.2475}
+[bp_sigreg_enc_s0] step 16000  |g|=3.869e-02  {'step': 16000, 'grad_norm_preclip': 0.0387, 'loss_ff': 0.2483, 'loss': 0.2483, 'pred': 0.1364, 'sigreg': 2.3747, 'total': 0.2483}
+[bp_sigreg_enc_s0] step 17199  |g|=3.527e-02  {'step': 17199, 'grad_norm_preclip': 0.0353, 'loss_ff': 0.2452, 'loss': 0.2452, 'pred': 0.1352, 'sigreg': 2.3337, 'total': 0.2452}
+########## bp_sigreg_enc_s0 done in 407s ##########

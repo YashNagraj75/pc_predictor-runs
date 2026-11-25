@@ -1,0 +1,46 @@
+occlude encoded 74 s
+occlude G_d10_s0 whole views done 186 s
+occlude BPg_d10_s0 whole views done 984 s
+occlude F_d10_s0 whole views done 2138 s
+occlude BPf_d10_s0 whole views done 2157 s
+occlude G_d10_s1 whole views done 2267 s
+occlude BPg_d10_s1 whole views done 4780 s
+occlude F_d10_s1 whole views done 5829 s
+occlude BPf_d10_s1 whole views done 5850 s
+occlude G_d10_s2 whole views done 5961 s
+occlude BPg_d10_s2 whole views done 6759 s
+occlude F_d10_s2 whole views done 7792 s
+occlude BPf_d10_s2 whole views done 7813 s
+noise encoded 68 s
+noise G_d10_s0 whole views done 163 s
+noise BPg_d10_s0 whole views done 905 s
+noise F_d10_s0 whole views done 1888 s
+noise BPf_d10_s0 whole views done 1907 s
+noise G_d10_s1 whole views done 2003 s
+noise BPg_d10_s1 whole views done 4456 s
+noise F_d10_s1 whole views done 5442 s
+noise BPf_d10_s1 whole views done 5461 s
+noise G_d10_s2 whole views done 5557 s
+noise BPg_d10_s2 whole views done 6299 s
+noise F_d10_s2 whole views done 7284 s
+noise BPf_d10_s2 whole views done 7303 s
+clean encoded 67 s
+clean G_d10_s0 whole views done 163 s
+clean BPg_d10_s0 whole views done 904 s
+clean F_d10_s0 whole views done 1884 s
+clean BPf_d10_s0 whole views done 1902 s
+clean G_d10_s1 whole views done 1997 s
+clean BPg_d10_s1 whole views done 4452 s
+clean F_d10_s1 whole views done 5443 s
+clean BPf_d10_s1 whole views done 5461 s
+clean G_d10_s2 whole views done 5557 s
+clean BPg_d10_s2 whole views done 6299 s
+clean F_d10_s2 whole views done 7291 s
+clean BPf_d10_s2 whole views done 7309 s
+CONV BPg_d10_s1 occlude K=48: nmse T 0.9477 4T 0.9580 (ok)
+CONV BPg_d10_s1 occlude K=192: nmse T 0.9464 4T 0.9552 (ok)
+CONV BPg_d10_s1 noise K=48: nmse T 0.1753 4T 0.1715 (ok)
+CONV BPg_d10_s1 noise K=192: nmse T 0.1710 4T 0.1654 (ok)
+CONV BPg_d10_s1 clean K=48: nmse T 0.1072 4T 0.1008 (ok)
+CONV BPg_d10_s1 clean K=192: nmse T 0.1036 4T 0.0958 (ok)
+DONE

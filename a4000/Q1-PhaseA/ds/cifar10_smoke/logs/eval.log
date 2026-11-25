@@ -1,0 +1,19 @@
+occlude encoded 9 s
+occlude G_d10_s0 whole views done 17 s
+occlude BPg_d10_s0 whole views done 77 s
+occlude F_d10_s0 whole views done 89 s
+occlude BPf_d10_s0 whole views done 90 s
+noise encoded 4 s
+noise G_d10_s0 whole views done 5 s
+noise BPg_d10_s0 whole views done 37 s
+noise F_d10_s0 whole views done 47 s
+noise BPf_d10_s0 whole views done 47 s
+clean encoded 4 s
+clean G_d10_s0 whole views done 5 s
+clean BPg_d10_s0 whole views done 37 s
+clean F_d10_s0 whole views done 47 s
+clean BPf_d10_s0 whole views done 47 s
+CONV BPg_d10_s0 occlude K=48: nmse T 0.9396 4T 0.9541 (ok)
+CONV BPg_d10_s0 noise K=48: nmse T 0.5567 4T 0.5440 (ok)
+CONV BPg_d10_s0 clean K=48: nmse T 0.5411 4T 0.5278 (ok)
+DONE

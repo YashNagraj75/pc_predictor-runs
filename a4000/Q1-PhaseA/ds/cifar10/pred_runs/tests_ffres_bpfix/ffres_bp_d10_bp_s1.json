@@ -1,0 +1,50 @@
+{
+ "method": "ffres_bp_d10",
+ "backbone": "bp",
+ "seed": 1,
+ "rows": [
+  {
+   "test": "pairs",
+   "condition": "clean",
+   "k": 1,
+   "nmse": 0.3090066909790039,
+   "cos": 0.822279691696167,
+   "retr1": 0.52
+  },
+  {
+   "test": "k_seen",
+   "condition": "clean",
+   "k": 1,
+   "nmse": 0.3102894127368927,
+   "cos": 0.8213540315628052,
+   "retr1": 0.5215
+  },
+  {
+   "test": "robust",
+   "condition": "noise=0.1",
+   "k": 1,
+   "nmse": 0.3485541343688965,
+   "cos": 0.7919270992279053,
+   "retr1": 0.44033333333333335
+  },
+  {
+   "test": "robust",
+   "condition": "noise=0.2",
+   "k": 1,
+   "nmse": 0.4392942488193512,
+   "cos": 0.7224413156509399,
+   "retr1": 0.2705
+  },
+  {
+   "test": "robust",
+   "condition": "occlude=0.25",
+   "k": 1,
+   "nmse": 0.973294734954834,
+   "cos": 0.43471428751945496,
+   "retr1": 0.04783333333333333
+  }
+ ],
+ "seconds": 63.005366563797,
+ "model_sha256": "65d6253cc2c8900eab451e2c0617b2e8de98e75d6e30e462ae6ee2e4718f6ff4",
+ "train_log": null
+}
