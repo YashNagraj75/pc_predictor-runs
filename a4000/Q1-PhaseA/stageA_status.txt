@@ -1,0 +1,277 @@
+11-03_16:10 [stageA/smoke10] start at 5678b98, 330 min budget
+11-03_16:13 [stageA/smoke10] bp_d6_lr1e-3_e2_val_s90 rc=1
+11-03_16:24 [stageA/smoke10] start at e4813d8, 330 min budget
+11-03_16:28 [stageA/smoke10] bp_d6_lr1e-3_e2_val_s90 rc=0
+11-03_16:31 [stageA/smoke10] bp_d6_lr1e-3_e2_val_s90 rc=0
+11-03_16:37 [stageA/smoke10] epc_alm_k4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-03_16:44 [stageA/smoke10] epc_alm_k4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-03_16:51 [stageA/smoke10] epc_k4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-03_16:57 [stageA/smoke10] epc_k4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-03_17:03 [stageA/smoke10] epc_k16_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-03_17:09 [stageA/smoke10] epc_k16_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-03_17:16 [stageA/smoke10] epc_k16_d10_lr1e-3_e2_val_s91_T20g12 rc=0
+11-03_17:16 [stageA/smoke10] smoke ok
+11-03_17:16 [stageA/smoke10] done
+11-03_17:16 [stageA/a010] start at e4813d8, 300 min budget
+11-03_17:59 [stageA/a010] a0 rc=0
+11-03_18:04 [stageA/depth10] start at 421f84f, 630 min budget
+11-03_18:17 [stageA/depth10] bp_d10_lr3e-4_e5_val_s0 rc=0
+11-03_18:31 [stageA/depth10] bp_d10_lr1e-3_e5_val_s0 rc=0
+11-03_18:44 [stageA/depth10] bp_d10_lr3e-3_e5_val_s0 rc=0
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2071, 3e-3: 0.1982
+   selected 3e-3  EDGE
+3e-3
+11-03_18:44 [stageA/depth10] bp d10 selected lr: 3e-3
+11-03_19:45 [stageA/depth10] bp_d10_lr3e-4_e25_full_s0 rc=0
+11-03_20:46 [stageA/depth10] bp_d10_lr1e-3_e25_full_s0 rc=0
+11-03_21:47 [stageA/depth10] bp_d10_lr3e-3_e25_full_s0 rc=0
+11-03_23:40 [stageA/depth10] epc_alm_k4_d10_lr3e-4_e5_val_s0_T10g4 rc=0
+11-04_01:35 [stageA/depth10] epc_alm_k4_d10_lr1e-3_e5_val_s0_T10g4 rc=0
+11-04_03:29 [stageA/depth10] epc_alm_k4_d10_lr3e-3_e5_val_s0_T10g4 rc=0
+   lr table epc_alm_k4 d10: 3e-4: 0.2338, 1e-3: 0.2127, 3e-3: 0.2013
+   selected 3e-3  EDGE
+3e-3
+11-04_03:29 [stageA/depth10] epc_alm_k4 d10 selected lr: 3e-3
+11-04_04:21 [stageA/depth10] epc_alm_k4_d10_lr3e-3_e25_full_s0_T10g4 rc=75
+11-04_10:44 [stageA/depth10] start at 421f84f, 630 min budget
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2071, 3e-3: 0.1982
+   selected 3e-3  EDGE
+3e-3
+11-04_10:44 [stageA/depth10] bp d10 selected lr: 3e-3
+   lr table epc_alm_k4 d10: 3e-4: 0.2338, 1e-3: 0.2127, 3e-3: 0.2013
+   selected 3e-3  EDGE
+3e-3
+11-04_10:44 [stageA/depth10] epc_alm_k4 d10 selected lr: 3e-3
+11-04_20:28 [stageA/depth10] epc_alm_k4_d10_lr3e-3_e25_full_s0_T10g4 rc=0
+11-04_21:15 [stageA/depth10] epc_k4_d10_lr3e-4_e5_val_s0_T10g4 rc=75
+11-05_18:28 [stageA/depth10] start at 421f84f, 630 min budget
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2071, 3e-3: 0.1982
+   selected 3e-3  EDGE
+3e-3
+11-05_18:28 [stageA/depth10] bp d10 selected lr: 3e-3
+   lr table epc_alm_k4 d10: 3e-4: 0.2338, 1e-3: 0.2127, 3e-3: 0.2013
+   selected 3e-3  EDGE
+3e-3
+11-05_18:28 [stageA/depth10] epc_alm_k4 d10 selected lr: 3e-3
+11-05_19:40 [stageA/depth10] epc_k4_d10_lr3e-4_e5_val_s0_T10g4 rc=0
+11-05_21:39 [stageA/depth10] epc_k4_d10_lr1e-3_e5_val_s0_T10g4 rc=0
+11-05_23:34 [stageA/depth10] epc_k4_d10_lr3e-3_e5_val_s0_T10g4 rc=0
+   lr table epc_k4 d10: 3e-4: 0.2819, 1e-3: 0.2396, 3e-3: 0.2329
+   selected 3e-3  EDGE
+3e-3
+11-05_23:34 [stageA/depth10] epc_k4 d10 selected lr: 3e-3
+11-06_04:24 [stageA/depth10] epc_k4_d10_lr3e-3_e25_full_s0_T10g4 rc=75
+11-06_11:30 [stageA/gpugate10] start at 504e742, 610 min budget
+11-06_11:43 [stageA/gpugate10] gpu gate rc=0
+11-06_11:43 [stageA/gpugate6] start at 504e742, 610 min budget
+11-06_12:03 [stageA/gpugate6] gpu gate rc=0
+11-06_19:40 [stageA/smoke10] start at 8ee37d9, 120 min budget
+11-06_19:43 [stageA/smoke10] bp_d6_lr1e-3_e2_val_s90 rc=0
+11-06_19:46 [stageA/smoke10] bp_d6_lr1e-3_e2_val_s90 rc=0
+11-06_19:50 [stageA/smoke10] epc_alm_k4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-06_19:55 [stageA/smoke10] epc_alm_k4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-06_20:00 [stageA/smoke10] epc_k4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-06_20:04 [stageA/smoke10] epc_k4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-06_20:09 [stageA/smoke10] epc_k16_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-06_20:13 [stageA/smoke10] epc_k16_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-06_20:18 [stageA/smoke10] epc_alm_blk4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-06_20:23 [stageA/smoke10] epc_alm_blk4_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-06_20:28 [stageA/smoke10] epc_k16_d10_lr1e-3_e2_val_s91_T20g12 rc=0
+11-06_20:28 [stageA/smoke10] smoke ok
+11-06_20:28 [stageA/smoke10] done
+11-06_20:28 [stageA/a010] start at 8ee37d9, 120 min budget
+11-06_20:41 [stageA/a010] gpu gate rc=0
+11-06_21:29 [stageA/a010] a0 rc=0
+11-06_21:30 [stageA/depth10] start at 8ee37d9, 630 min budget
+11-06_21:43 [stageA/depth10] gpu gate rc=0
+11-06_21:57 [stageA/depth10] bp_d10_lr3e-4_e5_val_s0 rc=0
+11-06_22:11 [stageA/depth10] bp_d10_lr1e-3_e5_val_s0 rc=0
+11-06_22:26 [stageA/depth10] bp_d10_lr3e-3_e5_val_s0 rc=0
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2070, 3e-3: 0.1986
+   selected 3e-3  EDGE
+3e-3
+11-06_22:26 [stageA/depth10] bp d10 selected lr: 3e-3
+11-06_23:31 [stageA/depth10] bp_d10_lr3e-4_e25_full_s0 rc=0
+11-07_00:37 [stageA/depth10] bp_d10_lr1e-3_e25_full_s0 rc=0
+11-07_01:43 [stageA/depth10] bp_d10_lr3e-3_e25_full_s0 rc=0
+11-07_05:22 [stageA/depth10] epc_alm_k4_d10_lr3e-4_e5_val_s0_T20g12 rc=0
+11-07_06:51 [stageA/depth10] epc_alm_k4_d10_lr1e-3_e5_val_s0_T20g12 rc=75
+11-07_14:39 [stageA/depth10] start at 8ee37d9, 630 min budget
+11-07_14:52 [stageA/depth10] gpu gate rc=0
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2070, 3e-3: 0.1986
+   selected 3e-3  EDGE
+3e-3
+11-07_14:52 [stageA/depth10] bp d10 selected lr: 3e-3
+11-07_17:17 [stageA/depth10] epc_alm_k4_d10_lr1e-3_e5_val_s0_T20g12 rc=0
+11-07_20:58 [stageA/depth10] epc_alm_k4_d10_lr3e-3_e5_val_s0_T20g12 rc=0
+   lr table epc_alm_k4 d10: 3e-4: 0.2321, 1e-3: 0.2096, 3e-3: 0.2020
+   selected 3e-3  EDGE
+3e-3
+11-07_20:58 [stageA/depth10] epc_alm_k4 d10 selected lr: 3e-3
+11-08_00:13 [stageA/depth10] epc_alm_k4_d10_lr3e-3_e25_full_s0_T20g12 rc=75
+11-08_12:38 [stageA/depth10] start at 8ee37d9, 630 min budget
+11-08_12:51 [stageA/depth10] gpu gate rc=0
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2070, 3e-3: 0.1986
+   selected 3e-3  EDGE
+3e-3
+11-08_12:51 [stageA/depth10] bp d10 selected lr: 3e-3
+   lr table epc_alm_k4 d10: 3e-4: 0.2321, 1e-3: 0.2096, 3e-3: 0.2020
+   selected 3e-3  EDGE
+3e-3
+11-08_12:51 [stageA/depth10] epc_alm_k4 d10 selected lr: 3e-3
+11-08_21:39 [stageA/depth10] epc_alm_k4_d10_lr3e-3_e25_full_s0_T20g12 rc=75
+11-09_10:50 [stageA/depth10] start at 8ee37d9, 1380 min budget
+11-09_11:03 [stageA/depth10] gpu gate rc=0
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2070, 3e-3: 0.1986
+   selected 3e-3  EDGE
+3e-3
+11-09_11:03 [stageA/depth10] bp d10 selected lr: 3e-3
+11-09_14:44 [stageA/depth10] epc_k4_d10_lr3e-4_e5_val_s0_T20g12 rc=0
+11-09_18:24 [stageA/depth10] epc_k4_d10_lr1e-3_e5_val_s0_T20g12 rc=0
+11-09_22:04 [stageA/depth10] epc_k4_d10_lr3e-3_e5_val_s0_T20g12 rc=0
+   lr table epc_k4 d10: 3e-4: 0.3010, 1e-3: 0.2292, 3e-3: 0.2305
+   selected 1e-3
+1e-3
+11-09_22:04 [stageA/depth10] epc_k4 d10 selected lr: 1e-3
+11-10_08:32 [stageA/depth10] epc_k4_d10_lr1e-3_e25_full_s0_T20g12 rc=75
+11-10_08:33 [stageA/depth10] start at 8ee37d9, 1380 min budget
+11-10_08:46 [stageA/depth10] gpu gate rc=0
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2070, 3e-3: 0.1986
+   selected 3e-3  EDGE
+3e-3
+11-10_08:46 [stageA/depth10] bp d10 selected lr: 3e-3
+   lr table epc_k4 d10: 3e-4: 0.3010, 1e-3: 0.2292, 3e-3: 0.2305
+   selected 1e-3
+1e-3
+11-10_08:46 [stageA/depth10] epc_k4 d10 selected lr: 1e-3
+11-10_18:36 [stageA/depth10] epc_k4_d10_lr1e-3_e25_full_s0_T20g12 rc=0
+   lr table epc_k16 d10: 3e-4: 0.3187, 1e-3: 0.2537, 3e-3: 0.2468
+   selected 3e-3  EDGE
+3e-3
+11-10_18:36 [stageA/depth10] epc_k16 d10 selected lr: 3e-3
+   lr table epc_alm_blk4 d10: 3e-4: 0.2404, 1e-3: 0.2178, 3e-3: 0.2090
+   selected 3e-3  EDGE
+3e-3
+11-10_18:36 [stageA/depth10] epc_alm_blk4 d10 selected lr: 3e-3
+   lr table epc_alm_k4 d10: 3e-4: 0.2321, 1e-3: 0.2096, 3e-3: 0.2020
+   selected 3e-3  EDGE
+3e-3
+11-10_18:36 [stageA/depth10] epc_alm_k4 d10 selected lr: 3e-3
+11-11_02:38 [stageA/depth10] epc_alm_k4_d10_lr3e-3_e25_full_s0_T20g12 rc=0
+11-11_02:38 [stageA/depth10] done
+11-11_02:38 [stageA/depth6] start at 8ee37d9, 1380 min budget
+11-11_02:50 [stageA/depth6] gpu gate rc=0
+   lr table bp d6: 3e-4: 0.2349, 1e-3: 0.2103, 3e-3: 0.2009
+   selected 3e-3  EDGE
+3e-3
+11-11_02:50 [stageA/depth6] bp d6 selected lr: 3e-3
+   lr table epc_alm_k4 d6: 3e-4: 0.2367, 1e-3: 0.2117, 3e-3: 0.2037
+   selected 3e-3  EDGE
+3e-3
+11-11_02:50 [stageA/depth6] epc_alm_k4 d6 selected lr: 3e-3
+   lr table epc_k4 d6: 3e-4: 0.3172, 1e-3: 0.2290, 3e-3: 0.2347
+   selected 1e-3
+1e-3
+11-11_02:50 [stageA/depth6] epc_k4 d6 selected lr: 1e-3
+   lr table epc_k16 d6: 3e-4: 0.3367, 1e-3: 0.2558, 3e-3: 0.2434
+   selected 3e-3  EDGE
+3e-3
+11-11_02:50 [stageA/depth6] epc_k16 d6 selected lr: 3e-3
+   lr table epc_alm_blk4 d6: 3e-4: 0.2503, 1e-3: 0.2238, 3e-3: 0.2144
+   selected 3e-3  EDGE
+3e-3
+11-11_02:50 [stageA/depth6] epc_alm_blk4 d6 selected lr: 3e-3
+11-11_02:50 [stageA/depth6] done
+11-11_02:50 [stageA/noise10] start at 8ee37d9, 1380 min budget
+11-11_03:02 [stageA/noise10] gpu gate rc=0
+   lr table bp d10: 3e-4: 0.2303, 1e-3: 0.2070, 3e-3: 0.1986
+   selected 3e-3  EDGE
+3e-3
+11-11_04:08 [stageA/noise10] bp_d10_lr3e-3_e25_full_s1 rc=0
+11-11_05:14 [stageA/noise10] bp_d10_lr3e-3_e25_full_s2 rc=0
+11-11_06:20 [stageA/noise10] bp_d10_lr3e-3_e25_full_s3 rc=0
+11-11_07:25 [stageA/noise10] bp_d10_lr3e-3_e25_full_s4 rc=0
+   lr table bp d6: 3e-4: 0.2349, 1e-3: 0.2103, 3e-3: 0.2009
+   selected 3e-3  EDGE
+3e-3
+11-11_08:08 [stageA/noise10] bp_d6_lr3e-3_e25_full_s1 rc=0
+11-11_08:51 [stageA/noise10] bp_d6_lr3e-3_e25_full_s2 rc=0
+11-11_09:34 [stageA/noise10] bp_d6_lr3e-3_e25_full_s3 rc=0
+11-11_10:26 [stageA/noise10] bp_d6_lr3e-3_e25_full_s4 rc=0
+11-11_10:26 [stageA/noise10] done
+11-12_11:50 [stageA/smoke_spc10] start at 5afe37c, 610 min budget
+11-12_12:08 [stageA/smoke_spc10] gpu gate rc=0
+11-12_12:16 [stageA/smoke_spc10] spc_u1_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-12_12:23 [stageA/smoke_spc10] spc_u1_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-12_12:34 [stageA/smoke_spc10] spc_u1_d10_lr1e-3_e2_val_s91_T20g12 rc=0
+11-12_12:34 [stageA/smoke_spc10] smoke_spc ok
+11-12_12:34 [stageA/smoke_spc10] done
+11-12_16:44 [stageA/gpugate10] start at b315c0b, 610 min budget
+11-12_17:01 [stageA/gpugate10] gpu gate rc=0
+11-12_17:01 [stageA/gpugate6] start at b315c0b, 610 min budget
+11-12_17:15 [stageA/gpugate6] gpu gate rc=0
+11-12_18:39 [stageA/smoke_spc10] start at b315c0b, 610 min budget
+11-12_18:56 [stageA/smoke_spc10] gpu gate rc=0
+11-12_19:04 [stageA/smoke_spc10] spc_u1_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-12_19:11 [stageA/smoke_spc10] spc_u1_d6_lr1e-3_e2_val_s90_T20g12 rc=0
+11-12_19:21 [stageA/smoke_spc10] spc_u1_d10_lr1e-3_e2_val_s91_T20g12 rc=0
+11-12_19:21 [stageA/smoke_spc10] smoke_spc ok
+11-12_19:21 [stageA/smoke_spc10] done
+11-12_19:21 [stageA/depth10] start at b315c0b, 1380 min budget
+11-12_19:38 [stageA/depth10] gpu gate rc=0
+11-12_23:58 [stageA/depth10] spc_u1_d10_lr3e-4_e5_val_s0_T20g12 rc=0
+11-13_04:16 [stageA/depth10] spc_u1_d10_lr1e-3_e5_val_s0_T20g12 rc=0
+11-13_08:33 [stageA/depth10] spc_u1_d10_lr3e-3_e5_val_s0_T20g12 rc=0
+   lr table spc_u1 d10: 3e-4: 0.8989, 1e-3: 0.9048, 3e-3: 0.8283
+   selected 3e-3  EDGE
+3e-3
+11-13_08:33 [stageA/depth10] spc_u1 d10 selected lr: 3e-3
+11-13_16:57 [stageA/depth10] spc_u1_d10_lr3e-3_e25_full_s0_T20g12 rc=75
+11-13_16:57 [stageA/depth10] start at b315c0b, 1380 min budget
+11-13_17:14 [stageA/depth10] gpu gate rc=0
+   lr table spc_u1 d10: 3e-4: 0.8989, 1e-3: 0.9048, 3e-3: 0.8283
+   selected 3e-3  EDGE
+3e-3
+11-13_17:14 [stageA/depth10] spc_u1 d10 selected lr: 3e-3
+11-14_08:07 [stageA/depth10] spc_u1_d10_lr3e-3_e25_full_s0_T20g12 rc=0
+11-14_08:07 [stageA/depth10] done
+11-14_08:07 [stageA/depth6] start at b315c0b, 1380 min budget
+11-14_08:21 [stageA/depth6] gpu gate rc=0
+11-14_10:50 [stageA/depth6] spc_u1_d6_lr3e-4_e5_val_s0_T20g12 rc=0
+11-14_13:18 [stageA/depth6] spc_u1_d6_lr1e-3_e5_val_s0_T20g12 rc=0
+11-14_15:46 [stageA/depth6] spc_u1_d6_lr3e-3_e5_val_s0_T20g12 rc=0
+   lr table spc_u1 d6: 3e-4: 0.8825, 1e-3: 0.8890, 3e-3: 0.8065
+   selected 3e-3  EDGE
+3e-3
+11-14_15:46 [stageA/depth6] spc_u1 d6 selected lr: 3e-3
+11-15_05:01 [stageA/depth6] spc_u1_d6_lr3e-3_e25_full_s0_T20g12 rc=0
+11-15_05:01 [stageA/depth6] done
+11-15_05:01 [stageA/gpugate10] start at b315c0b, 610 min budget
+11-15_05:18 [stageA/gpugate10] gpu gate rc=0
+11-15_05:18 [stageA/gpugate6] start at b315c0b, 610 min budget
+11-15_05:33 [stageA/gpugate6] gpu gate rc=0
+11-16_16:19 [stageA/gpugate10] start at 1ab7f83, 610 min budget
+11-16_16:36 [stageA/gpugate10] gpu gate rc=0
+11-16_16:36 [stageA/gpugate6] start at 1ab7f83, 610 min budget
+11-16_16:51 [stageA/gpugate6] gpu gate rc=0
+11-16_18:21 [stageA/seeds10] start at 1ab7f83, 1380 min budget
+11-16_18:38 [stageA/seeds10] gpu gate rc=0
+   lr table epc_alm_blk4 d10: 3e-4: 0.2404, 1e-3: 0.2178, 3e-3: 0.2090
+   selected 3e-3  EDGE
+3e-3
+11-17_15:42 [stageA/seeds10] epc_alm_blk4_d10_lr3e-3_e25_full_s1_T20g12 rc=0
+11-17_18:10 [stageA/seeds10] epc_alm_blk4_d10_lr3e-3_e25_full_s2_T20g12 rc=75
+11-17_18:10 [stageA/seeds10] start at 1ab7f83, 1380 min budget
+11-17_18:28 [stageA/seeds10] gpu gate rc=0
+   lr table epc_alm_blk4 d10: 3e-4: 0.2404, 1e-3: 0.2178, 3e-3: 0.2090
+   selected 3e-3  EDGE
+3e-3
+11-18_16:10 [stageA/seeds10] epc_alm_blk4_d10_lr3e-3_e25_full_s2_T20g12 rc=75
+11-18_16:10 [stageA/seeds10] start at 1ab7f83, 1380 min budget
+11-18_16:28 [stageA/seeds10] gpu gate rc=0
+   lr table epc_alm_blk4 d10: 3e-4: 0.2404, 1e-3: 0.2178, 3e-3: 0.2090
+   selected 3e-3  EDGE
+3e-3
+11-18_22:08 [stageA/seeds10] epc_alm_blk4_d10_lr3e-3_e25_full_s2_T20g12 rc=0
+11-18_22:08 [stageA/seeds10] seeds summary epc_alm_blk4 d10: finished 2, diverged 0, missing 0
+11-18_22:08 [stageA/seeds10] done
