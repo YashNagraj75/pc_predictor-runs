@@ -1,0 +1,32 @@
+  [PASS] d3 bp: forward pass == float64 reference (rel err < 1e-5)  2.0e-07
+  [PASS] d3 bp: residuals zero at the forward pass  
+     report: |jpc.init_activities_with_ffwd - ours| per layer [0.07553863525390625, 0.13247764110565186, 0.12680232524871826]
+     d3 bp: rms activation per layer at init [1.0276, 1.1041, 0.7694]
+     d3 bp: scalings [0.0828, 0.0361, 0.0625]  skips [False, True, False]
+  [PASS] d3 bp: muPC scaling for every rule  
+  [PASS] d3 pc: forward pass == float64 reference (rel err < 1e-5)  2.0e-07
+  [PASS] d3 pc: residuals zero at the forward pass  
+     report: |jpc.init_activities_with_ffwd - ours| per layer [0.07553863525390625, 0.13247764110565186, 0.12680232524871826]
+     d3 pc: rms activation per layer at init [1.0276, 1.1041, 0.7694]
+     d3 pc: scalings [0.0828, 0.0361, 0.0625]  skips [False, True, False]
+  [PASS] d3 pc: muPC scaling for every rule  
+  [PASS] d3 pc: energy == jpc.pc_energy_fn  106.789 vs 106.789
+  [PASS] d3 pc: zero duals give the plain energy  
+  [PASS] d3 alm: forward pass == float64 reference (rel err < 1e-5)  2.0e-07
+  [PASS] d3 alm: residuals zero at the forward pass  
+     report: |jpc.init_activities_with_ffwd - ours| per layer [0.07553863525390625, 0.13247764110565186, 0.12680232524871826]
+     d3 alm: rms activation per layer at init [1.0276, 1.1041, 0.7694]
+     d3 alm: scalings [0.0828, 0.0361, 0.0625]  skips [False, True, False]
+  [PASS] d3 alm: muPC scaling for every rule  
+  [PASS] d3 alm: energy == jpc.pc_energy_fn  106.789 vs 106.789
+  [PASS] d3 alm: zero duals give the plain energy  
+  [PASS] d3 step * lambda_max(H) < 2  0.431
+     report: small error, T=20: cos to BP  alm 0.9826  plain pc 0.8537
+     report: small error, T=100: cos to BP  alm 0.9990  plain pc 0.8862
+     report: small error, T=400: cos to BP  alm 1.0000  plain pc 0.8864
+  [PASS] d3 T=400: multipliers move the gradient toward BP (alm >= plain pc)  1.0000 vs 0.8864
+  [PASS] d3 small error, T=400: PC-ALM gradient close to BP (cos > 0.9)  1.0000
+  [PASS] d3 power-iteration spectral norm within [1.0, 1.03] x exact  1.0060
+  [PASS] d3 bp gradient == central difference (largest entry)  0.029065 vs 0.029119
+  [PASS] d3 relaxed activities do not depend on the rest of the batch  9.5e-07
+ALL PASS
