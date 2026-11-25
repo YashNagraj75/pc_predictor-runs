@@ -1,0 +1,7 @@
+{"step": 1, "loss": 0.5358115434646606, "rho": 1.0, "sec": 68, "peak_gib": 1.97}
+{"step": 200, "loss": 0.1211596354842186, "rho": 1.0, "sec": 224, "peak_gib": 1.99}
+{"step": 400, "loss": 0.1100522056221962, "rho": 1.0, "sec": 381, "peak_gib": 1.99}
+{"step": 600, "loss": 0.10543583333492279, "rho": 1.0, "sec": 537, "peak_gib": 1.99}
+{"step": 800, "loss": 0.07335270196199417, "rho": 1.0, "sec": 694, "peak_gib": 1.99}
+{"step": 875, "loss": 0.10878804326057434, "rho": 1.0, "sec": 752, "peak_gib": 1.99}
+RESULT {"clean": {"nmse": 0.19857306770466795, "nmse_cal": 0.19855152860739778, "alpha_star": 1.0052111460108784, "nmse_cal_cleanalpha": 0.19855152860739778, "ratio_to_clean": 1.0}, "ctx_drop25": {"nmse": 0.23316528260548913, "nmse_cal": 0.23316523513833926, "alpha_star": 0.9997512645734737, "nmse_cal_cleanalpha": 0.23318810609302068, "ratio_to_clean": 1.174203960792252}, "ctx_drop50": {"nmse": 0.2951721286453541, "nmse_cal": 0.2951627387777771, "alpha_star": 0.9963633371092478, "nmse_cal_cleanalpha": 0.29521831958448386, "ratio_to_clean": 1.4864660754718013}, "square": {"nmse": 0.504759806025575, "nmse_cal": 0.48018105378877096, "alpha_star": 0.8213908430363123, "nmse_cal_cleanalpha": 0.506214960584456, "ratio_to_clean": 2.541934874956406}, "noise": {"nmse": 1.0241778438274927, "nmse_cal": 0.8257349727945411, "alpha_star": 0.4837652126527095, "nmse_cal_cleanalpha": 1.02820443890019, "ratio_to_clean": 5.157687573980189}, "knn_pred": {"knn": 0.5508, "knn_centred": 0.547}, "knn_target_ceiling": {"knn": 0.5826, "knn_centred": 0.5834}}

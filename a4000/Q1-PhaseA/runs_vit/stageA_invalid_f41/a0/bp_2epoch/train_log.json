@@ -1,0 +1,43 @@
+{
+ "log": [
+  {
+   "step": 1,
+   "loss": 0.5358176231384277,
+   "rho": 1.0,
+   "sec": 67,
+   "peak_gib": 1.94
+  },
+  {
+   "step": 200,
+   "loss": 0.13277606666088104,
+   "rho": 1.0,
+   "sec": 211,
+   "peak_gib": 1.97
+  },
+  {
+   "step": 350,
+   "loss": 0.12019632011651993,
+   "rho": 1.0,
+   "sec": 318,
+   "peak_gib": 1.97
+  }
+ ],
+ "cfg": {
+  "arm": "bp",
+  "depth": 10,
+  "lr": 0.001,
+  "epochs": 2,
+  "split": "val",
+  "seed": 0,
+  "T": 20,
+  "gn_iters": 12,
+  "chunk": 32,
+  "batch": 256,
+  "wd": 0.04,
+  "clip": 1.0,
+  "warmup_epochs": 1,
+  "max_steps": 0,
+  "deadline_min": 0.0
+ },
+ "commit": "e4813d80a859746aa2ede74dfd9c8f296495c4be"
+}

@@ -1,0 +1,40 @@
+checked 2026-11-15 21:49 (A4000 local time) against main @ a386747
+finished rented-GPU runs: 30 on the A4000 and identical, 0 not merged yet, 6 different
+  ok bp_d6_lr1e-3_e25_full_s0 (from l40a, 4 files identical)
+  ok bp_d6_lr1e-3_e5_val_s0 (from l40a, 4 files identical)
+  ok bp_d6_lr3e-3_e25_full_s0 (from l40a, 4 files identical)
+  ok bp_d6_lr3e-3_e5_val_s0 (from l40a, 4 files identical)
+  ok bp_d6_lr3e-4_e25_full_s0 (from l40a, 4 files identical)
+  ok bp_d6_lr3e-4_e5_val_s0 (from l40a, 4 files identical)
+  ok epc_alm_blk4_d6_lr1e-3_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_alm_blk4_d6_lr3e-3_e25_full_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_alm_blk4_d6_lr3e-3_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_alm_blk4_d6_lr3e-4_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_alm_k4_d6_lr1e-3_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_alm_k4_d6_lr3e-3_e25_full_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_alm_k4_d6_lr3e-3_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_alm_k4_d6_lr3e-4_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_k16_d6_lr1e-3_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_k16_d6_lr3e-3_e25_full_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_k16_d6_lr3e-3_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_k16_d6_lr3e-4_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_k4_d6_lr1e-3_e25_full_s0_T20g12 (from l40a, 5 files identical)
+  ok epc_k4_d6_lr1e-3_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_k4_d6_lr3e-3_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  ok epc_k4_d6_lr3e-4_e5_val_s0_T20g12 (from l40a, 4 files identical)
+  DIFFERS bp_d10_lr1e-3_e25_full_s0 (from l40b): 4 of 4 files missing or different on the A4000
+  DIFFERS bp_d10_lr1e-3_e5_val_s0 (from l40b): 4 of 4 files missing or different on the A4000
+  DIFFERS bp_d10_lr3e-3_e25_full_s0 (from l40b): 4 of 4 files missing or different on the A4000
+  DIFFERS bp_d10_lr3e-3_e5_val_s0 (from l40b): 4 of 4 files missing or different on the A4000
+  DIFFERS bp_d10_lr3e-4_e25_full_s0 (from l40b): 4 of 4 files missing or different on the A4000
+  DIFFERS bp_d10_lr3e-4_e5_val_s0 (from l40b): 4 of 4 files missing or different on the A4000
+  ok epc_alm_blk4_d10_lr1e-3_e5_val_s0_T20g12 (from l40b, 4 files identical)
+  ok epc_alm_blk4_d10_lr3e-3_e25_full_s0_T20g12 (from l40b, 4 files identical)
+  ok epc_alm_blk4_d10_lr3e-3_e5_val_s0_T20g12 (from l40b, 4 files identical)
+  ok epc_alm_blk4_d10_lr3e-4_e5_val_s0_T20g12 (from l40b, 4 files identical)
+  ok epc_k16_d10_lr1e-3_e5_val_s0_T20g12 (from l40b, 4 files identical)
+  ok epc_k16_d10_lr3e-3_e25_full_s0_T20g12 (from l40b, 4 files identical)
+  ok epc_k16_d10_lr3e-3_e5_val_s0_T20g12 (from l40b, 4 files identical)
+  ok epc_k16_d10_lr3e-4_e5_val_s0_T20g12 (from l40b, 4 files identical)
+rented GPU verdict (l40a): SAFE TO DELETE: YES (every result and checkpoint on this machine is on GitHub) checked 2026-11-10 12:50 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ ac6dcdc 
+rented GPU verdict (l40b): SAFE TO DELETE: YES (every result and checkpoint on this machine is on GitHub) checked 2026-11-10 09:04 UTC against https://github.com/YashNagraj75/pc_predictor-runs.git main @ 4db5485 
