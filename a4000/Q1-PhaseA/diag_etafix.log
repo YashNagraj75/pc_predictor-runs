@@ -1,0 +1,50 @@
+
+=== bp_sigreg_etafix_s0 ===
+  overall displacement 0.24084   layers at the floor (0.15743): 2/10
+  per-layer: 0.1574 0.4388 0.4086 0.3772 0.3726 0.3708 0.3828 0.4032 0.4297 0.2247
+  knn first=0.3430 best=0.4000 (step 4000) last=0.3900  BEST-FIRST=+0.0570
+  grad norm median=7.138e-02
+
+=== bp_sigreg_etafix_s1 ===
+  overall displacement 0.24723   layers at the floor (0.16051): 2/10
+  per-layer: 0.1605 0.4674 0.4253 0.3921 0.3896 0.3831 0.3861 0.3989 0.4292 0.2256
+  knn first=0.3460 best=0.3910 (step 4000) last=0.3850  BEST-FIRST=+0.0450
+  grad norm median=6.679e-02
+
+=== bp_sigreg_etafix_s2 ===
+  overall displacement 0.24363   layers at the floor (0.15417): 1/10
+  per-layer: 0.1542 0.4748 0.4265 0.3977 0.3793 0.3744 0.3782 0.4014 0.4311 0.2338
+  knn first=0.3560 best=0.3985 (step 14000) last=0.3875  BEST-FIRST=+0.0425
+  grad norm median=6.869e-02
+
+=== pc_sigreg_T16_coupled_etafix_s0 ===
+  overall displacement 0.37230   layers at the floor (0.01557): 1/10
+  per-layer: 0.0156 0.0843 0.2880 0.5687 0.7013 0.7474 0.8227 0.9403 1.0333 0.7132
+  knn first=0.3440 best=0.3440 (step 0) last=0.3205  BEST-FIRST=+0.0000
+  grad norm median=6.263e-03
+
+=== pc_sigreg_T16_coupled_etafix_s1 ===
+  overall displacement 0.36964   layers at the floor (0.01456): 1/10
+  per-layer: 0.0146 0.0767 0.2694 0.5709 0.6566 0.6798 0.7710 0.9496 1.0614 0.7565
+  knn first=0.3475 best=0.3500 (step 14000) last=0.3450  BEST-FIRST=+0.0025
+  grad norm median=4.694e-03
+
+=== pc_sigreg_T16_coupled_etafix_s2 ===
+  overall displacement 0.37972   layers at the floor (0.01684): 1/10
+  per-layer: 0.0168 0.0943 0.3180 0.5895 0.7270 0.7512 0.8276 0.9409 1.0540 0.7381
+  knn first=0.3555 best=0.3635 (step 10000) last=0.3515  BEST-FIRST=+0.0080
+  grad norm median=7.079e-03
+
+=== bp_sigreg_pilot_s0 ===
+  overall displacement 0.05882   layers at the floor (0.04208): 1/10
+  per-layer: 0.0421 0.0944 0.0919 0.0915 0.0904 0.0901 0.0901 0.0905 0.0907 0.0725
+  knn first=0.3430 best=0.3630 (step 1999) last=0.3630  BEST-FIRST=+0.0200
+  grad norm median=5.504e-02
+
+=== pc_sigreg_T16_coupled_pilot_s0 ===
+  overall displacement 0.09059   layers at the floor (0.00340): 1/10
+  per-layer: 0.0034 0.0186 0.0555 0.0988 0.1358 0.1630 0.1925 0.2255 0.2622 0.2405
+  knn first=0.3440 best=0.3440 (step 0) last=0.3080  BEST-FIRST=+0.0000
+  grad norm median=7.245e-03
+
+wrote diag_etafix.csv (8 runs)
