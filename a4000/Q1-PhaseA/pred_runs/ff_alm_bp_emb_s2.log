@@ -1,0 +1,8 @@
+[alm bp/emb s2] step 1 loss 63.2508 gnorm 6.68 0.9880180358886719  19s
+[alm bp/emb s2] step 1000 loss 20.4694 gnorm 7.83 0.9535076022148132  41s
+[alm bp/emb s2] step 2000 loss 19.0278 gnorm 7.14 0.8833966255187988  63s
+[alm bp/emb s2] step 3000 loss 19.8236 gnorm 8.97 0.9182045459747314  85s
+[alm bp/emb s2] step 4000 loss 19.3785 gnorm 8.88 0.8093616366386414  107s
+[alm bp/emb s2] step 5000 loss 18.0233 gnorm 9.65 0.7723841071128845  129s
+[alm bp/emb s2] step 6000 loss 17.6963 gnorm 9.44 0.7721503376960754  151s
+TEST {"nmse": 0.3068658411502838, "cos": 0.8034870028495789, "retr1": 0.223875}

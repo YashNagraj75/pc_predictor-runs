@@ -1,0 +1,4 @@
+{"arm": "gpc_bp_d3_zero", "c": 0.25, "div": false, "exploded": false, "val": 0.33922600746154785, "s": 574}
+{"arm": "gpc_bp_d3_zero", "c": 0.5, "div": false, "exploded": false, "val": 0.33863094449043274, "s": 414}
+{"arm": "gpc_bp_d3_zero", "c": 1.0, "div": false, "exploded": false, "val": 0.33762308955192566, "s": 394}
+{"arm": "gpc_bp_d3_zero", "c": 2.0, "div": false, "exploded": false, "val": 0.34553056955337524, "s": 433}

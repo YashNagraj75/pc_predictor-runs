@@ -1,0 +1,24 @@
+[
+ {
+  "arm": "gpc_pc_d10_zero",
+  "c": 0.25,
+  "diverged": false,
+  "exploded": true,
+  "val_k1_nmse": null,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.029595045372843742,
+   "E2": 0.6251211166381836,
+   "E_init": 64.46098327636719,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 4.275257110595703,
+   "pred_err": 74.9483642578125,
+   "rel_last_step_s": 0.0030158828012645245,
+   "s_norm": 0.02802067995071411
+  },
+  "s": 1099.557783126831
+ }
+]

@@ -1,0 +1,6 @@
+{"arm": "gpc_alm_d10_zero", "rho": 1.0, "c": 0.25, "div": false, "exploded": false, "val": 1.0737833976745605, "s": 889}
+{"arm": "gpc_alm_d10_zero", "rho": 1.0, "c": 0.5, "div": false, "exploded": false, "val": 1.1640747785568237, "s": 691}
+{"arm": "gpc_alm_d10_zero", "rho": 1.0, "c": 1.0, "div": false, "exploded": false, "val": 0.528933048248291, "s": 722}
+{"arm": "gpc_alm_d10_zero", "rho": 4.0, "c": 0.25, "div": false, "exploded": true, "val": null, "s": 569}
+{"arm": "gpc_alm_d10_zero", "rho": 4.0, "c": 0.5, "div": false, "exploded": false, "val": 0.7988505363464355, "s": 406}
+{"arm": "gpc_alm_d10_zero", "rho": 4.0, "c": 1.0, "div": false, "exploded": false, "val": 0.6535900831222534, "s": 390}

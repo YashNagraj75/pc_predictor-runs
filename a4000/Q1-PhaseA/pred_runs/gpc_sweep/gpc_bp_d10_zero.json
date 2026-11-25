@@ -1,0 +1,90 @@
+[
+ {
+  "arm": "gpc_bp_d10_zero",
+  "c": 0.25,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.33499518036842346,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 4.735106468200684,
+   "E2": 0.0,
+   "E_init": 67.0907211303711,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 38.44915771484375,
+   "pred_err": 64.65716552734375,
+   "rel_last_step_s": 0.003314464818686247,
+   "s_norm": 1.4621670246124268
+  },
+  "s": 723.4100337028503
+ },
+ {
+  "arm": "gpc_bp_d10_zero",
+  "c": 0.5,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.3399864137172699,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 5.609893321990967,
+   "E2": 0.0,
+   "E_init": 66.46464538574219,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.007518797181546688,
+   "gnorm": 30.148256301879883,
+   "pred_err": 65.95429992675781,
+   "rel_last_step_s": 0.018078360706567764,
+   "s_norm": 1.8396034240722656
+  },
+  "s": 607.810001373291
+ },
+ {
+  "arm": "gpc_bp_d10_zero",
+  "c": 1.0,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.3482072055339813,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 6.761008262634277,
+   "E2": 0.0,
+   "E_init": 65.86174011230469,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.08771929889917374,
+   "gnorm": 26.260211944580078,
+   "pred_err": 66.59342956542969,
+   "rel_last_step_s": 0.048314936459064484,
+   "s_norm": 2.1069579124450684
+  },
+  "s": 624.9982931613922
+ },
+ {
+  "arm": "gpc_bp_d10_zero",
+  "c": 2.0,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.34488731622695923,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 6.834694862365723,
+   "E2": 0.0,
+   "E_init": 66.15157318115234,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.02255639061331749,
+   "gnorm": 27.594219207763672,
+   "pred_err": 66.80558013916016,
+   "rel_last_step_s": 0.05733412504196167,
+   "s_norm": 2.180328369140625
+  },
+  "s": 589.2920906543732
+ }
+]

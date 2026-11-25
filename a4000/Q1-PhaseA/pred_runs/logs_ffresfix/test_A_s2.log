@@ -1,0 +1,5 @@
+ffres_alm_d10 bp s2 pairs   clean        k=1 T=     nmse 0.3634 cos 0.7689 retr1 0.1386
+ffres_alm_d10 bp s2 k_seen  clean        k=1 T=     nmse 0.3628 cos 0.7677 retr1 0.1427
+ffres_alm_d10 bp s2 robust  noise=0.1    k=1 T=     nmse 0.7403 cos 0.5398 retr1 0.0300
+ffres_alm_d10 bp s2 robust  noise=0.2    k=1 T=     nmse 1.5744 cos 0.2784 retr1 0.0063
+ffres_alm_d10 bp s2 robust  occlude=0.25 k=1 T=     nmse 1.7699 cos 0.1358 retr1 0.0025

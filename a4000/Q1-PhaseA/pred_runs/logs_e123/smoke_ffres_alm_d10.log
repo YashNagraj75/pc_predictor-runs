@@ -1,0 +1,7 @@
+[ffres_alm_d10_lr0.001 s0] step 1 loss 101.6089 0.698945164680481 47s
+TEST {"nmse": 1.3532214164733887, "retr1": 0.0006666666666666666}
+ffres_alm_d10 bp s0 pairs   clean        k=1 T=     nmse 1.3569 cos 0.0235 retr1 0.0007
+ffres_alm_d10 bp s0 k_seen  clean        k=1 T=     nmse 1.3520 cos 0.0237 retr1 0.0008
+ffres_alm_d10 bp s0 robust  noise=0.1    k=1 T=     nmse 1.5235 cos 0.0163 retr1 0.0003
+ffres_alm_d10 bp s0 robust  noise=0.2    k=1 T=     nmse 2.0842 cos 0.0089 retr1 0.0008
+ffres_alm_d10 bp s0 robust  occlude=0.25 k=1 T=     nmse 1.7098 cos 0.0013 retr1 0.0005

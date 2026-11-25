@@ -1,0 +1,4 @@
+CONTROL_ffres_bp_d10 {'cos': 1.0, 'relmax': 0.0, 'sec': 9.0}
+ffres_alm_d10_rho1 {'cos': 1.0000001192092896, 'relmax': 8.093270480458159e-06, 'sec': 30.9}
+ffres_alm_d10_rho16 {'cos': 0.9999998807907104, 'relmax': 0.000780244474299252, 'sec': 95.7}
+DONE

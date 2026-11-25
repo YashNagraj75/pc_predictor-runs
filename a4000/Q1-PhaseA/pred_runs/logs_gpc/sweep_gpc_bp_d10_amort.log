@@ -1,0 +1,4 @@
+{"arm": "gpc_bp_d10_amort", "c": 0.25, "div": false, "exploded": false, "val": 0.32821932435035706, "s": 664}
+{"arm": "gpc_bp_d10_amort", "c": 0.5, "div": false, "exploded": false, "val": 0.329598993062973, "s": 425}
+{"arm": "gpc_bp_d10_amort", "c": 1.0, "div": false, "exploded": false, "val": 0.32974523305892944, "s": 394}
+{"arm": "gpc_bp_d10_amort", "c": 2.0, "div": false, "exploded": false, "val": 0.33143889904022217, "s": 391}

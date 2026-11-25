@@ -1,0 +1,5 @@
+ffpcT100 bp s2 pairs   clean        k=1 T=     nmse 0.3416 cos 0.7841 retr1 0.1713
+ffpcT100 bp s2 k_seen  clean        k=1 T=     nmse 0.3413 cos 0.7833 retr1 0.1777
+ffpcT100 bp s2 robust  noise=0.1    k=1 T=     nmse 0.7413 cos 0.5488 retr1 0.0382
+ffpcT100 bp s2 robust  noise=0.2    k=1 T=     nmse 1.6931 cos 0.2796 retr1 0.0075
+ffpcT100 bp s2 robust  occlude=0.25 k=1 T=     nmse 1.8221 cos 0.1469 retr1 0.0035

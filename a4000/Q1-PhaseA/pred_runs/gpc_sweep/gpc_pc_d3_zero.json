@@ -1,0 +1,90 @@
+[
+ {
+  "arm": "gpc_pc_d3_zero",
+  "c": 0.25,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.38296693563461304,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.08567182719707489,
+   "E2": 0.7807182669639587,
+   "E_init": 63.624298095703125,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 4.978743076324463,
+   "pred_err": 73.00923156738281,
+   "rel_last_step_s": 0.0004400546313263476,
+   "s_norm": 0.24262967705726624
+  },
+  "s": 720.6993298530579
+ },
+ {
+  "arm": "gpc_pc_d3_zero",
+  "c": 0.5,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.3809816539287567,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.08461610972881317,
+   "E2": 0.7185148000717163,
+   "E_init": 63.575340270996094,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 2.3690996170043945,
+   "pred_err": 72.582763671875,
+   "rel_last_step_s": 0.00045026745647192,
+   "s_norm": 0.26403364539146423
+  },
+  "s": 586.8040964603424
+ },
+ {
+  "arm": "gpc_pc_d3_zero",
+  "c": 1.0,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.38003262877464294,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.0879104733467102,
+   "E2": 0.7151419520378113,
+   "E_init": 63.59309387207031,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 1.9841536283493042,
+   "pred_err": 72.20925903320312,
+   "rel_last_step_s": 0.0004438161267898977,
+   "s_norm": 0.28725650906562805
+  },
+  "s": 587.8842408657074
+ },
+ {
+  "arm": "gpc_pc_d3_zero",
+  "c": 2.0,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.3785673677921295,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.09567111730575562,
+   "E2": 0.7370651960372925,
+   "E_init": 63.61626434326172,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 2.3272318840026855,
+   "pred_err": 72.20597839355469,
+   "rel_last_step_s": 0.000295895675662905,
+   "s_norm": 0.30943748354911804
+  },
+  "s": 586.9111776351929
+ }
+]

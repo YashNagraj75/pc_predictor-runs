@@ -1,0 +1,90 @@
+[
+ {
+  "arm": "gpc_pc_d10_zero",
+  "c": 0.25,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.3997046649456024,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.029645787551999092,
+   "E2": 0.6401758193969727,
+   "E_init": 64.9714126586914,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 5.055417060852051,
+   "pred_err": 75.51651763916016,
+   "rel_last_step_s": 0.0031426474452018738,
+   "s_norm": 0.028923314064741135
+  },
+  "s": 1102.8276324272156
+ },
+ {
+  "arm": "gpc_pc_d10_zero",
+  "c": 0.5,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.39216798543930054,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.014800513163208961,
+   "E2": 0.22574003040790558,
+   "E_init": 63.99812316894531,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 3.5476739406585693,
+   "pred_err": 74.51693725585938,
+   "rel_last_step_s": 0.0012415592791512609,
+   "s_norm": 0.06308083236217499
+  },
+  "s": 946.1120564937592
+ },
+ {
+  "arm": "gpc_pc_d10_zero",
+  "c": 1.0,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.3813074827194214,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.01803004741668701,
+   "E2": 0.13062632083892822,
+   "E_init": 63.78901290893555,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 3.830673933029175,
+   "pred_err": 72.8222885131836,
+   "rel_last_step_s": 0.0004921071813441813,
+   "s_norm": 0.09315808117389679
+  },
+  "s": 908.0998635292053
+ },
+ {
+  "arm": "gpc_pc_d10_zero",
+  "c": 2.0,
+  "diverged": false,
+  "exploded": false,
+  "val_k1_nmse": 0.37809088826179504,
+  "last": {
+   "step": 800,
+   "k": 1,
+   "E": 0.022312048822641373,
+   "E2": 0.12749288976192474,
+   "E_init": 63.883914947509766,
+   "amort_rel_err": null,
+   "finite": true,
+   "frac_up_steps": 0.0,
+   "gnorm": 2.899319648742676,
+   "pred_err": 71.9287338256836,
+   "rel_last_step_s": 0.0002302248904015869,
+   "s_norm": 0.11430390179157257
+  },
+  "s": 952.2168292999268
+ }
+]

@@ -1,0 +1,15 @@
+[gpc_bp_d3_zero c1.0 s0] {"step": 1, "k": 3, "E": 124.9898, "E2": 0.0, "E_init": 186.0659, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 84.5753, "pred_err": 38.9819, "rel_last_step_s": 0.0304, "s_norm": 6.2437}  25s
+[gpc_bp_d3_zero c1.0 s0] {"step": 30, "k": 2, "E": 25.7113, "E2": 0.0, "E_init": 124.7558, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 14.5456, "pred_err": 42.2563, "rel_last_step_s": 0.0035, "s_norm": 3.5597}  79s
+gpc_bp_d3_zero bp s0 k_seen          clean        k=1 T=400 nmse 0.3992 retr1 0.1370
+gpc_bp_d3_zero bp s0 k_seen_settled  clean        k=1 T=2000 nmse 0.3992 retr1 0.1372
+gpc_bp_d3_zero bp s0 k_seen          clean        k=2 T=400 nmse 0.3453 retr1 0.1688
+gpc_bp_d3_zero bp s0 k_seen_settled  clean        k=2 T=2000 nmse 0.3453 retr1 0.1688
+gpc_bp_d3_zero bp s0 k_seen          clean        k=3 T=400 nmse 0.3168 retr1 0.1990
+gpc_bp_d3_zero bp s0 k_seen_settled  clean        k=3 T=2000 nmse 0.3167 retr1 0.2005
+gpc_bp_d3_zero bp s0 robust          noise=0.1    k=1 T=400 nmse 0.8765 retr1 0.0328
+gpc_bp_d3_zero bp s0 robust          noise=0.2    k=1 T=400 nmse 2.1008 retr1 0.0070
+gpc_bp_d3_zero bp s0 robust          occlude=0.25 k=1 T=400 nmse 2.1801 retr1 0.0030
+gpc_bp_d3_zero bp s0 robust          noise=0.1    k=2 T=400 nmse 0.4856 retr1 0.0818
+gpc_bp_d3_zero bp s0 robust          noise=0.2    k=2 T=400 nmse 0.8462 retr1 0.0245
+gpc_bp_d3_zero bp s0 robust          occlude=0.25 k=2 T=400 nmse 0.8715 retr1 0.0213
+DIAG {"Ttrain": {"nmse": 0.3453352749347687, "nmse_shuffled_s": 1.7238942384719849, "s_norm": 3.6072394847869873, "rel_last_step_s": 0.003603051241952926, "amort_rel_dist": null}, "settled": {"nmse": 0.34533900022506714, "nmse_shuffled_s": 1.7238935232162476, "s_norm": 3.6112003326416016, "rel_last_step_s": 0.0036489658523350954, "amort_rel_dist": null}, "nmse_tau_only": 1.011413335800171, "nmse_copy_mean_seen": 0.38053253293037415}

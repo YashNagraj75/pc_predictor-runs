@@ -1,0 +1,50 @@
+{
+ "method": "ffres_pc_d3",
+ "backbone": "bp",
+ "seed": 0,
+ "rows": [
+  {
+   "test": "pairs",
+   "condition": "clean",
+   "k": 1,
+   "nmse": 1.3439987897872925,
+   "cos": 0.035537540912628174,
+   "retr1": 0.0005833333333333334
+  },
+  {
+   "test": "k_seen",
+   "condition": "clean",
+   "k": 1,
+   "nmse": 1.338597059249878,
+   "cos": 0.035832323133945465,
+   "retr1": 0.0005
+  },
+  {
+   "test": "robust",
+   "condition": "noise=0.1",
+   "k": 1,
+   "nmse": 1.5305423736572266,
+   "cos": 0.02424229122698307,
+   "retr1": 0.0006666666666666666
+  },
+  {
+   "test": "robust",
+   "condition": "noise=0.2",
+   "k": 1,
+   "nmse": 2.1334285736083984,
+   "cos": 0.012757067568600178,
+   "retr1": 0.0006666666666666666
+  },
+  {
+   "test": "robust",
+   "condition": "occlude=0.25",
+   "k": 1,
+   "nmse": 1.9373587369918823,
+   "cos": 0.005557546392083168,
+   "retr1": 0.00016666666666666666
+  }
+ ],
+ "seconds": 49.312713861465454,
+ "model_sha256": "58b40e1a3a5ba52efb73b43c2f5d77b2af85a7056d34ff5fad887a9e11183e9c",
+ "train_log": null
+}

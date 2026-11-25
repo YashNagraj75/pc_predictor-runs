@@ -1,0 +1,14 @@
+[ffres_bp_d3_lr0.001 s1] step 1 loss 93.9692  18s
+[ffres_bp_d3_lr0.001 s1] step 500 loss 27.9083  26s
+[ffres_bp_d3_lr0.001 s1] step 1000 loss 24.3159  33s
+[ffres_bp_d3_lr0.001 s1] step 1500 loss 23.5776  41s
+[ffres_bp_d3_lr0.001 s1] step 2000 loss 23.9871  48s
+[ffres_bp_d3_lr0.001 s1] step 2500 loss 22.0737  55s
+[ffres_bp_d3_lr0.001 s1] step 3000 loss 22.9855  62s
+[ffres_bp_d3_lr0.001 s1] step 3500 loss 23.3994  72s
+[ffres_bp_d3_lr0.001 s1] step 4000 loss 21.7592  80s
+[ffres_bp_d3_lr0.001 s1] step 4500 loss 23.4067  88s
+[ffres_bp_d3_lr0.001 s1] step 5000 loss 22.4397  94s
+[ffres_bp_d3_lr0.001 s1] step 5500 loss 22.9909  101s
+[ffres_bp_d3_lr0.001 s1] step 6000 loss 22.5838  110s
+TEST {"nmse": 0.3607342839241028, "retr1": 0.13775}

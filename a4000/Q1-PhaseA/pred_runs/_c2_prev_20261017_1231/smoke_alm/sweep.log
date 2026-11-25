@@ -1,0 +1,9 @@
+{"arm": "gpc_alm_d3_zero", "rho": 1.0, "c": 0.25, "div": false, "exploded": false, "val": 0.843102753162384, "s": 132}
+{"arm": "gpc_alm_d3_zero", "rho": 1.0, "c": 0.5, "div": false, "exploded": false, "val": 0.8071708679199219, "s": 22}
+{"arm": "gpc_alm_d3_zero", "rho": 1.0, "c": 1.0, "div": false, "exploded": false, "val": 0.7884700298309326, "s": 23}
+{"arm": "gpc_alm_d3_zero", "rho": 4.0, "c": 0.25, "div": false, "exploded": false, "val": 0.9228551387786865, "s": 54}
+{"arm": "gpc_alm_d3_zero", "rho": 4.0, "c": 0.5, "div": false, "exploded": false, "val": 0.8767070770263672, "s": 23}
+{"arm": "gpc_alm_d3_zero", "rho": 4.0, "c": 1.0, "div": false, "exploded": false, "val": 0.8315256834030151, "s": 23}
+{"arm": "gpc_alm_d3_zero", "rho": 16.0, "c": 0.25, "div": false, "exploded": false, "val": 0.9824321866035461, "s": 23}
+{"arm": "gpc_alm_d3_zero", "rho": 16.0, "c": 0.5, "div": false, "exploded": false, "val": 0.9567816853523254, "s": 22}
+{"arm": "gpc_alm_d3_zero", "rho": 16.0, "c": 1.0, "div": false, "exploded": false, "val": 0.9189856648445129, "s": 23}

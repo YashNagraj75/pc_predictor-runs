@@ -1,0 +1,48 @@
+{
+ "cfg": {
+  "arm": "pc",
+  "depth": 3,
+  "seed": 0,
+  "steps": 30,
+  "batch": 512,
+  "lr": 0.001,
+  "wd": 0.0001,
+  "T": 5,
+  "alpha": 1.0,
+  "holdout": false,
+  "backbone": "bp",
+  "layer": "emb",
+  "use_tau": true
+ },
+ "ptype": "mupc",
+ "log": [
+  {
+   "step": 1,
+   "train_loss": 98.16584777832031,
+   "grad_norm": 1.8365854024887085,
+   "w_norms": [
+    27.89817237854004,
+    32.16408157348633,
+    26.74062156677246
+   ],
+   "cos_bp": 0.7978227734565735,
+   "ratio_bp": 0.5074276924133301,
+   "layer_cos": [
+    0.9957000017166138,
+    0.9883999824523926,
+    0.9692999720573425
+   ],
+   "min_layer_cos": 0.9692920446395874,
+   "res_rel": 0.12733127176761627
+  }
+ ],
+ "test": {
+  "nmse": 1.338931918144226,
+  "retr1": 0.0005833333333333334
+ },
+ "finite": true,
+ "commit": "5eb580a7b8733a380ada340d4a6c9fe2ac900bf5",
+ "dirty_files": 0,
+ "matmul_precision": "highest",
+ "eqx_sha256": "58b40e1a3a5ba52efb73b43c2f5d77b2af85a7056d34ff5fad887a9e11183e9c"
+}

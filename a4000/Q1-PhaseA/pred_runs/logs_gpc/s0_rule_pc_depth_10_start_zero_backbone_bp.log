@@ -1,0 +1,30 @@
+[gpc_pc_d10_zero c2.0 s0] {"step": 1, "k": 3, "E": 93.1456, "E2": 121.1737, "E_init": 187.7134, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 82.3843, "pred_err": 56.973, "rel_last_step_s": 0.0016, "s_norm": 1.4701}  49s
+[gpc_pc_d10_zero c2.0 s0] {"step": 250, "k": 1, "E": 0.104, "E2": 0.5036, "E_init": 68.6432, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 4.8797, "pred_err": 70.771, "rel_last_step_s": 0.0004, "s_norm": 0.2113}  426s
+[gpc_pc_d10_zero c2.0 s0] {"step": 500, "k": 1, "E": 0.0374, "E2": 0.2099, "E_init": 64.6159, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 3.4083, "pred_err": 71.4602, "rel_last_step_s": 0.0003, "s_norm": 0.1427}  731s
+[gpc_pc_d10_zero c2.0 s0] {"step": 750, "k": 1, "E": 0.0232, "E2": 0.1361, "E_init": 64.831, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 3.043, "pred_err": 73.2925, "rel_last_step_s": 0.0002, "s_norm": 0.1163}  1040s
+[gpc_pc_d10_zero c2.0 s0] {"step": 1000, "k": 1, "E": 0.0184, "E2": 0.1048, "E_init": 59.3875, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 3.9178, "pred_err": 71.8345, "rel_last_step_s": 0.0002, "s_norm": 0.1001}  1348s
+[gpc_pc_d10_zero c2.0 s0] {"step": 1250, "k": 1, "E": 0.0102, "E2": 0.062, "E_init": 68.866, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 1.391, "pred_err": 71.3615, "rel_last_step_s": 0.0002, "s_norm": 0.0847}  1655s
+[gpc_pc_d10_zero c2.0 s0] {"step": 1500, "k": 2, "E": 0.0119, "E2": 0.0308, "E_init": 125.0986, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.6058, "pred_err": 37.9953, "rel_last_step_s": 0.0003, "s_norm": 0.0723}  1968s
+[gpc_pc_d10_zero c2.0 s0] {"step": 1750, "k": 1, "E": 0.0041, "E2": 0.0275, "E_init": 65.6698, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.7092, "pred_err": 66.9689, "rel_last_step_s": 0.0002, "s_norm": 0.063}  2265s
+[gpc_pc_d10_zero c2.0 s0] {"step": 2000, "k": 1, "E": 0.0028, "E2": 0.0222, "E_init": 60.3344, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.4119, "pred_err": 67.2274, "rel_last_step_s": 0.0001, "s_norm": 0.0524}  2520s
+[gpc_pc_d10_zero c2.0 s0] {"step": 2250, "k": 1, "E": 0.0025, "E2": 0.0191, "E_init": 60.206, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.2481, "pred_err": 70.963, "rel_last_step_s": 0.0001, "s_norm": 0.0497}  2786s
+[gpc_pc_d10_zero c2.0 s0] {"step": 2500, "k": 3, "E": 0.0084, "E2": 0.0127, "E_init": 196.6695, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.0484, "pred_err": 18.8331, "rel_last_step_s": 0.0002, "s_norm": 0.0459}  3078s
+[gpc_pc_d10_zero c2.0 s0] {"step": 2750, "k": 2, "E": 0.0048, "E2": 0.013, "E_init": 121.5011, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.0547, "pred_err": 40.3345, "rel_last_step_s": 0.0001, "s_norm": 0.0443}  3318s
+[gpc_pc_d10_zero c2.0 s0] {"step": 3000, "k": 1, "E": 0.0018, "E2": 0.0145, "E_init": 62.6293, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.0871, "pred_err": 73.4009, "rel_last_step_s": 0.0001, "s_norm": 0.0426}  3554s
+[gpc_pc_d10_zero c2.0 s0] {"step": 3250, "k": 2, "E": 0.0044, "E2": 0.0121, "E_init": 127.4888, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.037, "pred_err": 41.3724, "rel_last_step_s": 0.0001, "s_norm": 0.0425}  3852s
+[gpc_pc_d10_zero c2.0 s0] {"step": 3500, "k": 1, "E": 0.0017, "E2": 0.0133, "E_init": 62.2032, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.051, "pred_err": 68.4603, "rel_last_step_s": 0.0001, "s_norm": 0.0407}  4146s
+[gpc_pc_d10_zero c2.0 s0] {"step": 3750, "k": 3, "E": 0.0066, "E2": 0.0102, "E_init": 187.3085, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.0275, "pred_err": 19.6396, "rel_last_step_s": 0.0002, "s_norm": 0.0399}  4447s
+[gpc_pc_d10_zero c2.0 s0] {"step": 4000, "k": 2, "E": 0.0042, "E2": 0.0116, "E_init": 128.0433, "amort_rel_err": NaN, "finite": true, "frac_up_steps": 0.0, "gnorm": 0.0275, "pred_err": 40.1269, "rel_last_step_s": 0.0001, "s_norm": 0.0417}  4746s
+gpc_pc_d10_zero bp s0 k_seen          clean        k=1 T=400 nmse 0.3753 retr1 0.1773
+gpc_pc_d10_zero bp s0 k_seen_settled  clean        k=1 T=2000 nmse 0.3756 retr1 0.1773
+gpc_pc_d10_zero bp s0 k_seen          clean        k=2 T=400 nmse 0.3250 retr1 0.2147
+gpc_pc_d10_zero bp s0 k_seen_settled  clean        k=2 T=2000 nmse 0.3254 retr1 0.2140
+gpc_pc_d10_zero bp s0 k_seen          clean        k=3 T=400 nmse 0.2979 retr1 0.2550
+gpc_pc_d10_zero bp s0 k_seen_settled  clean        k=3 T=2000 nmse 0.2983 retr1 0.2550
+gpc_pc_d10_zero bp s0 robust          noise=0.1    k=1 T=400 nmse 0.8754 retr1 0.0390
+gpc_pc_d10_zero bp s0 robust          noise=0.2    k=1 T=400 nmse 2.2814 retr1 0.0083
+gpc_pc_d10_zero bp s0 robust          occlude=0.25 k=1 T=400 nmse 2.3832 retr1 0.0027
+gpc_pc_d10_zero bp s0 robust          noise=0.1    k=2 T=400 nmse 0.4743 retr1 0.1057
+gpc_pc_d10_zero bp s0 robust          noise=0.2    k=2 T=400 nmse 0.9213 retr1 0.0325
+gpc_pc_d10_zero bp s0 robust          occlude=0.25 k=2 T=400 nmse 0.9420 retr1 0.0238
+DIAG {"Ttrain": {"nmse": 0.3250466287136078, "nmse_shuffled_s": 1.7288501262664795, "s_norm": 0.041090741753578186, "rel_last_step_s": 0.00013990254228701815, "amort_rel_dist": null, "level_energy_share": [0.004325162717417057, 0.0058155540106394265, 0.007704852754068542, 0.01091204648994942, 0.01662250878452046, 0.027561444234765982, 0.050294498256761445, 0.10125508892821862, 0.22751218575287846, 0.5479966580707806]}, "settled": {"nmse": 0.3254386782646179, "nmse_shuffled_s": 1.7299058437347412, "s_norm": 0.04146132990717888, "rel_last_step_s": 5.208214020058222e-06, "amort_rel_dist": null, "level_energy_share": [0.003813592797948294, 0.005304917749384603, 0.007134402732512884, 0.010311160956522899, 0.01602725658622899, 0.02704730751821593, 0.049959432093980294, 0.10124356585023093, 0.22830493147347075, 0.5508534322415044]}, "nmse_tau_only": 0.9885921478271484, "nmse_copy_mean_seen": 0.38053253293037415}
