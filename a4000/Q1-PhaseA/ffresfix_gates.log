@@ -1,0 +1,30 @@
+  [PASS] d10 bp: forward pass == float64 reference (rel err < 1e-5)  5.1e-07
+  [PASS] d10 bp: residuals zero at the forward pass  
+     report: |jpc.init_activities_with_ffwd - ours| per layer [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+     d10 bp: rms activation per layer at init [1.0084, 1.037, 1.0621, 1.0904, 1.116, 1.1349, 1.16, 1.1836, 1.2117, 0.8613]
+     d10 bp: scalings [0.0828, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0625]  skips [False, True, True, True, True, True, True, True, True, False]
+  [PASS] d10 bp: muPC scaling for every rule  
+  [PASS] d10 pc: forward pass == float64 reference (rel err < 1e-5)  5.1e-07
+  [PASS] d10 pc: residuals zero at the forward pass  
+     report: |jpc.init_activities_with_ffwd - ours| per layer [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+     d10 pc: rms activation per layer at init [1.0084, 1.037, 1.0621, 1.0904, 1.116, 1.1349, 1.16, 1.1836, 1.2117, 0.8613]
+     d10 pc: scalings [0.0828, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0625]  skips [False, True, True, True, True, True, True, True, True, False]
+  [PASS] d10 pc: muPC scaling for every rule  
+  [PASS] d10 pc: energy == jpc.pc_energy_fn  134.3 vs 134.3
+  [PASS] d10 pc: zero duals give the plain energy  
+  [PASS] d10 alm: forward pass == float64 reference (rel err < 1e-5)  5.1e-07
+  [PASS] d10 alm: residuals zero at the forward pass  
+     report: |jpc.init_activities_with_ffwd - ours| per layer [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+     d10 alm: rms activation per layer at init [1.0084, 1.037, 1.0621, 1.0904, 1.116, 1.1349, 1.16, 1.1836, 1.2117, 0.8613]
+     d10 alm: scalings [0.0828, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0198, 0.0625]  skips [False, True, True, True, True, True, True, True, True, False]
+  [PASS] d10 alm: muPC scaling for every rule  
+  [PASS] d10 alm: energy == jpc.pc_energy_fn  134.3 vs 134.3
+  [PASS] d10 alm: zero duals give the plain energy  
+  [PASS] d10 step * lambda_max(H) < 2  0.601
+     report: small error, T=20: cos to BP  alm 0.7923  plain pc 0.6197
+     report: small error, T=100: cos to BP  alm 0.9699  plain pc 0.6203
+     report: small error, T=400: cos to BP  alm 0.9937  plain pc 0.6557
+  [PASS] d10 power-iteration spectral norm within [1.0, 1.03] x exact  1.0128
+  [PASS] d10 bp gradient == central difference (largest entry)  0.024022 vs 0.024033
+  [PASS] d10 relaxed activities do not depend on the rest of the batch  7.2e-07
+ALL PASS
