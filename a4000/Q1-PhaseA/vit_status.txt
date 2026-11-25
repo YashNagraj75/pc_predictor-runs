@@ -1,0 +1,25 @@
+11-02_12:35 [vit/smoke] start at 5791b64
+11-02_12:37 [vit/smoke] gates rc=1 9 pass 0 fail
+11-02_12:44 [vit/smoke] start at 5170599
+11-02_13:00 [vit/smoke] gates rc=1 14 pass 4 fail
+11-02_13:33 [vit/smoke] start at ba73aaf
+11-02_13:38 [vit/smoke] gates rc=1 10 pass 0 fail
+11-02_15:21 [vit/smoke] start at 0153466
+11-02_15:49 [vit/smoke] gates rc=1 47 pass 3 fail
+11-02_15:52 [vit/smoke] start at 9d5b359
+11-02_16:32 [vit/smoke] gates rc=1 52 pass 1 fail
+11-02_16:34 [vit/smoke] start at fc712d6
+11-02_17:12 [vit/smoke] gates rc=0 53 pass 0 fail
+11-02_17:26 [vit/smoke] speed (autotune off) rc=0
+11-02_17:41 [vit/smoke] speed (autotune on) rc=0 audits 1
+11-02_17:45 [vit/smoke] smoke part 1 (400 of 585 steps) rc=3
+11-02_17:53 [vit/smoke] start at 648861f
+11-02_18:25 [vit/smoke] gates rc=0 54 pass 0 fail
+11-02_18:32 [vit/smoke] smoke part 1 (400 of 585 steps) rc=0
+11-02_18:38 [vit/smoke] smoke part 2 (resume to the end + gate report) rc=0
+11-03_10:24 [vit/gates] start at 648861f
+11-03_10:54 [vit/gates] gates rc=0 54 pass 0 fail
+11-03_10:54 [vit/v0] start at 648861f
+11-03_14:24 [vit/v0] v0 rc=0
+11-06_16:03 [vit/v0] start at 8ee37d9
+11-06_19:40 [vit/v0] v0 rc=0
