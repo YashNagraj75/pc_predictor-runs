@@ -1,0 +1,15 @@
+   eta_h=0.02: small-error cosine 0.99879, |g| ratio 0.8318, monotone True
+   eta_h=0.05: small-error cosine 0.99891, |g| ratio 0.8354, monotone True
+[PASS] small output error, T=300, eta_h=0.05: PC weight gradient = BP direction (cos 0.99891 > 0.998), energy monotone
+   eta_h=0.1: small-error cosine 0.99891, |g| ratio 0.8354, monotone True
+   eta_h=0.2: small-error cosine 0.99889, |g| ratio 0.8355, monotone True
+   report: random targets, T=20: cosine 0.8763 (PC != BP away from the small-error limit)
+[PASS] y = forward(x): PC gradient is zero (2.3e-10)
+[PASS] relaxed activities of a sample do not depend on the batch (1.2e-07)
+[PASS] ALM energy with no multipliers = jpc PC energy (6.994195 vs 6.994194)
+[PASS] alpha = 0: ALM weight gradient = plain PC (0.0e+00)
+   random targets, T=20: cos to BP  plain PC 0.8368 | ALM a=0.1: 0.9726 a=0.25: 0.9935 a=0.5: 0.9856 a=1.0: 0.9922
+   random targets, T=100: cos to BP  plain PC 0.8319 | ALM a=0.1: 0.9976 a=0.25: 0.9913 a=0.5: 0.9954 a=1.0: 0.9904
+[PASS] large error, T=100, alpha=0.25: ALM matches BP (cos 0.9913) where plain PC does not (0.8319)
+[PASS] ALM relaxed activities of a sample do not depend on the batch (1.2e-07)
+ALL PASS
