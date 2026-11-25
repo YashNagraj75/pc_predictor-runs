@@ -1,0 +1,11 @@
+  [PASS] d3 (float64) s fixed, observation weight 1e-4: PC weight gradient = BP auto-decoder direction (cos > 0.9999)  cos 1.0000000
+  [PASS] d3 (float64) hidden precision 1e4: relaxed hidden levels = top-down pass, gradient = BP direction (cos > 0.999)  cos 1.000000
+  [PASS] d3 (float64) ALM rho=64, fixed s, unit observation weight: credit = BP auto-decoder (cos > 0.995)  cos 0.999702
+     report: d3 ALM rho=16 converged credit cos 0.99922
+     report: d3 ALM rho=1 converged credit cos 0.98171
+  [PASS] d10 (float64) s fixed, observation weight 1e-4: PC weight gradient = BP auto-decoder direction (cos > 0.9999)  cos 0.9999997
+  [PASS] d10 (float64) hidden precision 1e4: relaxed hidden levels = top-down pass, gradient = BP direction (cos > 0.999)  cos 1.000000
+  [PASS] d10 (float64) ALM rho=64, fixed s, unit observation weight: credit = BP auto-decoder (cos > 0.995)  cos 0.997170
+     report: d10 ALM rho=16 converged credit cos 0.98399
+     report: d10 ALM rho=1 converged credit cos 0.82656
+ALL PASS
