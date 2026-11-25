@@ -1,0 +1,13 @@
+PC-ALM gates
+  [PASS] al_energy(duals=None) == jpc energy  ours=7.49324417 jpc=7.49324417 rel=0.00e+00
+  [PASS] al_energy(duals=0) == al_energy(duals=None)
+  [PASS] residuals vanish at the feedforward init  max|r| = 1.79e-07
+  [PASS] alpha=0 matches plain PC weight gradient  rel diff=4.21e-06  cos=0.99999988
+  [PASS] duals stay 0 at alpha=0  max|lam| = 0.00e+00
+  [PASS] duals become nonzero at alpha=1  ||lam|| = 2.112816
+  [PASS] relaxation is batch-size invariant (per-sample objective)  moves = B=2:0.010060, B=8:0.010060, B=32:0.010060  spread=1.000x
+      alpha=0  per-layer activity move: 1.7e-04 6.7e-04 2.3e-03 6.5e-03 1.6e-02 3.5e-02 6.8e-02 1.1e-01 1.7e-01 6.7e-01
+      alpha=1  per-layer activity move: 3.4e-02 7.2e-02 1.1e-01 1.5e-01 1.9e-01 2.1e-01 2.2e-01 2.1e-01 2.1e-01 5.4e-01
+      layers moving >1e-3:  alpha=0 -> 8,  alpha=1 -> 10
+
+ALL PASS
