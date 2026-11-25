@@ -1,0 +1,172 @@
+
+=== bp_sigreg_etafix_s0  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+Could not load symbol cuStreamGetGreenCtx. Error: /lib/x86_64-linux-gnu/libcuda.so.1: undefined symbol: cuStreamGetGreenCtx
+E0919 20:01:24.665322  920374 cuda_timer.cc:88] Delay kernel timed out: measured time has sub-optimal accuracy. There may be a missing warmup execution, please investigate in Nsight Systems.
+  decoder step     0  mse=0.11703
+  decoder step   500  mse=0.00259
+  decoder step  1000  mse=0.00228
+  decoder step  1500  mse=0.00226
+  decoder step  2000  mse=0.00185
+  decoder step  2500  mse=0.00211
+[probes] figures ...
+  class probe   linear 0.4490  mlp 0.4705
+  flux           linear r=0.928 nmse=0.143  mlp r=0.944
+  size_rms       linear r=0.988 nmse=0.025  mlp r=0.990
+  ellipticity    linear r=0.646 nmse=0.589  mlp r=0.709
+  concentration  linear r=0.974 nmse=0.054  mlp r=0.984
+  decode  ssim=0.8106 (floor 0.7033, gain +0.1073)  psnr=26.64
+  knn probe     0.3915
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.738 nmse=0.454
+  aug_contrast       linear r=+0.545 nmse=0.715
+  aug_crop_cx        linear r=+0.008 nmse=0.998
+  aug_crop_cy        linear r=-0.004 nmse=0.999
+  aug_crop_scale     linear r=+0.715 nmse=0.497
+  aug_flip           linear r=-0.027 nmse=1.012
+  aug_rot_cos        linear r=+0.040 nmse=0.989
+  aug_rot_sin        linear r=+0.033 nmse=1.015
+
+=== bp_sigreg_etafix_s1  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11704
+  decoder step   500  mse=0.00259
+  decoder step  1000  mse=0.00230
+  decoder step  1500  mse=0.00235
+  decoder step  2000  mse=0.00211
+  decoder step  2500  mse=0.00220
+[probes] figures ...
+  class probe   linear 0.4495  mlp 0.4620
+  flux           linear r=0.937 nmse=0.127  mlp r=0.947
+  size_rms       linear r=0.986 nmse=0.029  mlp r=0.989
+  ellipticity    linear r=0.643 nmse=0.591  mlp r=0.675
+  concentration  linear r=0.970 nmse=0.063  mlp r=0.982
+  decode  ssim=0.8039 (floor 0.7033, gain +0.1006)  psnr=26.32
+  knn probe     0.3880
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.688 nmse=0.524
+  aug_contrast       linear r=+0.507 nmse=0.757
+  aug_crop_cx        linear r=+0.048 nmse=0.973
+  aug_crop_cy        linear r=+0.043 nmse=0.992
+  aug_crop_scale     linear r=+0.692 nmse=0.529
+  aug_flip           linear r=-0.011 nmse=1.008
+  aug_rot_cos        linear r=+0.048 nmse=0.987
+  aug_rot_sin        linear r=+0.053 nmse=1.011
+
+=== bp_sigreg_etafix_s2  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11707
+  decoder step   500  mse=0.00254
+  decoder step  1000  mse=0.00235
+  decoder step  1500  mse=0.00231
+  decoder step  2000  mse=0.00195
+  decoder step  2500  mse=0.00220
+[probes] figures ...
+  class probe   linear 0.4435  mlp 0.4560
+  flux           linear r=0.932 nmse=0.135  mlp r=0.944
+  size_rms       linear r=0.987 nmse=0.026  mlp r=0.989
+  ellipticity    linear r=0.633 nmse=0.605  mlp r=0.682
+  concentration  linear r=0.970 nmse=0.062  mlp r=0.982
+  decode  ssim=0.8093 (floor 0.7033, gain +0.1060)  psnr=26.57
+  knn probe     0.3900
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.685 nmse=0.528
+  aug_contrast       linear r=+0.516 nmse=0.747
+  aug_crop_cx        linear r=+0.042 nmse=0.974
+  aug_crop_cy        linear r=+0.012 nmse=1.008
+  aug_crop_scale     linear r=+0.703 nmse=0.513
+  aug_flip           linear r=-0.002 nmse=1.007
+  aug_rot_cos        linear r=+0.043 nmse=0.988
+  aug_rot_sin        linear r=+0.037 nmse=1.015
+
+=== pc_sigreg_T16_coupled_etafix_s0  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11704
+  decoder step   500  mse=0.00277
+  decoder step  1000  mse=0.00253
+  decoder step  1500  mse=0.00247
+  decoder step  2000  mse=0.00211
+  decoder step  2500  mse=0.00211
+[probes] figures ...
+  class probe   linear 0.3495  mlp 0.3520
+  flux           linear r=0.988 nmse=0.025  mlp r=0.945
+  size_rms       linear r=0.960 nmse=0.081  mlp r=0.967
+  ellipticity    linear r=0.761 nmse=0.424  mlp r=0.738
+  concentration  linear r=0.955 nmse=0.094  mlp r=0.964
+  decode  ssim=0.7984 (floor 0.7033, gain +0.0951)  psnr=26.61
+  knn probe     0.3310
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.928 nmse=0.138
+  aug_contrast       linear r=+0.496 nmse=0.766
+  aug_crop_cx        linear r=-0.018 nmse=0.983
+  aug_crop_cy        linear r=+0.026 nmse=0.995
+  aug_crop_scale     linear r=+0.775 nmse=0.405
+  aug_flip           linear r=-0.019 nmse=1.011
+  aug_rot_cos        linear r=+0.008 nmse=0.993
+  aug_rot_sin        linear r=-0.013 nmse=1.022
+
+=== pc_sigreg_T16_coupled_etafix_s1  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11707
+  decoder step   500  mse=0.00280
+  decoder step  1000  mse=0.00248
+  decoder step  1500  mse=0.00251
+  decoder step  2000  mse=0.00200
+  decoder step  2500  mse=0.00225
+[probes] figures ...
+  class probe   linear 0.3505  mlp 0.3930
+  flux           linear r=0.960 nmse=0.081  mlp r=0.937
+  size_rms       linear r=0.959 nmse=0.083  mlp r=0.963
+  ellipticity    linear r=0.729 nmse=0.474  mlp r=0.746
+  concentration  linear r=0.952 nmse=0.099  mlp r=0.959
+  decode  ssim=0.7990 (floor 0.7033, gain +0.0957)  psnr=26.60
+  knn probe     0.3410
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.922 nmse=0.149
+  aug_contrast       linear r=+0.510 nmse=0.752
+  aug_crop_cx        linear r=+0.014 nmse=0.978
+  aug_crop_cy        linear r=+0.021 nmse=0.995
+  aug_crop_scale     linear r=+0.778 nmse=0.401
+  aug_flip           linear r=-0.014 nmse=1.011
+  aug_rot_cos        linear r=+0.016 nmse=0.996
+  aug_rot_sin        linear r=-0.025 nmse=1.024
+
+=== pc_sigreg_T16_coupled_etafix_s2  Z(6000, 128) -> img(32, 32, 3) ===
+[probes] scene-quantity probes ...
+[probes] augmentation-factor probes ...
+[probes] decoder ...
+  decoder step     0  mse=0.11701
+  decoder step   500  mse=0.00274
+  decoder step  1000  mse=0.00250
+  decoder step  1500  mse=0.00236
+  decoder step  2000  mse=0.00201
+  decoder step  2500  mse=0.00203
+[probes] figures ...
+  class probe   linear 0.3670  mlp 0.4015
+  flux           linear r=0.990 nmse=0.020  mlp r=0.940
+  size_rms       linear r=0.968 nmse=0.065  mlp r=0.971
+  ellipticity    linear r=0.773 nmse=0.405  mlp r=0.758
+  concentration  linear r=0.956 nmse=0.092  mlp r=0.968
+  decode  ssim=0.8017 (floor 0.7033, gain +0.0983)  psnr=26.76
+  knn probe     0.3545
+  -- augmentation invariance (HIGH nmse = invariance held) --
+  aug_brightness     linear r=+0.929 nmse=0.136
+  aug_contrast       linear r=+0.484 nmse=0.779
+  aug_crop_cx        linear r=+0.024 nmse=0.978
+  aug_crop_cy        linear r=+0.039 nmse=0.992
+  aug_crop_scale     linear r=+0.781 nmse=0.396
+  aug_flip           linear r=-0.006 nmse=1.009
+  aug_rot_cos        linear r=+0.000 nmse=0.995
+  aug_rot_sin        linear r=-0.013 nmse=1.022
+
+wrote probes_summary.csv (6 runs)
