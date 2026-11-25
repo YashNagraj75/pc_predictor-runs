@@ -1,0 +1,16 @@
+     report: rho 64 k_in 1 T2 3000: cos weight grad 0.99937 (alpha 0: 0.99925)  norm ratio 1.0005  rel err of data part of g_s 7.38e-02 (alpha 0: 6.84e-02)  hidden residual 8.56e-05
+  [PASS] d3 float64, rho 64, T2 3000: PC-ALM weight gradient == BP auto-decoder (cos > 0.995, ratio within 2%)  cos 0.99937 ratio 1.0005
+  [PASS] d3 float64, rho 64, T2 3000: data part of g_s within 25% of the auto-decoder's  7.38e-02
+     report: rho 16 k_in 1 T2 200: cos weight grad 0.99874 (alpha 0: 0.99648)  norm ratio 1.0010  rel err of data part of g_s 1.18e-01 (alpha 0: 1.50e-01)  hidden residual 3.54e-04
+     report: rho 16 k_in 1 T2 800: cos weight grad 0.99906 (alpha 0: 0.99647)  norm ratio 1.0004  rel err of data part of g_s 9.92e-02 (alpha 0: 1.50e-01)  hidden residual 3.57e-04
+     report: rho 16 k_in 1 T2 3000: cos weight grad 0.99880 (alpha 0: 0.99648)  norm ratio 0.9998  rel err of data part of g_s 1.05e-01 (alpha 0: 1.50e-01)  hidden residual 3.52e-04
+     report: rho 16 k_in 5 T2 200: cos weight grad 0.99964 (alpha 0: 0.99648)  norm ratio 1.0003  rel err of data part of g_s 5.45e-02 (alpha 0: 1.50e-01)  hidden residual 3.49e-04
+     report: rho 16 k_in 5 T2 800: cos weight grad 0.99953 (alpha 0: 0.99647)  norm ratio 1.0002  rel err of data part of g_s 6.25e-02 (alpha 0: 1.50e-01)  hidden residual 3.53e-04
+     report: rho 16 k_in 5 T2 3000: cos weight grad 0.99933 (alpha 0: 0.99648)  norm ratio 0.9998  rel err of data part of g_s 7.52e-02 (alpha 0: 1.50e-01)  hidden residual 3.17e-04
+  [PASS] d3 float64, rho 16, T2 3000: PC-ALM weight gradient == BP auto-decoder (cos > 0.995, ratio within 2%)  cos 0.99933 ratio 0.9998
+  [PASS] d3 float64, rho 16, T2 3000: data part of g_s within 25% of the auto-decoder's  7.52e-02
+  [PASS] d3 float64, rho 16: the multipliers matter for the weight gradient (alpha 0 further from BP)  0.99648 vs 0.99933
+  [PASS] d3 float64, rho 16: the multipliers matter for g_s (alpha 0 further from BP)  7.52e-02 vs 1.50e-01
+     report: rho 1 k_in 1 T2 200: cos weight grad 0.98693 (alpha 0: 0.90606)  norm ratio 1.0042  rel err of data part of g_s 3.63e-01 (alpha 0: 6.38e-01)  hidden residual 1.17e-02
+     report: rho 1 k_in 1 T2 800: cos weight grad 0.98624 (alpha 0: 0.90598)  norm ratio 1.0053  rel err of data part of g_s 3.73e-01 (alpha 0: 6.38e-01)  hidden residual 1.18e-02
+ALL PASS
