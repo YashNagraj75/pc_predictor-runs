@@ -1,0 +1,18 @@
+{
+ "default d3 pc T100": 100.0,
+ "default d3 pc T400": 216.9,
+ "default d3 bp T100": 71.9,
+ "default d3 bp T400": 179.0,
+ "default d10 pc T100": 159.1,
+ "default d10 pc T400": 328.1,
+ "default d10 bp T100": 116.2,
+ "default d10 bp T400": 246.8,
+ "highest d3 pc T100": 136.4,
+ "highest d3 pc T400": 352.5,
+ "highest d3 bp T100": 110.8,
+ "highest d3 bp T400": 303.3,
+ "highest d10 pc T100": 223.9,
+ "highest d10 pc T400": 583.9,
+ "highest d10 bp T100": 174.9,
+ "highest d10 bp T400": 484.3
+}
