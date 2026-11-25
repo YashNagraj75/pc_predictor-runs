@@ -1,0 +1,25 @@
+training 2 runs x 2000 steps
+
+########## pc_sigreg_T16_coupled_spBpilot_s0  (2000 steps) ##########
+[pc_sigreg_T16_coupled_spBpilot_s0] step     0  |g|=7.813e-02  {'step': 0, 'grad_norm_preclip': 0.0781, 'loss_ff': 1.2485, 'F_final': 15.8419, 'F_first': 7.4289, 'L_final': 0.5099, 'act_growth': 0.9999, 'active_frac': 0.203, 'dual_norm': 65.3163}
+[pc_sigreg_T16_coupled_spBpilot_s0] step   250  |g|=9.466e-02  {'step': 250, 'grad_norm_preclip': 0.0947, 'loss_ff': 5.1666, 'F_final': 13.7988, 'F_first': 2.6777, 'L_final': 5.5456, 'act_growth': 1.0, 'active_frac': 0.0204, 'dual_norm': 82.4842}
+[pc_sigreg_T16_coupled_spBpilot_s0] step   500  |g|=1.060e-01  {'step': 500, 'grad_norm_preclip': 0.106, 'loss_ff': 5.2335, 'F_final': 12.5908, 'F_first': 2.4794, 'L_final': 6.4228, 'act_growth': 1.0, 'active_frac': 0.0164, 'dual_norm': 79.3933}
+[pc_sigreg_T16_coupled_spBpilot_s0] step   750  |g|=5.036e-02  {'step': 750, 'grad_norm_preclip': 0.0504, 'loss_ff': 5.2342, 'F_final': 2.2689, 'F_first': 2.2377, 'L_final': 5.2342, 'act_growth': 1.0, 'active_frac': 0.0156, 'dual_norm': 4.2953}
+[pc_sigreg_T16_coupled_spBpilot_s0] step  1000  |g|=1.936e-02  {'step': 1000, 'grad_norm_preclip': 0.0194, 'loss_ff': 5.2342, 'F_final': 1.8295, 'F_first': 1.8087, 'L_final': 5.2342, 'act_growth': 1.0, 'active_frac': 0.0078, 'dual_norm': 3.4973}
+[pc_sigreg_T16_coupled_spBpilot_s0] step  1250  |g|=2.289e-03  {'step': 1250, 'grad_norm_preclip': 0.0023, 'loss_ff': 5.2342, 'F_final': 1.8104, 'F_first': 1.7952, 'L_final': 5.2342, 'act_growth': 1.0, 'active_frac': 0.0078, 'dual_norm': 3.0012}
+[pc_sigreg_T16_coupled_spBpilot_s0] step  1500  |g|=1.861e-03  {'step': 1500, 'grad_norm_preclip': 0.0019, 'loss_ff': 5.2342, 'F_final': 1.8162, 'F_first': 1.7979, 'L_final': 5.2342, 'act_growth': 1.0, 'active_frac': 0.0078, 'dual_norm': 3.3731}
+[pc_sigreg_T16_coupled_spBpilot_s0] step  1750  |g|=1.687e-03  {'step': 1750, 'grad_norm_preclip': 0.0017, 'loss_ff': 5.2342, 'F_final': 1.8018, 'F_first': 1.7914, 'L_final': 5.2342, 'act_growth': 1.0, 'active_frac': 0.0078, 'dual_norm': 2.4758}
+[pc_sigreg_T16_coupled_spBpilot_s0] step  1999  |g|=1.418e-03  {'step': 1999, 'grad_norm_preclip': 0.0014, 'loss_ff': 5.2342, 'F_final': 1.8031, 'F_first': 1.7921, 'L_final': 5.2342, 'act_growth': 1.0, 'active_frac': 0.0078, 'dual_norm': 2.531}
+########## pc_sigreg_T16_coupled_spBpilot_s0 done in 209s ##########
+
+########## bp_sigreg_spBpilot_s0  (2000 steps) ##########
+[bp_sigreg_spBpilot_s0] step     0  |g|=2.552e-01  {'step': 0, 'grad_norm_preclip': 0.2552, 'loss_ff': 1.2471, 'head_energy': 7.4289, 'loss': 8.677, 'pred': 0.6952, 'sigreg': 11.7534, 'total': 1.2481}
+[bp_sigreg_spBpilot_s0] step   250  |g|=2.309e-01  {'step': 250, 'grad_norm_preclip': 0.2309, 'loss_ff': 1.0455, 'head_energy': 3.8586, 'loss': 4.9116, 'pred': 0.4938, 'sigreg': 11.679, 'total': 1.053}
+[bp_sigreg_spBpilot_s0] step   500  |g|=2.696e-01  {'step': 500, 'grad_norm_preclip': 0.2696, 'loss_ff': 1.004, 'head_energy': 3.0842, 'loss': 4.0979, 'pred': 0.4227, 'sigreg': 12.2419, 'total': 1.0137}
+[bp_sigreg_spBpilot_s0] step   750  |g|=2.625e-01  {'step': 750, 'grad_norm_preclip': 0.2625, 'loss_ff': 0.9171, 'head_energy': 2.7596, 'loss': 3.6886, 'pred': 0.4089, 'sigreg': 10.8111, 'total': 0.929}
+[bp_sigreg_spBpilot_s0] step  1000  |g|=1.490e-01  {'step': 1000, 'grad_norm_preclip': 0.149, 'loss_ff': 0.9286, 'head_energy': 2.7019, 'loss': 3.6334, 'pred': 0.383, 'sigreg': 11.3524, 'total': 0.9315}
+[bp_sigreg_spBpilot_s0] step  1250  |g|=2.583e-01  {'step': 1250, 'grad_norm_preclip': 0.2583, 'loss_ff': 0.9379, 'head_energy': 2.6553, 'loss': 3.5941, 'pred': 0.3708, 'sigreg': 11.7303, 'total': 0.9388}
+[bp_sigreg_spBpilot_s0] step  1500  |g|=1.636e-01  {'step': 1500, 'grad_norm_preclip': 0.1636, 'loss_ff': 0.9901, 'head_energy': 2.6393, 'loss': 3.63, 'pred': 0.3898, 'sigreg': 12.4081, 'total': 0.9907}
+[bp_sigreg_spBpilot_s0] step  1750  |g|=1.591e-01  {'step': 1750, 'grad_norm_preclip': 0.1591, 'loss_ff': 0.9495, 'head_energy': 2.639, 'loss': 3.5887, 'pred': 0.3742, 'sigreg': 11.8832, 'total': 0.9496}
+[bp_sigreg_spBpilot_s0] step  1999  |g|=1.962e-01  {'step': 1999, 'grad_norm_preclip': 0.1962, 'loss_ff': 0.9406, 'head_energy': 2.637, 'loss': 3.5776, 'pred': 0.3714, 'sigreg': 11.7553, 'total': 0.9406}
+########## bp_sigreg_spBpilot_s0 done in 107s ##########
