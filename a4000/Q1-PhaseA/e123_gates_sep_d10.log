@@ -1,0 +1,23 @@
+  [PASS] d10 belief pc == pc_infer at unit precision  
+  [PASS] d10 belief oracle == ad_infer  
+  [PASS] d10 stage 2 starts with every hidden residual zero  
+  [PASS] d10 oracle: belief ignores the unseen views  
+  [PASS] d10 pc: belief ignores the unseen views  
+  [PASS] d10 amort: belief ignores the unseen views  
+  [PASS] d10 pc belief responds to a seen view  
+  [PASS] d10 amort: amortiser grads finite  
+  [PASS] d10 gpc_sep_d10_zero_hp4_a1_k1_oracle_c1_T220: 6 steps finite, res_rel logged  res_rel 0.0152
+  [PASS] d10 gpc_sep_d10_zero_hp4_a1_k5_oracle_c1_T220: 6 steps finite, res_rel logged  res_rel 0.0273
+  [PASS] d10 gpc_sep_d10_zero_hp4_a0_k1_oracle_c1_T220: 6 steps finite, res_rel logged  res_rel 0.0678
+  [PASS] d10 gpc_sep_d10_zero_hp4_a0_k5_oracle_c1_T220: 6 steps finite, res_rel logged  res_rel 0.0678
+  [PASS] d10 gpc_sep_d10_zero_hp4_a1_k1_pc_c1_T220: 6 steps finite, res_rel logged  res_rel 0.0422
+  [PASS] d10 gpc_sep_d10_zero_hp4_a1_k5_pc_c1_T220: 6 steps finite, res_rel logged  res_rel 0.07
+  [PASS] d10 gpc_sep_d10_zero_hp4_a0_k1_pc_c1_T220: 6 steps finite, res_rel logged  res_rel 0.156
+  [PASS] d10 gpc_sep_d10_zero_hp4_a0_k5_pc_c1_T220: 6 steps finite, res_rel logged  res_rel 0.156
+  [PASS] d10 gpc_sep_d10_amort_hp4_a1_k1_amort_c1_T220: 6 steps finite, res_rel logged  res_rel 0.0277
+  [PASS] d10 gpc_sep_d10_amort_hp4_a1_k5_amort_c1_T220: 6 steps finite, res_rel logged  res_rel 0.0501
+  [PASS] d10 gpc_sep_d10_amort_hp4_a0_k1_amort_c1_T220: 6 steps finite, res_rel logged  res_rel 0.116
+  [PASS] d10 gpc_sep_d10_amort_hp4_a0_k5_amort_c1_T220: 6 steps finite, res_rel logged  res_rel 0.116
+  [PASS] d10 12 distinct arm names  ['gpc_sep_d10_amort_hp4_a0_k1_amort_c1_T220', 'gpc_sep_d10_amort_hp4_a0_k5_amort_c1_T220', 'gpc_sep_d10_amort_hp4_a1_k1_amort_c1_T220', 'gpc_sep_d10_amort_hp4_a1_k5_amort_c1_T220', 'gpc_sep_d10_zero_hp4_a0_k1_oracle_c1_T220', 'gpc_sep_d10_zero_hp4_a0_k1_pc_c1_T220', 'gpc_sep_d10_zero_hp4_a0_k5_oracle_c1_T220', 'gpc_sep_d10_zero_hp4_a0_k5_pc_c1_T220', 'gpc_sep_d10_zero_hp4_a1_k1_oracle_c1_T220', 'gpc_sep_d10_zero_hp4_a1_k1_pc_c1_T220', 'gpc_sep_d10_zero_hp4_a1_k5_oracle_c1_T220', 'gpc_sep_d10_zero_hp4_a1_k5_pc_c1_T220']
+  [PASS] d10 name carries T2  
+ALL PASS
