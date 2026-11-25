@@ -1,0 +1,17 @@
+   eta_h=0.02: small-error cosine 0.99879, |g| ratio 0.8318, monotone True
+   eta_h=0.05: small-error cosine 0.99891, |g| ratio 0.8354, monotone True
+[PASS] small output error, T=300, eta_h=0.05: PC weight gradient = BP direction (cos 0.99891 > 0.998), energy monotone
+   eta_h=0.1: small-error cosine 0.99891, |g| ratio 0.8354, monotone True
+   eta_h=0.2: small-error cosine 0.99889, |g| ratio 0.8355, monotone True
+   report: random targets, T=20: cosine 0.8763 (PC != BP away from the small-error limit)
+[PASS] y = forward(x): PC gradient is zero (2.3e-10)
+[PASS] relaxed activities of a sample do not depend on the batch (1.2e-07)
+ALL PASS
+  [PASS] inference energy (smooth + L1) is monotone non-increasing  264.2502 -> 222.7493
+  [PASS] fixed point satisfies the prox (KKT) condition, residual < 1e-3  1.17e-05
+  [PASS] local outer-product dictionary update equals autodiff dE/dD at fixed codes  1.4e-07
+  [PASS] unit-norm projection of every dictionary column  1.8e-07
+  [PASS] per-image inference independent of the batch  6.0e-08
+  [PASS] one layer, lam = 0: inference recovers an exactly realisable non-negative code (rel fit < 1e-3)  2.0e-07
+  [PASS] predict() uses only the seen views (unseen latent changed -> identical prediction)  
+ALL PASS
