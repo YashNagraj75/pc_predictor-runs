@@ -1,0 +1,29 @@
+11-01_11:32 [latent/smoke] start at 2757c82
+11-01_11:35 [latent/smoke] galaxy10 gates rc=0 24 pass 0 fail
+11-01_11:36 [latent/smoke] galaxy10 analysis rc=0
+11-01_11:37 [latent/smoke] mnist gates rc=0 24 pass 0 fail
+11-01_11:39 [latent/smoke] mnist analysis rc=0
+11-01_11:40 [latent/smoke] cifar10 gates rc=0 24 pass 0 fail
+11-01_11:41 [latent/smoke] cifar10 analysis rc=0
+11-01_11:41 [latent/smoke] DONE
+11-01_11:47 [latent/smoke] start at 744cf3f
+11-01_11:53 [latent/smoke] galaxy10 gates rc=1 42 pass 3 fail
+11-01_12:11 [latent/smoke] start at da026e0
+11-01_12:18 [latent/smoke] galaxy10 gates rc=0 47 pass 0 fail
+11-01_12:21 [latent/smoke] galaxy10 smoke tier 1 rc=0
+11-01_12:26 [latent/smoke] galaxy10 smoke tier 2 rc=0 BPf_d10_s1 done 5 s;BPgMP_d10_s1 done 49 s;BPg_d10_s1 done 46 s;F_d10_s1 done 40 s;GMP_d10_s1 done 49 s;G_d10_s1 done 17 s;Gmap_d10_s1 done 33 s;
+11-01_12:35 [latent/smoke] mnist gates rc=0 66 pass 0 fail
+11-01_12:38 [latent/smoke] mnist smoke tier 1 rc=0
+11-01_12:43 [latent/smoke] mnist smoke tier 2 rc=0 BPf_d10_s0 done 5 s;BPgMP_d10_s0 done 50 s;BPg_d10_s0 done 49 s;F_d10_s0 done 42 s;GMP_d10_s0 done 51 s;G_d10_s0 done 17 s;Gmap_d10_s0 done 35 s;
+11-01_12:52 [latent/smoke] cifar10 gates rc=0 66 pass 0 fail
+11-01_12:55 [latent/smoke] cifar10 smoke tier 1 rc=0
+11-01_12:59 [latent/smoke] cifar10 smoke tier 2 rc=0 BPf_d10_s0 done 5 s;BPgMP_d10_s0 done 51 s;BPg_d10_s0 done 48 s;F_d10_s0 done 41 s;GMP_d10_s0 done 48 s;G_d10_s0 done 17 s;Gmap_d10_s0 done 33 s;
+11-01_12:59 [latent/smoke] DONE
+11-01_13:12 [latent] start at da026e0
+11-01_13:19 [latent] galaxy10 gates rc=0 47 pass 0 fail
+11-01_14:25 [latent] galaxy10 analysis rc=0
+11-01_14:34 [latent] mnist gates rc=0 66 pass 0 fail
+11-01_16:10 [latent] mnist analysis rc=0
+11-01_16:19 [latent] cifar10 gates rc=0 66 pass 0 fail
+11-01_17:54 [latent] cifar10 analysis rc=0
+11-01_17:54 [latent] DONE
